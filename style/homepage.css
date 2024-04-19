@@ -17,6 +17,10 @@ time, mark, audio, video {
 	border: 0;
 	vertical-align: baseline;
 }
+img {
+    display: block;
+    min-width: 100%;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -67,98 +71,75 @@ table {
     --space-3xl: clamp(6rem, 5.2683rem + 3.6585vi, 7.875rem);
   
     /* Couleurs */
-    --color-light: #ffffff;
-    --color-light-shade: #f3f5f7;
-    --color-dark: #000000;
-    --color-mid: #ebebeb;
-    --color-mid-shade: #dedede;
-    --color-midnight: #4a4e69;
-    --color-midnight-shade: #22223b;
-    --color-eggshell: #f2e9e4;
-    --color-blue: #3b71fe;
-    --color-blue-glare: #eef6fd;
-    --color-slate: #4f5563;
+    --color-white: #ffffff;
+    --color-light-grey: #F4F4F4;
+    --color-dark-grey: #313131;
+    --color-black: #0E0E0E;
+    --color-accent: #E3651D;
+    --color-accent-light: #FAA371;
+    --color-accent-dark: #8F3807;
 
     /* Typographie */
-    --leading: 1.5;
-    --leading-short: 1.3;
-    --leading-fine: 1.1;
-    --leading-flat: 1;
-    --leading-loose: 1.7;
-    --kerning: normal;
-    --kerning-tight: -0.04ch;
-    --kerning-loose: 0.1ch;
+    --text-line-height: 1.5;
+    --text-line-height-short: 1.3;
+    --text-line-height-fine: 1.1;
+    --text-line-height-flat: 1;
+    --text-line-height-loose: 1.7;
     --text-size-base: var(--size-step-0);
-    --text-size-lede: var(--size-step-1);
-    --text-size-meta: var(--size-step--1);
+    --text-size-big: var(--size-step-1);
+    --text-size-desc: var(--size-step--1);
     --text-size-heading-1: var(--size-step-5);
     --text-size-heading-2: var(--size-step-4);
     --text-size-heading-3: var(--size-step-3);
     --text-size-heading-4: var(--size-step-2);
-    --text-size-prose: var(--text-size-base);
+    --font-base: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    /* Espacements */
     --space-gutter: var(--space-m);
     --space-gutter-s: var(--space-s);
     --space-gutter-l: var(--space-l);
     --space-regions: var(--space-xl);
     --size-wrapper-max-width: 1100px;
-    --color-global-bg: var(--color-light);
-    --color-global-text: var(--color-dark);
-    --color-surface-bg: var(--color-mid);
-    --color-surface-bg-interact: var(--color-mid-shade);
-    --color-surface-text: var(--color-dark);
-    --color-surface-text-interact: var(--color-dark);
-    --font-base: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    --font-display: var(--font-base);
-    --font-lede: var(--font-base);
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700;
-    --font-weight-black: 900;
+
+    /* Divers */
     --focus-ring: 2px solid currentColor;
     --focus-ring-offset: 2px;
+    --radius: 1rem;
 }
 
 /*--------- style général à hériter ---------*/
-header,
-footer {
-    background: var(--color-slate);
-    padding: 0 var(--space-gutter);
-}
 body {
+    --flow-space: var(--space-2xs);
+    padding: var(--space-2xs);
     margin: 0;
+    background: var(--color-dark-grey);
     font-family: var(--font-base);
     font-size: var(--text-size-base);
-    line-height: var(--interlignage);
-    background: var(--color-global-bg);
-    color: var(--color-global-text);
+    line-height: var(--text-line-height);
+    color: var(--color-white);
 }
-footer {
-    color: var(--color-light);
-    text-align: center;
-    padding: var(--space-gutter);
-    font-weight: var(--font-weight-regular);
-    font-size: var(--size-step--1);
-    font-style: italic;
+main {
+    border-radius: var(--radius);
+    display: grid;
+    gap: var(--space-2xs);
 }
-
-/* sections */
-.section-container {
-    --flow-space: var(--space-3xl);
-    background: var(--color-eggshell);
-}
-section > * {
-    max-width: var(--size-wrapper-max-width);
-    margin: 0 auto;
-}
-section {
-    padding: var(--space-3xl) var(--space-gutter);
-    background: var(--color-light);
+:is(section, aside, footer) {
+    font-family: var(--font-base);
+    font-size: var(--text-size-base);
+    line-height: var(--text-line-height);
+    background: var(--color-black);
+    border-radius: var(--radius);
+    padding: var(--space-gutter-s);
 }
 
 /* Titres */
 :is(h1, h2, h3, h4, h5, h6) {
-    line-height: var(--leading-fine);
+    line-height: var(--text-line-height-fine);
 }
 h1 {
     font-size: var(--text-size-heading-1);
@@ -177,113 +158,30 @@ h3 {
 button {
     display: inline-flex;
     gap: var(--button-gap, var(--space-gutter));
-    padding: var(--button-padding, 0.8em 1.5em);
-    background: var(--button-bg, var(--color-surface-bg));
-    color: var(--button-text, var(--color-surface-text));
-    border: solid 2px var(--color-slate);
+    padding: var(--button-padding, 0);
+    background: var(--button-bg, none);
+    color: var(--button-text, var(--color-accent));
+    border: none;
+    text-decoration: underline;
     border-radius: var(--button-radius, 0);
-    text-decoration: none;
     font-weight: var(--button-font-weight, var(--font-weight-medium));
   }
   
 button:hover {
-    background: var(--button-interact-bg, var(--color-surface-bg-interact));
-    color: var(--button-interact-text, var(--color-surface-text-interact));
+    background: var(--button-interact-bg, none);
+    color: var(--button-interact-text, var(--color-accent-dark));
     cursor: pointer;
-}
-
-/* images */
-img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
 }
 
 /*--------- Layout ---------*/
 .flow > * + * {
     margin-top: var(--flow-space, 1em);
 }
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    column-gap: var(--space-gutter);
+
+@media (min-width: 60rem) {
+    main {
+        grid-template-columns: 300px 1fr;
+    }
 }
 
 /*--------- Style spécifique ---------*/
-/* nav */
-.main-nav ul {
-    max-width: var(--size-wrapper-max-width);
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-start;
-    gap: var(--space-gutter);
-    padding: var(--space-gutter) 0;
-}
-.main-nav a {
-    color: var(--color-light);
-}
-
-/* hero */
-#hero {
-    --flow-space: var(--space-l);
-    background: var(--color-eggshell);
-}
-#hero h1 > *,
-#hero img {
-    display: block;
-}
-#hero em {
-    margin-top: var(--space-s);
-    display: block;
-    font-size: var(--text-size-meta);
-    color: var(--color-slate);
-}
-#hero .flex-row {
-    align-items: flex-end;
-}
-#hero img {
-    width: 20rem;
-    height: 100%;
-}
-
-/* post */
-.post-container,
-.post button {
-    margin-top: var(--space-gutter);
-}
-.post-container.flow {
-    --flow-space: var(--space-l);
-}
-.post {
-    --flow-space: var(--space-2xs);
-    box-sizing: border-box;
-    background: var(--color-eggshell);
-    padding: var(--space-s) 0;
-}
-.post h3 {
-    color: var(--color-midnight-shade);
-    font-weight: var(--font-weight-medium);
-}
-.post > * {
-    margin-inline-start: var(--space-s);
-    margin-inline-end: var(--space-s);
-}
-.post p.date {
-    line-height: var(--leading-fine);
-    font-size: var(--size-step--2);
-    color: var(--color-slate);
-    font-style: italic;
-}
-.post .tag {
-    padding: var(--space-3xs) var(--space-2xs);
-    background: var(--color-slate);
-    color: var(--color-light);
-    display: inline-block;
-    border-radius: var(--space-3xs);
-    font-size: var(--size-step--1);
-}
-.post p.desc {
-    line-height: var(--leading-loose);
-    font-size: var(--size-step--1);
-    inline-size: 75ch;
-}
