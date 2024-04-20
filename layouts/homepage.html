@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage layout</title>
+    <link rel="stylesheet" href="/style/font.css">
     <link rel="stylesheet" href="/style/homepage.css">
     <script src="/scripts/switchTheme.js"></script>
 </head>
@@ -12,62 +13,108 @@
         <aside>  
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="main-nav__item current">
+                        <a class="main-nav__link" href="/">Accueil</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">Tout les articles</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">Webdesign</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="#">TTRPG</a>
+                    </li>
                 </ul>
             </nav>
         </aside>
-        <section>
-            <h2>Mes derniers posts</h2>
-            <div class="post-container flow">
-                <article class="post flow">
-                    <h3>Titre du post de blog</h3>
-                    <span class="tag">Webdesign</span>
-                    <p class="date">01/01/2024</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button>Lire la suite.</button>
+        <div class="flow">
+            <section>
+                <article class="post post__latest">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
                 </article>
-                <article class="post flow">
-                    <h3>Titre du post de blog</h3>
-                    <span class="tag">Webdesign</span>
-                    <p class="date">01/01/2024</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button>Lire la suite.</button>
+            </section>
+            <h2>Les derniers posts</h2>
+            <section class="grid-auto">
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
                 </article>
-                <article class="post flow">
-                    <h3>Titre du post de blog</h3>
-                    <span class="tag">Webdesign</span>
-                    <p class="date">01/01/2024</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button>Lire la suite.</button>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
                 </article>
-                <article class="post flow">
-                    <h3>Titre du post de blog</h3>
-                    <span class="tag">Webdesign</span>
-                    <p class="date">01/01/2024</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button>Lire la suite.</button>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
                 </article>
-                <article class="post flow">
-                    <h3>Titre du post de blog</h3>
-                    <span class="tag">Webdesign</span>
-                    <p class="date">01/01/2024</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button>Lire la suite.</button>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
                 </article>
-                <article class="post flow">
-                    <h3>Titre du post de blog</h3>
-                    <span class="tag">Webdesign</span>
-                    <p class="date">01/01/2024</p>
-                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button>Lire la suite.</button>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
                 </article>
-            </div>
-        </section>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
+                </article>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
+                </article>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
+                </article>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
+                </article>
+                <article class="post">
+                    <h3 class="post__title">Titre du post de blog</h3>
+                    <span class="post__date">01/01/2024</span>
+                    <span class="post__tag">Webdesign</span>
+                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                    <button class="post__button">Lire la suite.</button>
+                </article>
+            </section>
+        </div>
     </main>
 </body>
 <footer>
-    <p>Antoine Moreau - 2024</p>
+    <button href="/contact">Pour discuter, c'est par là.</button>
 </footer>
 </html>

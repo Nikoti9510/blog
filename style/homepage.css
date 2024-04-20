@@ -1,3 +1,6 @@
+/*--------- IMPORT ---------*/
+@import "/font.css";
+
 /*--------- Reset ---------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -72,9 +75,10 @@ table {
   
     /* Couleurs */
     --color-white: #ffffff;
-    --color-light-grey: #F4F4F4;
+    --color-light-grey: #c9c9c9;
     --color-dark-grey: #313131;
-    --color-black: #0E0E0E;
+    --color-black: #0e0e0e;
+    --color-black-80: #111111;
     --color-accent: #E3651D;
     --color-accent-light: #FAA371;
     --color-accent-dark: #8F3807;
@@ -84,16 +88,17 @@ table {
     --text-line-height-short: 1.3;
     --text-line-height-fine: 1.1;
     --text-line-height-flat: 1;
-    --text-line-height-loose: 1.7;
+    --text-line-height-loose: 2;
     --text-size-base: var(--size-step-0);
     --text-size-big: var(--size-step-1);
     --text-size-desc: var(--size-step--1);
-    --text-size-heading-1: var(--size-step-5);
-    --text-size-heading-2: var(--size-step-4);
-    --text-size-heading-3: var(--size-step-3);
-    --text-size-heading-4: var(--size-step-2);
-    --font-base: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    --text-size-heading-1: var(--size-step-4);
+    --text-size-heading-2: var(--size-step-3);
+    --text-size-heading-3: var(--size-step-2);
+    --text-size-heading-4: var(--size-step-1);
+    --font-base: Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
@@ -104,18 +109,17 @@ table {
     --space-gutter-s: var(--space-s);
     --space-gutter-l: var(--space-l);
     --space-regions: var(--space-xl);
-    --size-wrapper-max-width: 1100px;
 
     /* Divers */
     --focus-ring: 2px solid currentColor;
     --focus-ring-offset: 2px;
     --radius: 1rem;
+    --transiton-function: cubic-bezier(.57,.21,.69,1.25) 200ms;
 }
 
 /*--------- style général à hériter ---------*/
 body {
-    --flow-space: var(--space-2xs);
-    padding: var(--space-2xs);
+    padding: var(--space-3xs);
     margin: 0;
     background: var(--color-dark-grey);
     font-family: var(--font-base);
@@ -126,15 +130,18 @@ body {
 main {
     border-radius: var(--radius);
     display: grid;
-    gap: var(--space-2xs);
+    gap: var(--space-3xs);
 }
-:is(section, aside, footer) {
+:is(aside, footer) {
     font-family: var(--font-base);
     font-size: var(--text-size-base);
     line-height: var(--text-line-height);
-    background: var(--color-black);
     border-radius: var(--radius);
-    padding: var(--space-gutter-s);
+}
+:is(.post, h2) {
+    padding: var(--space-gutter-l);
+    background: var(--_post-background, var(--color-black));
+    border-radius: var(--radius);
 }
 
 /* Titres */
@@ -146,42 +153,162 @@ h1 {
     font-weight: var(--font-weight-regular);
 }
 h2 {
-    font-size: var(--text-size-heading-3);
+    font-size: var(--text-size-heading-2);
     font-weight: var(--font-weight-medium);
 }
 h3 {
-    font-size: var(--text-size-heading-4);
+    font-size: var(--text-size-heading-3);
     font-weight: var(--font-weight-regular);
 }
 
 /* bouton */
 button {
-    display: inline-flex;
+    display: block;
+    width: fit-content;
     gap: var(--button-gap, var(--space-gutter));
-    padding: var(--button-padding, 0);
-    background: var(--button-bg, none);
-    color: var(--button-text, var(--color-accent));
+    padding: var(--button-padding, .8rem 1.5rem);
+    background: var(--button-bg, var(--color-white));
+    color: var(--button-text-color, var(--color-black));
     border: none;
-    text-decoration: underline;
-    border-radius: var(--button-radius, 0);
+    border-radius: var(--button-radius, var(--radius));
+    font-size: var(--button-text-size, var(--text-size-base));
     font-weight: var(--button-font-weight, var(--font-weight-medium));
-  }
+    line-height: var(--text-line-height);
+    transition: background var(--transiton-function);
+}
   
 button:hover {
-    background: var(--button-interact-bg, none);
-    color: var(--button-interact-text, var(--color-accent-dark));
+    background: var(--button-interact-bg, var(--color-light-grey));
+    color: var(--button-interact-text, var(--color-black));
     cursor: pointer;
 }
 
 /*--------- Layout ---------*/
 .flow > * + * {
-    margin-top: var(--flow-space, 1em);
+    margin-top: var(--flow-space, var(--space-3xs));
+}
+
+.grid-auto {
+    display: grid;
+    gap: var(--space-3xs);
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 @media (min-width: 60rem) {
     main {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 20rem 1fr;
     }
 }
 
 /*--------- Style spécifique ---------*/
+/* menu */
+.main-nav {
+    position: sticky;
+    top: var(--space-3xs);
+}
+.main-nav > ul {
+    display: grid;
+    gap: var(--space-3xs);
+    width: 100%;
+    box-sizing: border-box;
+    min-height: calc(100vh - (var(--space-3xs) * 2) ); 
+}
+.main-nav .main-nav__item {
+    background: var(--_post-background, var(--color-black));
+    border-radius: var(--radius);
+}
+.main-nav .main-nav__item.current {
+    min-height: 20vh;
+}
+.main-nav .main-nav__link {
+    padding: var(--nav-padding, .8rem 1.5rem);
+    display: block;
+    border-radius: var(--radius);
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--text-size-desc);
+    font-weight: var(--font-weight-light);
+    transition: background var(--transiton-function);
+}
+.main-nav .main-nav__link:hover,
+.main-nav .main-nav__link:active {
+    background: var(--color-black-80);
+}
+.main-nav .main-nav__item.current .main-nav__link {
+    background: var(--color-white);
+    color: var(--color-black);
+    font-weight: var(--font-weight-bold);
+}
+.main-nav .main-nav__item.current .main-nav__link:hover,
+.main-nav .main-nav__item.current .main-nav__link:active {
+    background: var(--color-light-grey);
+}
+
+/* post de blog */
+.post {
+    display: inline-block;
+    box-sizing: border-box;
+    transition: background var(--transiton-function);
+}
+.post:nth-child(3n+1) {
+    grid-row-end: span 2;
+}
+.post:hover {
+    background: var(--color-black-80);
+}
+.post .post__title {
+    font-size: var(--text-size-heading-4);
+    line-height: var(--text-line-height-fine);
+    letter-spacing: -.05ch;
+    font-weight: var(--font-weight-medium);
+    width: 100%;
+}
+.post .post__tag {
+    position: relative;
+    font-style: italic;
+    font-size: var(--text-size-desc);
+    font-weight: var(--font-weight-light);
+    var(--text-line-height-fine);
+}
+.post .post__tag::before {
+    content: '•';
+    margin-inline-end: var(--space-3xs);
+    color: var(--color-accent); 
+}
+.post .post__date {
+    font-size: var(--size-step--2);
+    color: var(--color-dark-grey);
+    line-height: var(--text-line-height-loose);
+    padding: 0 var(--space-3xs);
+}
+.post .post__desc {
+    color: var(--color-light-grey);
+    font-size: var(--text-size-desc);
+    max-inline-size: 50ch;
+    margin-block-start: var(--space-2xs);
+    width: 100%;
+}
+.post .post__button {
+    font-size: var(--text-size-desc);
+    font-weight: var(--font-weight-regular);
+    margin-block-start: var(--space-2xs);
+}
+.post.post__latest {
+    width: 100%;
+}
+.post.post__latest .post__title {
+    margin-block-start: calc(var(--space-xl) * 3);
+}
+
+/* footer */
+footer button {
+    width: 100%;
+    text-align: center;
+    --button-text-size: var(--text-size-heading-1);
+}
