@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage layout</title>
     <link rel="stylesheet" href="/style/font.css">
-    <link rel="stylesheet" href="/style/homepage.css">
+    <link rel="stylesheet" href="/style/style.css">
     <script src="/scripts/switchTheme.js"></script>
 </head>
 <body class="flow">
@@ -14,107 +14,160 @@
             <nav class="main-nav">
                 <ul>
                     <li class="main-nav__item current">
-                        <a class="main-nav__link" href="/">Accueil</a>
+                        <a class="main-nav__link" href="/layouts/homepage.html">Accueil</a>
                     </li>
                     <li class="main-nav__item">
                         <a class="main-nav__link" href="#">Tout les articles</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">Webdesign</a>
+                        <a class="main-nav__link" href="/layouts/Post.html">Webdesign</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">TTRPG</a>
+                        <a class="main-nav__link" href="/layouts/Post.html">JDR</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="/layouts/Post.html">Donjon</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="/layouts/Post.html">Scénario</a>
                     </li>
                 </ul>
             </nav>
         </aside>
-        <div class="flow">
+        <div class="flow homepage-container">
+            <section class="hero">
+                <div class="flow">
+                    <h1>Antoine Moreau</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                </div>
+                <a>
+                    <span class="switch-color">switch color</span>
+                </a>
+            </section>
             <section>
                 <article class="post post__latest">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <figure>
+                        <img src="https://source.unsplash.com/random/600*600" alt="img de test">
+                    </figure>
+                    <div class="post__content">
+                        <h2 class="post__title">Titre du post de blog</h3>
+                        <span class="post__date">01/01/2024</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
+                        <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
+                        <a href="" class="post__button">Lire la suite.</a>
+                    </div>
                 </article>
             </section>
-            <h2>Les derniers posts</h2>
+            <h2>Mes derniers articles</h2>
             <section class="grid-auto">
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                    <div class="post__tags-container">
+                        <span class="post__tag">JDR</span>
+                        <span class="post__tag">Donjon</span>
+                    </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                        <div class="post__tags-container">
+                            <span class="post__tag">JDR</span>
+                            <span class="post__tag">Donjon</span>
+                        </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
                 <article class="post">
                     <h3 class="post__title">Titre du post de blog</h3>
                     <span class="post__date">01/01/2024</span>
-                    <span class="post__tag">Webdesign</span>
+                    <div class="post__tags-container">
+                        <span class="post__tag">JDR</span>
+                        <span class="post__tag">Donjon</span>
+                    </div>
                     <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <button class="post__button">Lire la suite.</button>
+                    <a href="" class="post__button">Lire la suite.</a>
                 </article>
             </section>
         </div>
     </main>
 </body>
 <footer>
-    <button href="/contact">Pour discuter, c'est par là.</button>
+    <a href="/contact">Pour discuter, c'est par là.</a>
 </footer>
 </html>
