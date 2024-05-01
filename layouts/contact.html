@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage layout</title>
+    <link rel="stylesheet" href="/style/font.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/scripts/switchTheme.js"></script>
+    <script src="/scripts/menu.js"></script>
+</head>
+<body class="flow">
+    <main>
+        <aside>  
+            <nav class="main-nav">
+                <ul>
+                    <li class="main-nav__item current">
+                        <a class="main-nav__link" href="/layouts/homepage.html">Accueil</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="/layouts/post.html">Tous les articles</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <div class="main-nav__link">
+                            <details>
+                                <summary>
+                                    <span class="main-nav__link--plus"></span>
+                                    <span>Catégories</span> 
+                                </summary>
+                                <ul class="main-nav__subnav">
+                                    <li class="main-nav__item">
+                                        <a href="#">Webdesign</a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">JDR</a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">Nouveau</a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">Figurines</a>
+                                    </li>
+                                </ul> 
+                            </details>
+                        </div>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="main-nav__link" href="/layouts/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="homepage-container">
+            <span>page contact</span>
+            <details class="menuburger">
+                <summary>Menu</summary>
+                <div class="menuburger--content"></div>
+            </details>
+            <a class="grid-span-1 switch-color">
+                <span>switch color</span>
+            </a>
+        </div>
+    </main>
+</body>
+<footer>
+    <a href="/contact">Pour discuter, c'est par là.</a>
+</footer>
+</html>

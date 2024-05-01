@@ -259,14 +259,17 @@ a:hover {
 .main-nav .main-nav__link:has(details) {
     padding: 0;
 }
-details > summary {
+.main-nav details > summary {
     cursor: pointer;
     padding: var(--nav-padding, .8rem 1.5rem);
+    display: flex;
+    align-items: center;
+    gap: var(--space-3xs);
 }
-details > summary > span {
+.main-nav details > summary > span {
     user-select: none;
 }
-details > summary::marker {
+.main-nav details > summary::marker {
     content: none;
 }
 .main-nav__link--plus {
@@ -276,7 +279,7 @@ details > summary::marker {
     text-align: center;
     font-family: monospace;
     font-weight: var(--font-weight-light);
-    line-height: var(--text-line-height-flat);
+    line-height: var(--text-line-height-fine);
     background: var(--color-white);
     border-radius: 8px;
 }
@@ -509,6 +512,9 @@ footer a {
     /* nav */
     .main-nav .main-nav__item.current {
         min-height: 20vh;
+    }
+    .menuburger > * {
+        display: none;
     }
 
     /* home layout */
