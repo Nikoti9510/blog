@@ -10,7 +10,7 @@ function postNav(){
 
    	if(navContainer && allHn){
         /* Boucle sur tout les Hn du post */
-        allHnArray.forEach(Hn => {
+        allHnArray.forEach((Hn, index) => {
             /* Creation du <a> */
             let a = document.createElement("a"),
                 hType = Hn.tagName,
@@ -29,6 +29,11 @@ function postNav(){
             /* Ajout des deux éléments dans la nav */
             li.appendChild(a)
             navContainer.appendChild(li);
+
+            /* Si premier element, ajoute classe active */
+            if(index == 0) {
+                a.classList.add("active");
+            }
         });
    	}
 
@@ -71,11 +76,3 @@ function postNav(){
         }
     });
 }
-
-
-
-
-
-
-
-
