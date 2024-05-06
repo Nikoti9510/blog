@@ -31,6 +31,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 
 /*--------- Définition des variables de bases ---------*/
@@ -316,6 +319,28 @@ details[open] > summary > .main-nav__link--plus::before {
 .menuburger--content > ul li:not(:first-child) {
     margin-block-start: var(--flow-space, var(--space-3xs));
 }
+/* back to top */
+#back-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-gutter);
+    border-radius: var(--radius);
+    margin-block: var(--space-l);
+    padding: var(--space-gutter);
+    background: var(--color-white);
+    cursor: pointer;
+    transition: background var(--transiton-function);
+}
+#back-top:hover {
+    background: var(--color-light-grey);
+}
+#back-top > p {
+    line-height: var(--text-line-height-fine);
+    color: var(--color-black);
+    text-decoration: underline;
+    font-size: var(--text-size-desc);
+}
 
 
 /* fond du site */ 
@@ -393,6 +418,7 @@ main::after {
 .main-nav.post-nav .main-nav__link.active {
     background: var(--color-white);
     color: var(--color-black);
+    text-decoration: underline;
 }
 
 
