@@ -64,7 +64,9 @@ html {
     /* Couleurs */
     --color-white: #ffffff;
     --color-light-grey: #c9c9c9;
+    --color-grey: #a8a8a8;
     --color-mid-grey: #7c7c7c;
+    --color-mid-grey-light: #3f3f3f;
     --color-dark-grey: #313131;
     --color-black-60: #181818;
     --color-black-80: #111111;
@@ -107,7 +109,7 @@ html {
 
 
 /*--------- Layout Sombre ---------*/
-:root {
+[data-theme="dark"] {
     --fond: var(--color-black-80);
     --fond-fonce: var(--color-black);
     --fond-clair: var(--color-black-60);
@@ -118,6 +120,21 @@ html {
     --text-color-contraste: var(--color-black);
     --text-secondaire: var(--color-mid-grey);
     --bordure: var(--color-dark-grey);
+}
+
+
+/*--------- Layout clair ---------*/
+[data-theme="light"] {
+    --fond: var(--color-white);
+    --fond-fonce: var(--color-light-grey);
+    --fond-clair: var(--color-grey);
+    --fond-hover: var(--color-white);
+    --fond-contraste: var(--color-white);
+    --fond-contraste-hover: var(--color-light-grey);
+    --text-color: var(--color-black);
+    --text-color-contraste: var(--color-black);
+    --text-secondaire: var(--color-mid-grey-light);
+    --bordure: var(--color-grey);
 }
 
 
@@ -168,10 +185,10 @@ h3 {
 }
 
 /* Bouton */
-a {
+a, button {
     display: block;
     width: fit-content;
-    gap: var(--button-gap, var(--space-gutter));
+    align-content: center;
     padding: var(--button-padding, .8rem 1.5rem);
     background: var(--button-bg, var(--fond-contraste));
     color: var(--button-text-color, var(--text-color-contraste));
@@ -183,7 +200,7 @@ a {
     text-decoration: none;
     transition: background var(--transiton-function);
 }
-a:hover {
+a:hover, button:hover {
     background: var(--button-interact-bg, var(--fond-contraste-hover));
     color: var(--button-interact-text, var(--text-color-contraste));
     cursor: pointer;
@@ -289,10 +306,11 @@ details.main-nav > summary > span {
     border-radius: 8px;
 }
 .main-nav__link--plus svg {
-    width: var(--size-step-0);
-    height: var(--size-step-0);
+    width: var(--size-step--2);
+    height: var(--size-step--2);
     transition: all var(--transiton-function);
     transform: rotate(45deg);
+    fill: var(--text-color-contraste);
 }
 details[open] > summary > .main-nav__link--plus svg {
     transition: all var(--transiton-function);
@@ -333,37 +351,30 @@ details[open] > summary > .main-nav__link--plus svg {
 main {
     position: relative;
 }
-main::after {
+main::after,
+main::before {
     content: "";
     position: fixed;
-    top: 0%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
+    top: calc(50% - 1px);
+    left: calc(50% - 1px);
+    transform: translate(-50%, -50%);
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(90deg, var(--color-blue), var(--color-red)); 
-    /*  radial-gradient(100% 225% at 0% 0%, #DE3E3E 0%, #17115C 100%)
-        radial-gradient(100% 225% at 100% 0%, #FF9040 0%, #FF0000 100%),
-        linear-gradient(var(--deg), #CE63B7 0%, #ED6283 100%),
-        radial-gradient(100% 120% at 75% 0%, #A74600 0%, #000000 100%),
-        linear-gradient(310deg, #0063D8 0%, #16009A 50%);
-        background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal; */
-    background-size: 200% 200%;
-    transition: all var(--transiton-function);
     z-index: -1;
-    opacity: .7;
-    animation: background-sway 10s /* cubic-bezier(.57,.21,.69,1.25) */ ease infinite;
 }
-@keyframes background-sway {
-    0% {
-        background-position: 10% 0%;
-    }
-    50% {
-        background-size: 90% 100%;
-    }
-    100% {
-        background-size: 10% 0%;
-    }
+[data-theme="light"] main::after {
+    filter: brightness(1);
+}
+[data-theme="dark"] main::after {
+    filter: brightness(.3);
+}
+main::after {
+    background: linear-gradient(90deg, var(--color-blue), var(--color-red));
+    opacity: .7;
+}
+main::before {
+    background-image: url(/assets/img/holo.jpg);
+    opacity: .5; 
 }
 
 
@@ -392,37 +403,11 @@ main::after {
     display: grid;
     gap: var(--space-3xs);
     border-radius: var(--radius);
-    background: var(--fond-contraste);
-    color: var(--text-color-contraste);
+    background: var(--fond-fonce);
     padding: var(--space-gutter);
 }
 .hero p {
     max-inline-size: 50ch;
-}
-
-
-/* switch-color */
-.switch-color {
-    width: auto;
-    text-align: center;
-    align-content: center;
-    padding: var(--space-gutter-s);
-    background: var(--fond-contraste-hover);
-    width: fit-content;
-    height: fit-content;
-    align-self: start;
-    justify-self: flex-start;
-}
-
-
-/* Navigation de post */
-.main-nav.post-nav .main-nav__link.active {
-    background: var(--fond-contraste);
-    color: var(--text-color-contraste);
-    text-decoration: underline;
-}
-main:has(.main-nav.post-nav) .main-nav.post-nav {
-    display: none;
 }
 
 
@@ -434,8 +419,8 @@ main:has(.main-nav.post-nav) .main-nav.post-nav {
     box-sizing: border-box;
     /* glassmorph */
     background-image: 
-        linear-gradient(25deg, color-mix(in srgb, var(--fond-fonce) 70%, var(--fond-fonce) 10%),
-        color-mix(in srgb, var(--fond-fonce) 40%, var(--fond-fonce) 10%));
+        linear-gradient(25deg, color-mix(in srgb, var(--fond-fonce) 30%, var(--fond-fonce) 10%),
+        color-mix(in srgb, var(--fond-fonce) 20%, var(--fond-fonce) 10%));
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     border: 1px solid var(--bordure);
@@ -501,12 +486,34 @@ main:has(.main-nav.post-nav) .main-nav.post-nav {
 }
 
 
+/* Navigation de post */
+.main-nav.post-nav .main-nav__link.active {
+    background: var(--fond-contraste);
+    color: var(--text-color-contraste);
+    text-decoration: underline;
+}
+main:has(.main-nav.post-nav) .main-nav.post-nav {
+    display: none;
+}
+.post-secondary-nav {
+    display: inline-flex;
+    gap: var(--space-3xs);
+}
+.post-secondary-nav :is(a, button) {
+    --button-padding: var(--space-2xs);
+    --button-text-size: var(--text-size-desc);
+}
+
+
 /* Post full */
 .post-full {
     width: 100%;
     box-sizing: border-box;
     padding: var(--space-gutter-s);
     border-radius: var(--radius);
+    background-image: 
+    linear-gradient(25deg, color-mix(in srgb, var(--fond-fonce) 50%, var(--fond-fonce) 10%),
+    color-mix(in srgb, var(--fond-fonce) 40%, var(--fond-fonce) 10%));
 }
 .post-full__img {
     max-height: 20vh;
@@ -598,6 +605,7 @@ main:has(.main-nav.post-nav) .main-nav.post-nav {
 #back-top > svg:last-of-type {
     display: none;
 }
+
 
 /* footer */
 footer a {
