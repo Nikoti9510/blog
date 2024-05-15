@@ -373,7 +373,7 @@ main::after {
     opacity: .7;
 }
 main::before {
-    background-image: url('../assets/img/holo.jpg');
+    background-image: url(/src/assets/img/holo.jpg);
     opacity: .5; 
 }
 
