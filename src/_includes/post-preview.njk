@@ -1,0 +1,11 @@
+                
+<article class="post">
+    <a href="{{ post.url }}"><h3 class="post__title">{{ post.data.title }}</h3></a>
+    <span class="post__date">{{ post.data.date | postDate }}</span>
+    <div class="post__tags-container">
+        <span class="post__tag">JDR</span>
+        <span class="post__tag">Donjon</span>
+    </div>
+    <p class="post__desc">{{ post.data.description}}</p>
+    <a href="{{ post.url }}" class="post__button">Lire la suite.</a>
+</article>

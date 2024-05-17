@@ -1,30 +1,17 @@
 --- 
-title: test
+title: Marmonneur
 layout: 'base.njk'
 --- 
 
-{# <!DOCTYPE html>
-<html lang="fr" data-theme="">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage layout</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="/style/font.css">
-    <link rel="stylesheet" href="/style/style.css">
-    <script src="/scripts/switchTheme.js"></script>
-    <script src="/scripts/menu.js"></script>
-</head>
-<body class="flow"> #}
     <main>
         <aside>  
             <nav class="main-nav">
                 <ul>
                     <li class="main-nav__item current">
-                        <a class="main-nav__link" href="/layouts/homepage.html">Accueil</a>
+                        <a class="main-nav__link" href="/">Accueil</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="/layouts/post.html">Tous les articles</a>
+                        <a class="main-nav__link" href="/all-post">Tous les articles</a>
                     </li>
                     <li class="main-nav__item">
                         <div class="main-nav__link">
@@ -55,7 +42,7 @@ layout: 'base.njk'
                         </div>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="/layouts/contact.html">Contactez moi</a>
+                        <a class="main-nav__link" href="/contact">Contactez moi</a>
                     </li>
                 </ul>
             </nav>    
@@ -101,108 +88,9 @@ layout: 'base.njk'
                 <h2>Mes derniers articles</h2>
             </section>
             <section class="grid-auto">
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                    <div class="post__tags-container">
-                        <span class="post__tag">JDR</span>
-                        <span class="post__tag">Donjon</span>
-                    </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                        <div class="post__tags-container">
-                            <span class="post__tag">JDR</span>
-                            <span class="post__tag">Donjon</span>
-                        </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
-                <article class="post">
-                    <h3 class="post__title">Titre du post de blog</h3>
-                    <span class="post__date">01/01/2024</span>
-                    <div class="post__tags-container">
-                        <span class="post__tag">JDR</span>
-                        <span class="post__tag">Donjon</span>
-                    </div>
-                    <p class="post__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sapien turpis, consectetur vel consequat ac, ultricies nec turpis. Quisque imperdiet non augue in faucibus. Integer ut maximus orci.</p>
-                    <a href="" class="post__button">Lire la suite.</a>
-                </article>
+                {%- for post in collections.post | reverse -%}
+                    {% include "post-preview.njk" %}
+                {%- endfor -%}
             </section>
         </div>
     </main>
-{# </body> #}
-{# </html> #}

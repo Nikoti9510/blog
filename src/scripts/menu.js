@@ -13,7 +13,7 @@ function Menu () {
         burger[0].innerHTML += content;
         navContainer[0].innerHTML = "";
         burger[0].classList.add("populated");
-    } else if (smartphoneMedia.matches && burger[0].classList.contains("populated")) {
+    } else if (smartphoneMedia.matches && !burger && burger[0].classList.contains("populated")) {
         // supérieur à 60rem et menu burger a du contenue ajouté  
         let content = burger[0].innerHTML;
         navContainer[0].innerHTML += content;
