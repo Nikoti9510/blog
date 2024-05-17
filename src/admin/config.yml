@@ -19,4 +19,4 @@ collections:
       - { label: "Image de présentation", name: "image", widget: "image" }
       - { label: "Texte de description de l'image", name: "imageAlt", widget: "string" }
       - { label: "Contenu de l'article", name: "content", widget: "markdown" }
-    extension: "html"
+    extension: "njk"
