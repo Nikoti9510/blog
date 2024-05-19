@@ -8,9 +8,6 @@ layout: 'base.njk'
             <h1>Le site d'Antoine Moreau</h1>
             <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeux vidéo et surement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
         </section>
-        <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="grid-span-1 switch-color">
-            <span>switch color</span>
-        </button>
         <h2>Mes derniers articles</h2>
         <section class="grid-auto">
             {%- for post in collections.post | reverse -%}
