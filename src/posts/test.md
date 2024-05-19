@@ -3,6 +3,7 @@ title: test
 description: "Lorem ipsum dolor sit "
 tags:
   - post
+  - caca
 date: 2024-05-19T20:03:00.000Z
 image: /assets/img/uploads/1449253482276.png
 imageAlt: "Lorem ipsum dolor sit "

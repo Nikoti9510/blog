@@ -1,8 +1,7 @@
 ---
 title: merde
 description: merrrdde
-tags:
-  - post
+tags: ["post", "JDR", "pipi"]
 date: 2024-05-19T20:19:00.000Z
 image: /assets/img/uploads/1449253482276.png
 imageAlt: "'rets dftgs dfg"
