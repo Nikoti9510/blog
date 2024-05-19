@@ -21,7 +21,7 @@ DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un unive
 
 Vous devez partir à la recherche de l'équipage du vaisseau ALENAR-ZX3. Dernier signal envoyé à proximité du cimetière de vaisseau, dans le secteur 73-C de la ceinture d'astéroïdes Messier 51. La récompense ? Le remboursement de votre dette auprès de Tride Lovi (trafiquant du Ring, veste en câble électrique, tatouage dans une langue inconnue). C'est ça ou être déclaré hors la loi dans le seul centre de population du secteur.
 
-<div class="full-width">
+<div class="fullwidth">
 
 
 ![alt de test](/assets/img/uploads/1449253482276.png "description de test")
