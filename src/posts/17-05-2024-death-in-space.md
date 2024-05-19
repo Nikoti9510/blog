@@ -5,8 +5,7 @@ tags: ["post", "JDR", "Donjon"]
 image: https://source.unsplash.com/random/600*600
 imageAlt: "un alt de test"
 description: "Un petit scénario d'introduction pour Death in Space de Christian Plogfors et Niblaeus du Stockholm Kartell. Idéal pour lancer une campagne ou pour découvrir le système."
---- 
-
+content: 
     <main>
         <aside>  
             <nav class="main-nav post-nav">
@@ -90,3 +89,6 @@ description: "Un petit scénario d'introduction pour Death in Space de Christian
             </section>
         </div>
     </main>
+--- 
+
+    
