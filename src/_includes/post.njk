@@ -13,7 +13,10 @@
     <script src="/scripts/menu.js"></script>
 </head>
 <body class="flow">
-    {{ content | safe }}
+    {% include 'header.njk' %}
+    <main class="content-grid">
+        {{ content | safe }}
+    </main>
     {% include 'footer.njk' %}
 </body>
 </html>

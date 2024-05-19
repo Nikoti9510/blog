@@ -3,65 +3,14 @@ title: tous les articles
 layout: 'base.njk'
 --- 
 
-<main class="flow">
-    <aside>  
-        <nav class="main-nav">
-                <ul>
-                    <li class="main-nav__item current">
-                        <a class="main-nav__link" href="/">Accueil</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <a class="main-nav__link" href="/all-post">Tous les articles</a>
-                    </li>
-                    <li class="main-nav__item">
-                        <div class="main-nav__link">
-                            <details>
-                                <summary>
-                                    <span class="main-nav__link--plus">
-                                        <svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="m847.49 281.8-247.49 247.49-247.49-247.49-70.711 70.711 247.49 247.49-247.49 247.48 70.711 70.715 247.49-247.49 247.49 247.49 70.711-70.715-247.49-247.48 247.49-247.49z"/>
-                                        </svg>
-                                    </span>
-                                    <span>Catégories</span> 
-                                </summary>
-                                <ul class="main-nav__subnav">
-                                    <li class="main-nav__item">
-                                        <a href="#">Webdesign</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#">JDR</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#">Nouveau</a>
-                                    </li>
-                                    <li class="main-nav__item">
-                                        <a href="#">Figurines</a>
-                                    </li>
-                                </ul> 
-                            </details>
-                        </div>
-                    </li>
-                    <li class="main-nav__item">
-                        <a class="main-nav__link" href="/contact">Contactez moi</a>
-                    </li>
-                </ul>
-            </nav>    
-    </aside>
-    <div class="homepage-container">
-    {%- for post in collections.post | reverse -%}
-        {% include "post-preview.njk" %}
-    {%- endfor -%}
-    </div>
-    <h2>Catégorie: Le jdr</h2>
+    <main class="flow">
+        <h1>Tous les articles</h1>
+        {%- for post in collections.post | reverse -%}
+            {% include "post-preview.njk" %}
+        {%- endfor -%}
+    </main>
+
+    {# <h2>Catégorie: Le jdr</h2>
     {%- for post in collections.jdr | reverse -%}
         {% include "post-preview.njk" %}
-    {%- endfor -%}
-    <h2>Catégorie: Le caca</h2>
-    {%- for post in collections.caca | reverse -%}
-        {% include "post-preview.njk" %}
-    {%- endfor -%}
-    <h2>Catégorie: Le pipi</h2>
-    {%- for post in collections.pipi | reverse -%}
-        {% include "post-preview.njk" %}
-    {%- endfor -%}
-</main>
+    {%- endfor -%} #}

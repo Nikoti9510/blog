@@ -12,6 +12,7 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="flow">
+    {% include 'header.njk' %}
     {{ content | safe }}
     {% include 'footer.njk' %}
     <script>
