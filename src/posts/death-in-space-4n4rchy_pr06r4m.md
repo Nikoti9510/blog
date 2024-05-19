@@ -11,6 +11,8 @@ date: 2024-05-19T20:41:00.000Z
 image: /assets/img/uploads/1449253482276.png
 imageAlt: un alt de test
 ---
+# Death In Space #4N4RCHY_PR06R4M
+
 DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un univers dévasté par la guerre, écrit par Christian Plogfors et Niblaeus du Stockholm Kartell.
 
 > Le monde est brisé. Dans un univers au bord de l'effondrement, votre équipage est votre unique famille. DEATH IN SPACE vous emmène dans un futur poisseux et un univers emplit de risque, mais également d'opportunité.
