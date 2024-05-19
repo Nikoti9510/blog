@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", postNav);
 /*---- Génération automatique de navigation ----*/
 function postNav(){
     /* Initialisation */
-    let navContainer = document.querySelector(".main-nav ul"),
-        allHn = document.querySelectorAll(".post-full :is(h1, h2, h3, h4, h5, h6)"),
+    let navContainer = document.querySelector("aside nav"),
+        allHn = document.querySelectorAll("main :is(h1, h2, h3, h4, h5, h6)"),
         allHnArray = [...allHn],
         uniqueId = 0,
         ticking = false,
@@ -20,13 +20,13 @@ function postNav(){
             Hn.setAttribute("id", uniqueId);
             uniqueId++;
             a.textContent = Hn.textContent;
-            a.classList.add("main-nav__link");
-            a.classList.add("main-nav__link--"+hType);
+            a.classList.add("post-nav__link");
+            a.classList.add("post-nav__link--"+hType);
             a.setAttribute('href',link);
 
             // Creation du <li> contenant le lien
             let li = document.createElement("li");
-            li.classList.add("main-nav__item");
+            li.classList.add("post-nav__item");
 
             // Ajout des deux éléments dans la nav
             li.appendChild(a)
@@ -54,7 +54,7 @@ function postNav(){
     });
 
     /* Ajoute la class "active" dans le dernier titre entrée à l'écran au scroll */
-    let navElement = document.querySelectorAll(".main-nav__link");
+    let navElement = document.querySelectorAll(".post-nav__link");
     document.addEventListener("scroll", () => {
         if (!ticking) {
             window.requestAnimationFrame(() => {

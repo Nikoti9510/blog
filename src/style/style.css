@@ -83,7 +83,7 @@ html {
     --text-line-height-loose: 2;
     --text-size-base: var(--size-step-0);
     --text-size-big: var(--size-step-1);
-    --text-size-desc: var(--size-step--1);
+    --text-size-desc: var(--size-step--2);
     --text-size-heading-1: var(--size-step-4);
     --text-size-heading-2: var(--size-step-3);
     --text-size-heading-3: var(--size-step-2);
@@ -114,10 +114,7 @@ html {
     --fond-fonce: var(--color-black);
     --fond-clair: var(--color-black-60);
     --fond-hover: var(--color-black-80);
-    --fond-contraste: var(--color-white);
-    --fond-contraste-hover: var(--color-light-grey);
     --text-color: var(--color-white);
-    --text-color-contraste: var(--color-black);
     --text-secondaire: var(--color-mid-grey);
     --bordure: var(--color-dark-grey);
 }
@@ -129,10 +126,7 @@ html {
     --fond-fonce: var(--color-light-grey);
     --fond-clair: var(--color-grey);
     --fond-hover: var(--color-white);
-    --fond-contraste: var(--color-white);
-    --fond-contraste-hover: var(--color-light-grey);
     --text-color: var(--color-black);
-    --text-color-contraste: var(--color-black);
     --text-secondaire: var(--color-mid-grey-light);
     --bordure: var(--color-grey);
 }
@@ -174,13 +168,13 @@ h3 {
 }
 
 /* Bouton */
-a, button {
+a.button, button {
     display: block;
     width: fit-content;
     align-content: center;
     padding: var(--button-padding, .8rem 1.5rem);
-    background: var(--button-bg, var(--fond-contraste));
-    color: var(--button-text-color, var(--text-color-contraste));
+    background: var(--button-bg, var(--fond-fonce));
+    color: var(--button-text-color, var(--text-color));
     border: none;
     border-radius: var(--button-radius, var(--radius));
     font-size: var(--button-text-size, var(--text-size-base));
@@ -189,16 +183,16 @@ a, button {
     text-decoration: none;
     transition: background var(--transiton-function);
 }
-a:hover, button:hover {
-    background: var(--button-interact-bg, var(--fond-contraste-hover));
-    color: var(--button-interact-text, var(--text-color-contraste));
+a.button:hover, button:hover {
+    background: var(--button-interact-bg, var(--fond-clair));
+    color: var(--button-interact-text, var(--text-color));
     cursor: pointer;
 }
 
 
 /*--------- Layout général ---------*/
 .flow > * + * {
-    margin-top: var(--flow-space, var(--space-3xs));
+    margin-top: var(--flow-space, var(--space-m));
 }
 .grid-auto {
     display: grid;
@@ -206,13 +200,6 @@ a:hover, button:hover {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-auto-rows: 1fr;
 }
-
-/*--------- style général ---------*/
-main {
-    padding: var(--space-gutter);
-}
-
-/*--------- Layout article ---------*/
 .content-grid {
     --padding-inline: var(--space-gutter);
     --content-max-width: 50ch;
@@ -238,22 +225,81 @@ main {
 }
 
 
-/* footer */
-footer a {
-    width: 100%;
-    text-align: start;
-    text-decoration: underline;
-    --button-text-size: var(--text-size-heading-1);
-    line-height: var(--text-line-height-fine);
-    padding-block: var(--space-xl);
-    text-wrap: pretty;
+/*--------- Menu ---------*/
+nav > a + a {
+    margin-left: var(--space-gutter-s);
+}
+.switch-color {
+    position: absolute;
+    right: 0;
 }
 
 
-/* media au dessus de 60rem de large */
+/*--------- Preview de post ---------*/
+
+
+/*--------- Post entier ---------*/
+.post {
+    margin-block-start: calc(var(--space-regions) * 1.5);
+}
+.post .post__post-nav {
+    grid-column: content;
+}
+.post__retour {
+    font-size: var(--text-size-desc);
+    margin-top: 0;
+}
+.post__image-intro {
+    height: calc(var(--space-regions) * 3);
+}
+:is(h1, h2, h3, h4, h5, h6) + * {
+    --flow-space: var(--space-2xs);
+}
+
+
+/*--------- Footer ---------*/
+footer a.button {
+    width: 100%;
+    text-align: start;
+    text-decoration: underline;
+    --button-text-size: var(--text-size-heading-3);
+    line-height: var(--text-line-height-fine);
+    padding-block: var(--space-l);
+    text-wrap: pretty;
+}
+.footer__copyright {
+    font-size: var(--text-size-desc);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*--------- Media au dessus de 90rem de large ---------*/
+@media (min-width: 95rem) {
+    /* post */
+    .post .post__post-nav {
+        position: sticky;
+        top: var(--space-gutter);
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+}
+
+
+/*--------- Media au dessus de 60rem de large ---------*/
 @media (min-width: 60rem) {
+    /* general */
+    body {
+        padding: var(--space-gutter-l);
+    }
     /* footer */
     footer a {
         text-align: center;
     }
+}
+
+
+/*--------- Classes utilitaires ---------*/
+.relative {
+    position: relative;
 }

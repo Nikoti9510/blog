@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme="">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="/style/font.css">
-    <link rel="stylesheet" href="/style/style.css">
-    <script src="/scripts/switchTheme.js"></script>
-    {# <script src="/scripts/postNav.js"></script>
-    <script src="/scripts/backToTop.js"></script>
-    <script src="/scripts/menu.js"></script> #}
+    {% include 'head.njk' %}
+    <script src="/scripts/postNav.js"></script>
+    {# <script src="/scripts/backToTop.js"></script> #}
 </head>
 <body class="flow">
     {% include 'header.njk' %}
-    <main class="content-grid flow">
+    <main class="content-grid flow post relative">
+        <aside class="post__post-nav fullwidth">
+            <nav></nav>
+        </aside>
+        <a href="" onclick="window.history.go(-1); return false;" class="post__retour breakout">Retour</a>
+        <figure class="breakout">
+            <img class="post__image-intro" src="{{ image }}" alt="{{ imageAlt }}"/>
+        </figure>
         {{ content | safe }}
     </main>
     {% include 'footer.njk' %}

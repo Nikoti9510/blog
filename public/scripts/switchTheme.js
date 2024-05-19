@@ -12,10 +12,10 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   
     if (systemSettingDark.matches) {
       return "dark";
+    } else {
+        /* defaut */
+        return "light";
     }
-  
-    /* defaut */
-    return "light";
 }
 
 /* fonction pour mettre à jour l'aria-label et le texte du bonton */

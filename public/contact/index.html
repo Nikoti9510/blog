@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme="">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
@@ -12,13 +12,13 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="flow">
-    <header>
+    <header class="content-grid relative">
     <nav>
         <a href="/">Accueil</a>
         <a href="/all-post">Tous les articles</a>
         <a href="/contact">Contact</a>
     </nav>
-    <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="grid-span-1 switch-color">
+    <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="grid-span-1 switch-color fullwidth">
         <span>switch color</span>
     </button>
 </header>
@@ -26,8 +26,12 @@
     <main>
         <h1> Page de contact</h1>
     </main>
-    <footer>
-    <a href="/contact">Pour discuter, c'est par là.</a>
+    <footer class="content-grid flow">
+    <a href="/contact" class="button">Pour discuter, c'est par là.</a>
+    <section class="footer__copyright">
+        <span>©2024_ Antoine Moreau</span>
+        <span>V. 0.1</span>
+    </section>
 </footer>
     <script>
         if (window.netlifyIdentity) {

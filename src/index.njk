@@ -3,15 +3,20 @@ title: Marmonneur
 layout: 'base.njk'
 --- 
 
-    <main class="flow">
-        <section class="hero grid-span-4 flow">
+    <main class="content-grid flow">
+        <section class="hero flow">
             <h1>Le site d'Antoine Moreau</h1>
             <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeux vidéo et surement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
         </section>
-        <h2>Mes derniers articles</h2>
-        <section class="grid-auto">
-            {%- for post in collections.post | reverse -%}
-                {% include "post-preview.njk" %}
-            {%- endfor -%}
-        </section>
+        <div class="sep">
+            <h2>Mes derniers articles</h2>
+            <section class="grid-auto flow">
+                {%- for post in collections.post | reverse -%}
+                    {% include "post-preview.njk" %}
+                {%- endfor -%}
+            </section>
+        </div>
+        <div class="sep">
+            <h2>Mon cursus</h2>
+        </div>
     </main>

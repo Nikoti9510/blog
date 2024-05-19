@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme="">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Death In Space #4N4RCHY_PR06R4M</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
@@ -9,19 +9,29 @@
     <link rel="stylesheet" href="/style/style.css">
     <script src="/scripts/switchTheme.js"></script>
     
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="/scripts/postNav.js"></script>
+    
 </head>
 <body class="flow">
-    <header>
+    <header class="content-grid relative">
     <nav>
         <a href="/">Accueil</a>
         <a href="/all-post">Tous les articles</a>
         <a href="/contact">Contact</a>
     </nav>
-    <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="grid-span-1 switch-color">
+    <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="grid-span-1 switch-color fullwidth">
         <span>switch color</span>
     </button>
 </header>
-    <main class="content-grid flow">
+    <main class="content-grid flow post relative">
+        <aside class="post__post-nav fullwidth">
+            <nav></nav>
+        </aside>
+        <a href="" onclick="window.history.go(-1); return false;" class="post__retour breakout">Retour</a>
+        <figure class="breakout">
+            <img class="post__image-intro" src="/assets/img/uploads/1449253482276.png" alt="un alt de test"/>
+        </figure>
         <h1>Death In Space #4N4RCHY_PR06R4M</h1>
 <p>DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un univers dévasté par la guerre, écrit par Christian Plogfors et Niblaeus du Stockholm Kartell.</p>
 <blockquote>
@@ -29,7 +39,7 @@
 </blockquote>
 <h2>Le contrat</h2>
 <p>Vous devez partir à la recherche de l'équipage du vaisseau ALENAR-ZX3. Dernier signal envoyé à proximité du cimetière de vaisseau, dans le secteur 73-C de la ceinture d'astéroïdes Messier 51. La récompense ? Le remboursement de votre dette auprès de Tride Lovi (trafiquant du Ring, veste en câble électrique, tatouage dans une langue inconnue). C'est ça ou être déclaré hors la loi dans le seul centre de population du secteur.</p>
-<div class="fullwidth">
+<div class="breakout">
 <p><img src="/assets/img/uploads/1449253482276.png" alt="alt de test" title="description de test"></p>
 </div>
 <h2>La station</h2>
@@ -50,8 +60,12 @@
 </div>
 
     </main>
-    <footer>
-    <a href="/contact">Pour discuter, c'est par là.</a>
+    <footer class="content-grid flow">
+    <a href="/contact" class="button">Pour discuter, c'est par là.</a>
+    <section class="footer__copyright">
+        <span>©2024_ Antoine Moreau</span>
+        <span>V. 0.1</span>
+    </section>
 </footer>
 </body>
 </html>

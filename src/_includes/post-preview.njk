@@ -1,10 +1,26 @@
-<article class="post">
-    <a href="{{ post.url }}"><h3 class="post__title">{{ post.data.title }}</h3></a>
-    <span class="post__date">{{ post.data.date | postDate }}</span>
-    <div class="post__tags-container">
-        <span class="post__tag">JDR</span>
-        <span class="post__tag">Donjon</span>
-    </div>
-    <p class="post__desc">{{ post.data.description}}</p>
-    <a href="{{ post.url }}" class="post__button">Lire la suite.</a>
+<article class="post-preview">
+    <section class="post-preview__content">
+        <a href="{{ post.url }}">
+            <h3 class="post-preview__content--titre">{{ post.data.title }}</h3>
+        </a>
+        <span class="post-preview__content--date">{{ post.data.date | postDate }}</span>
+        <div class="post-preview__content--tags">
+            <ul>
+                {% for tag in post.data.tags %}
+                    {% if loop.first %}
+                        {# On ignore le premier tag, qui est toujours "post" #}
+                    {% else %}
+                        <li>{{ tag }}</li>
+                    {% endif %}
+                {% else %}
+                    <li>Cet article n'a pas de catégorie.</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <p class="post-preview__content--description">{{ post.data.description}}</p>
+        <a href="{{ post.url }}" class="button">Lire la suite.</a>
+    </section>
+    <section class="post-preview__illustration">
+        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"> 
+    </section>
 </article>
