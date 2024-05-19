@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmonneur</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <link rel="stylesheet" href="/style/font.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/scripts/switchTheme.js"></script>
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body class="flow">
+    <header>
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/all-post">Tous les articles</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="grid-span-1 switch-color">
+        <span>switch color</span>
+    </button>
+</header>
+     
+
+    <main class="flow">
+        <section class="hero grid-span-4 flow">
+            <h1>Le site d'Antoine Moreau</h1>
+            <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeux vidéo et surement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
+        </section>
+        <h2>Mes derniers articles</h2>
+        <section class="grid-auto"><article class="post">
+    <a href="/posts/death-in-space-4n4rchy_pr06r4m/"><h3 class="post__title">Death In Space #4N4RCHY_PR06R4M</h3></a>
+    <span class="post__date">19 mai 2024</span>
+    <div class="post__tags-container">
+        <span class="post__tag">JDR</span>
+        <span class="post__tag">Donjon</span>
+    </div>
+    <p class="post__desc">DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un univers dévasté par la guerre, écrit par Christian Plogfors et Niblaeus du Stockholm Kartell.</p>
+    <a href="/posts/death-in-space-4n4rchy_pr06r4m/" class="post__button">Lire la suite.</a>
+</article></section>
+    </main>
+    <footer>
+    <a href="/contact">Pour discuter, c'est par là.</a>
+</footer>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", (user) => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+</html>
