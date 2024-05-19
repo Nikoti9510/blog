@@ -18,4 +18,4 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image de présentation", name: "image", widget: "image" }
       - { label: "Texte de description de l'image", name: "imageAlt", widget: "string" }
-      - { label: "Contenu de l'article", name: "content", widget: "markdown" }
+      - { label: "Contenu de l'article", name: "body", widget: "markdown" } #body en nom de fichier pour qu'il soit rendu comment le contenu de l'article ?
