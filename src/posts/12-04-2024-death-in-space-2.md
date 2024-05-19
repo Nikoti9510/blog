@@ -1,6 +1,6 @@
 --- 
-title: "3_ Death In Space #4N4RCHY_PR06R4M"
-date: 2024-05-15
+title: "Death In Space #4N4RCHY_PR06R4M"
+date: 15-05-2024
 tags: ["post", "JDR", "caca"]
 image: https://source.unsplash.com/random/600*600
 imageAlt: "un alt de test"

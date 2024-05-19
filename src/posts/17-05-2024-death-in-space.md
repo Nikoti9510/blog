@@ -1,6 +1,6 @@
 --- 
-title: "1_ Death In Space #4N4RCHY_PR06R4M"
-date: 2024-05-17
+title: "Death In Space #4N4RCHY_PR06R4M - duplicate"
+date: 17-05-2024
 tags: ["post", "JDR", "Donjon"]
 image: https://source.unsplash.com/random/600*600
 imageAlt: "un alt de test"
