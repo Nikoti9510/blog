@@ -1,5 +1,5 @@
 ---
-title: "Death In Space #4N4RCHY PR06R4M - copy"
+title: "Death In Space #4N4RCHY PR06R4M"
 description: DEATH IN SPACE est un jeu de rôle de science-fiction et de survie
   dans un univers dévasté par la guerre, écrit par Christian Plogfors et
   Niblaeus du Stockholm Kartell.
@@ -20,12 +20,6 @@ DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un unive
 ## Le contrat
 
 Vous devez partir à la recherche de l'équipage du vaisseau ALENAR-ZX3. Dernier signal envoyé à proximité du cimetière de vaisseau, dans le secteur 73-C de la ceinture d'astéroïdes Messier 51. La récompense ? Le remboursement de votre dette auprès de Tride Lovi (trafiquant du Ring, veste en câble électrique, tatouage dans une langue inconnue). C'est ça ou être déclaré hors la loi dans le seul centre de population du secteur.
-
-<div class="breakout">
-
-![Plan de la station COH-13](/assets/img/uploads/65c10fe61c9ac31bd498601f_421233610_1159823535001698_3650842212302586114_n.jpg "Plan de la station COH-13")
-
-</div>
 
 ## La station
 
