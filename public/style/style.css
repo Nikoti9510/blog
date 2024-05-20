@@ -357,6 +357,16 @@ a:has(.post-preview__content--titre) {
     font-size: var(--text-size-desc);
     color: var(--gris-600);
 }
+.post__retour {
+    position: relative;
+    text-decoration: none;
+    width: fit-content;
+}
+.post__retour::before {
+    content: "←";
+    display: inline;
+    margin-inline-end: calc(var(--space-gutter-s) / 2);
+}
 
 
 /*--------- Post entier ---------*/
