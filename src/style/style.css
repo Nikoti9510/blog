@@ -220,6 +220,7 @@ a[target="_blank"]::after {
     margin-inline-start: calc(var(--size-step--2) / 6);
 }
 
+
 /*--------- Layout général ---------*/
 .flow > * + * {
     margin-block-start: var(--flow-space, var(--space-m));
@@ -326,7 +327,7 @@ section > .tags.flex {
 
 /*---------  categorie --------- */
 .categorie.flow {
-    --flow-space: var(--space-gutter)
+    --flow-space: var(--space-gutter);
 }
 
 
@@ -404,6 +405,21 @@ figcaption {
     font-size: var(--text-size-big);
     padding-inline-start: var(--space-gutter-s);
     border-inline-start: solid var(--space-gutter-s) var(--accent);
+}
+.post__post-nav {
+    margin-inline-end: var(--space-gutter);
+}
+.post__post-nav > nav {
+    --flow-space: var(--space-3xs);
+    font-size: var(--text-size-desc);
+    padding: var(--space-gutter-s);
+    background: var(--gris-800);
+    border-radius: var(--radius);
+    width: fit-content;
+}
+.post-nav__item {
+    list-style: none;
+    width: fit-content;
 }
 
 
