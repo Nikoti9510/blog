@@ -8,6 +8,8 @@ date: 2024-01-15T17:15:00.000Z
 image: /assets/img/uploads/65b6a136b053347dc819302d_528401ldsdl.jpg
 imageAlt: Une côte sur le point d'être frappé par la tempête.
 ---
+# Black Sword Hack - l'archipel d'or
+
 Un premier cafouillage pour Dungeon 2024, pile un an en retard. Une ébauche de cadre de campagne pour Black Sword Hack de Kobayashi.
 
 * **Informations préliminaires :**\
