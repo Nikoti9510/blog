@@ -1,16 +1,12 @@
 --- 
-title: tous les articles
+title: Tout les articles
 layout: 'base.njk'
 --- 
 
-    <main class="flow">
-        <h1>Tous les articles</h1>
+<main class="content-grid">
+    <section class="grid-auto">
         {%- for post in collections.post | reverse -%}
             {% include "post-preview.njk" %}
         {%- endfor -%}
-    </main>
-
-    {# <h2>Catégorie: Le jdr</h2>
-    {%- for post in collections.jdr | reverse -%}
-        {% include "post-preview.njk" %}
-    {%- endfor -%} #}
+    </section>
+</main>

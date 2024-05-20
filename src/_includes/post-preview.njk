@@ -1,26 +1,29 @@
 <article class="post-preview">
-    <section class="post-preview__content">
+    <section class="post-preview__content flow">
         <a href="{{ post.url }}">
             <h3 class="post-preview__content--titre">{{ post.data.title }}</h3>
         </a>
-        <span class="post-preview__content--date">{{ post.data.date | postDate }}</span>
+        <p class="post-preview__content--description">{{ post.data.description}}</p>
+        
         <div class="post-preview__content--tags">
-            <ul>
+            <ul class="tags flex">
                 {% for tag in post.data.tags %}
                     {% if loop.first %}
                         {# On ignore le premier tag, qui est toujours "post" #}
                     {% else %}
-                        <li>{{ tag }}</li>
+                        <li class="tags__tag">{{ tag }}</li>
                     {% endif %}
                 {% else %}
                     <li>Cet article n'a pas de catégorie.</li>
                 {% endfor %}
             </ul>
         </div>
-        <p class="post-preview__content--description">{{ post.data.description}}</p>
-        <a href="{{ post.url }}" class="button">Lire la suite.</a>
+        <div class="flex">
+            <span class="post-preview__content--date">{{ post.data.date | postDate }}</span>
+            <a href="{{ post.url }}" class="button post-preview__content--button">Lire la suite</a>
+        </div>
     </section>
-    <section class="post-preview__illustration">
+    {# <section class="post-preview__illustration">
         <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"> 
-    </section>
+    </section> #}
 </article>

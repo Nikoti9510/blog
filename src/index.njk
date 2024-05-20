@@ -1,22 +1,35 @@
 --- 
-title: Marmonneur
+title: Blog du Marmonneur
 layout: 'base.njk'
 --- 
 
     <main class="content-grid flow">
-        <section class="hero flow">
-            <h1>Le site d'Antoine Moreau</h1>
+        <section class="hero flow fullwidth content-grid">
+            <article class="tags breakout">                
+                <ul class="tags flex">
+                    {%- for tag, posts in collections -%}
+                        {% if loop.index == 1 or loop.index == 2 %}
+                            {# On ne prend pas post et all #}
+                        {% else %}
+                            <li><a class="tags__tag" href="/categorie/{{ tag }}">{{ tag }}[{{ posts | length }}]</a></li>
+                        {% endif %}
+                    {%- endfor -%}
+                </ul>
+            </article>
+            <figure class="fullwidth hero__img">
+                <img src="/assets/img/hero-bg.jpg" alt="Illustration de Joseph Wopfner représentant un champ de blé."/>
+                <figcaption class="breakout w-30">Illustration de <i>Joseph Wopfner</i>, <a target="_blank" href="https://artvee.com/dl/kornfeld-olstudie#00">Kornfeld Ölstudie</a> - (Joseph Wopfner, Austrian, 1843-1927)</figcaption>
+            </figure>
+            <h1>Le blog du marmonneur</h1>
             <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeux vidéo et surement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
         </section>
-        <div class="sep">
+        <section class="sep flow">
             <h2>Mes derniers articles</h2>
-            <section class="grid-auto flow">
-                {%- for post in collections.post | reverse -%}
-                    {% include "post-preview.njk" %}
-                {%- endfor -%}
+            <section class="grid-auto breakout">
+                {% set latest_posts = collections.post %}
+                    {% for post in latest_posts.slice(0,3) | reverse %}
+                        {% include "post-preview.njk" %}
+                    {% endfor %}
             </section>
-        </div>
-        <div class="sep">
-            <h2>Mon cursus</h2>
-        </div>
+        </section>
     </main>

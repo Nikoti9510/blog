@@ -1,5 +1,5 @@
 ---
-title: "Death In Space #4N4RCHY PR06R4M - copy"
+title: "Death In Space #4N4RCHY PR06R4M"
 description: DEATH IN SPACE est un jeu de rôle de science-fiction et de survie
   dans un univers dévasté par la guerre, écrit par Christian Plogfors et
   Niblaeus du Stockholm Kartell.
@@ -7,12 +7,8 @@ tags:
   - post
   - jdr
   - donjon
-  - pipi
-  - test
-  - test32
-  - test15
-  - test5
-date: 2024-04-19T20:41:00.000Z
+  - caca
+date: 2024-05-19T20:41:00.000Z
 image: /assets/img/uploads/1449253482276.png
 imageAlt: un alt de test
 ---

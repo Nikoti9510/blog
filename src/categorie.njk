@@ -1,0 +1,23 @@
+---
+title: "Catégories"
+layout: 'base.njk'
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - post
+    - all
+permalink: /categorie/{{ tag }}/
+---
+
+<main class="content-grid flow categorie">
+  <a href="" onclick="window.history.go(-1); return false;" class="post__retour">Retour</a>
+  <h1>Article dans la catégorie : {{ tag }}</h1>
+  <section class="grid-auto">
+    {% set taglist = collections[ tag ] %}
+    {% for post in taglist | reverse %}
+        {% include "post-preview.njk" %}
+    {% endfor %}
+  </section>
+</main>
