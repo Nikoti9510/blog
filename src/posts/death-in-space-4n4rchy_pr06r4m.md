@@ -5,13 +5,8 @@ description: DEATH IN SPACE est un jeu de rôle de science-fiction et de survie
   Niblaeus du Stockholm Kartell.
 tags:
   - post
-  - jdr
-  - donjon
-  - pipi
-  - test
-  - test32
-  - test15
-  - test5
+  - JDR
+  - Donjon
 date: 2024-04-19T20:41:00.000Z
 image: /assets/img/uploads/1449253482276.png
 imageAlt: un alt de test

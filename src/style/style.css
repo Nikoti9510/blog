@@ -62,10 +62,9 @@ html {
     --space-3xl: clamp(6rem, 5.2683rem + 3.6585vi, 7.875rem);
 
     /* Couleurs */
-    --lapis-lazuli: #355780;
-    --periwinkle: #BFC8E9;
     --eerie-black: #252525;
     --old-gold: #CCB045;
+    --new-gold: #eed779;
     --gris-100: #F8F9FA;
     --gris-200: #E9ECEF;
     --gris-300: #DEE2E6;
@@ -105,7 +104,7 @@ html {
     --focus-ring-offset: 2px;
     --radius: .5rem;
     --transiton-function: cubic-bezier(.57,.21,.69,1.25) 200ms;
-    --border: dotted 2px color-mix(in srgb, var(--secondary) 30%, transparent 40%);
+    --border: dotted 2px color-mix(in srgb, var(--gris-600) 30%, transparent 40%);
 }
 
 /*--------- Layout Sombre ---------*/
@@ -117,7 +116,7 @@ html {
     --link-color: var(--old-gold);
     --button-text: var(--gris-900);
     --accent: var(--old-gold);
-    --secondary: var(--lapis-lazuli);
+    --accent-hover: var(--new-gold);
 }
 
 /*--------- Layout clair ---------*/
@@ -126,10 +125,10 @@ html {
     --fond-hover: var(--gris-400);
     --titre-color: var(--gris-900);
     --text-color: var(--gris-700);
-    --link-color: var(--lapis-lazuli);
+    --link-color: color-mix(in srgb, var(--old-gold) 70%, var(--eerie-black) 30%);
     --button-text: var(--gris-900);
     --accent: var(--old-gold);
-    --secondary: var(--lapis-lazuli);
+    --accent-hover: var(--new-gold);
 }
 
 
@@ -157,15 +156,15 @@ img {
     hyphens: manual;
 }
 h1 {
-    font-size: var(--text-size-heading-1);
-    font-weight: var(--font-weight-bold);
-}
-h2 {
     font-size: var(--text-size-heading-2);
     font-weight: var(--font-weight-bold);
 }
-h3 {
+h2 {
     font-size: var(--text-size-heading-3);
+    font-weight: var(--font-weight-bold);
+}
+h3 {
+    font-size: var(--text-size-heading-4);
     font-weight: var(--font-weight-regular);
 }
 /* Bouton */
@@ -212,7 +211,14 @@ button:hover::after {
 a:not(.button) {
     color: var(--link-color);
 }
-
+figcaption:has(a[target="_blank"]) a {
+    position: relative;
+    text-decoration: none;
+}
+figcaption:has(a[target="_blank"]) a::after {
+    content: "🗗";
+    margin-inline-start: calc(var(--size-step--2) / 6);
+}
 
 /*--------- Layout général ---------*/
 .flow > * + * {
@@ -273,14 +279,22 @@ a:not(.button) {
 .hero {
     --flow-space: var(--space-gutter-s);
 }
+.hero h1 {
+    font-size: var(--text-size-heading-1);
+}
 .hero__img img {
-    max-height: calc(var(--space-regions) * 3);
+    border-radius: calc(var(--radius) * 2);
+    min-width: auto;
+    max-width: var(--space-regions);
+    width: auto;
+    border: solid 1px;
 }
 
 
 /*--------- tags ---------*/
 .tags {
     list-style: none;
+    --elem-gap: var(--space-gutter-s);
 }
 .tags :is(a.tags__tag, .tags__tag) {
     text-decoration: none;
@@ -293,7 +307,13 @@ a:not(.button) {
     transition: all var(--transiton-function);
 }
 .tags a.tags__tag:hover {
-    background: var(--link-color);
+    background: var(--accent);
+}
+.tags > li {
+    display: flex;
+}
+section > .tags.flex {
+    margin-block-end: var(--space-regions);
 }
 
 
@@ -373,7 +393,7 @@ figcaption {
 .post blockquote {
     font-size: var(--text-size-big);
     padding-inline-start: var(--space-gutter-s);
-    border-inline-start: solid var(--space-gutter-s) var(--periwinkle);
+    border-inline-start: solid var(--space-gutter-s) var(--accent);
 }
 
 
@@ -388,16 +408,17 @@ footer a.button {
     --button-padding: var(--space-l);
     --button-line-height: var(--text-line-height-fine);
     --button-text-size: var(--text-size-heading-3);
-    --button-bg: var(--secondary); 
-    --button-text-color: var(--gris-100);
+    --button-bg: var(--accent); 
+    --button-text-color: var(--gris-900);
 
     width: 100%;
     text-align: center;
     padding-block: var(--button-padding);
     text-wrap: balance;
+    border: solid 1px;
 }
 footer a.button:hover {
-    --button-bg: var(--periwinkle); 
+    --button-bg: var(--accent-hover); 
     --button-interact-text: var(--gris-900);
 }
 footer a.button::after {
@@ -431,12 +452,6 @@ footer a.button::after {
     .w-30 {
         width: 30%;
     }
-    .flex {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: var(--elem-gap, var(--space-gutter));
-    }
     /* footer */
     footer a {
         text-align: start;
@@ -447,4 +462,10 @@ footer a.button::after {
 /*--------- Classes utilitaires ---------*/
 .relative {
     position: relative;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--elem-gap, var(--space-gutter));
 }

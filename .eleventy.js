@@ -8,8 +8,8 @@ module.exports = function(eleventyConfig) {
 		breaks: true,
 		linkify: true,
 	};
-    eleventyConfig.setLibrary("md", markdownIt(options));
 
+    eleventyConfig.setLibrary("md", markdownIt(options));
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/style');
     eleventyConfig.addPassthroughCopy('./src/layouts');

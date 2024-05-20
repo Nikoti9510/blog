@@ -4,7 +4,18 @@ layout: 'base.njk'
 --- 
 
 <main class="content-grid">
-    <section class="grid-auto">
+    <section>                
+        <ul class="tags flex">
+            {%- for tag, posts in collections -%}
+                {% if loop.index == 1 or loop.index == 2 %}
+                    {# On ne prend pas post et all #}
+                {% else %}
+                    <li><a class="tags__tag" href="/categorie/{{ tag }}">{{ tag }} [{{ posts | length }}]</a></li>
+                {% endif %}
+            {%- endfor -%}
+        </ul>
+    </section>
+    <section class="grid-auto sep">
         {%- for post in collections.post | reverse -%}
             {% include "post-preview.njk" %}
         {%- endfor -%}
