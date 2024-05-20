@@ -8,8 +8,8 @@ tags:
   - JDR
   - Donjon
 date: 2024-04-19T20:41:00.000Z
-image: /assets/img/uploads/1449253482276.png
-imageAlt: un alt de test
+image: /assets/img/uploads/65b6a12cc8177e5b4d5c34fa_space-colony-13.jpg
+imageAlt: Stanford torus external view by Don Davis AC76-0525
 ---
 # Death In Space #4N4RCHY PR06R4M
 
@@ -23,9 +23,7 @@ Vous devez partir à la recherche de l'équipage du vaisseau ALENAR-ZX3. Dernier
 
 <div class="breakout">
 
-
-![alt de test](/assets/img/uploads/1449253482276.png "description de test")
-
+![Plan de la station COH-13](/assets/img/uploads/65c10fe61c9ac31bd498601f_421233610_1159823535001698_3650842212302586114_n.jpg "Plan de la station COH-13")
 
 </div>
 
