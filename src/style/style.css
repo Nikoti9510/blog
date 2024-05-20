@@ -211,11 +211,11 @@ button:hover::after {
 a:not(.button) {
     color: var(--link-color);
 }
-figcaption:has(a[target="_blank"]) a {
+a[target="_blank"] {
     position: relative;
     text-decoration: none;
 }
-figcaption:has(a[target="_blank"]) a::after {
+a[target="_blank"]::after {
     content: "🗗";
     margin-inline-start: calc(var(--size-step--2) / 6);
 }
