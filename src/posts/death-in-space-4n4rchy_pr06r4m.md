@@ -31,10 +31,6 @@ Vous devez partir à la recherche de l'équipage du vaisseau ALENAR-ZX3. Dernier
 6. **Baie médicale :** Grand laboratoire médicale saccagé. Trainé de sang continue vers l'\[Atelier]. June Lamassu (Capitaine du ALENAR) est suspendu par les pieds à des câbles sortis du plafond. Un Prospector Handgun avec une balle restante dans le chargeur à la main, le visage arraché. L'ordinateur dans le bureau donne accès aux recherches sur #4N4RCHY_PR06R4M. On y apprend notamment l'existence d'un programme de recherche visant à produire une transmission par morsure du virus.
 7. **Atelier :** 1d4 Fanatics. Yatin Zapper (Combattant de l'ALENAR) est éparpillé aux 4 coins de l'atelier. Les Fanatics utilisent ces membres comme ormes rudimentaires. Sont fusil à pompe modèle Messier est vide. La porte vers la Salle de réunion est vérrouillé. <SVY> pour convaincre l'IA ennuyeuse d'ouvrir la porte. Echec et elle raconte une histoire barbante sur l'origine minière de la station et est inarrêtable pendant 30mins. (Elle attire les Fanatics de sa voix grésillante).
 
-<div class="breakout">
-
 > ## Pour le MJ
 >
 > Durant la guerre des gemmes, des recherche sont menées dans la station COH-13 pour faire de #4N4RCHY_PR06R4M une arme de guerre. Les chercheurs ont depuis longtemps succombés et le virus est resté dormant dans leurs cadavres. Mais l'équipage du ALENAR-ZX3 les a réveillés. Les anciens chercheurs transformés en Fanatics agressifs arpentent encore les corridors de la petite station, et le ALENAR reste amarré au poste de recherche, abandonné.
-
-</div>
