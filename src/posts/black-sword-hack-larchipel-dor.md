@@ -10,7 +10,7 @@ imageAlt: Une côte sur le point d'être frappé par la tempête.
 ---
 # Black Sword Hack - l'archipel d'or
 
-Un premier cafouillage pour Dungeon 2024, pile un an en retard. Une ébauche de cadre de campagne pour Black Sword Hack de Kobayashi.
+Un premier cafouillage pour Dungeon 2024, pile un an en retard. Une ébauche de cadre de campagne pour Black Sword Hack de [Kobayashi](https://livresdelours.blogspot.com/).
 
 * **Informations préliminaires :**\
   Antagoniste : Un messie aux pouvoirs Immense.\
