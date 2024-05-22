@@ -8,25 +8,56 @@
     <link rel="stylesheet" href="/style/font.css">
     <link rel="stylesheet" href="/style/style.css">
     <script src="/scripts/switchTheme.js"></script>
-    <script src="/scripts/menu.js"></script>
+    <script src="/scripts/menu.js" defer></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="flow">
-    <header class="header content-grid relative">
-    <nav class="breakout">
-        <a class="button" href="/">[ Accueil ]</a>
-        <a class="button" href="/all-post/">[ Tout les articles ]</a>
-        <a class="button" href="/contact/">[ Contact ]</a>
-    </nav>
-    <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="switch-color breakout">
-        <span>switch color</span>
+    <header class="header content-grid">
+    <button class="main-nav-toggle" aria-controls="main-nav" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="32" width="32">
+            <g>
+            <path d="M29.71 3.81h1.53v24.38h-1.53Z"></path>
+            <path d="M28.19 28.19h1.52v1.52h-1.52Z"></path>
+            <path d="M28.19 2.28h1.52v1.53h-1.52Z"></path>
+            <path d="M3.81 29.71h24.38v1.53H3.81Z"></path>
+            <g class="line line-1">
+                <path d="m25.14 5.33 -18.28 0 0 1.52 -1.53 0 0 3.05 1.53 0 0 -1.52 18.28 0 0 1.52 1.53 0 0 -3.05 -1.53 0 0 -1.52z"></path>
+                <path d="M6.86 9.9h18.28v1.53H6.86Z"></path>
+            </g>
+            <g class="line line-2">
+                <path d="m25.14 12.95 -18.28 0 0 1.52 -1.53 0 0 3.05 1.53 0 0 -1.52 18.28 0 0 1.52 1.53 0 0 -3.05 -1.53 0 0 -1.52z"></path>
+                <path d="M6.86 17.52h18.28v1.52H6.86Z"></path>
+            </g>
+            <g class="line line-3">
+                <path d="m25.14 20.57 -18.28 0 0 1.52 -1.53 0 0 3.05 1.53 0 0 -1.52 18.28 0 0 1.52 1.53 0 0 -3.05 -1.53 0 0 -1.52z"></path>
+                <path d="M6.86 25.14h18.28v1.52H6.86Z"></path>
+            </g>
+            <path d="M3.81 0.76h24.38v1.52H3.81Z"></path>
+            <path d="M2.29 28.19h1.52v1.52H2.29Z"></path>
+            <path d="M2.29 2.28h1.52v1.53H2.29Z"></path>
+            <path d="M0.76 3.81h1.53v24.38H0.76Z"></path>
+            </g>
+        </svg>
     </button>
+    <div class="flex space-between"> 
+        <nav id="main-nav" class="main-nav" data-visible="false">
+            <ul class="flex">
+                <li><a class="button" href="/">[ Accueil ]</a></li>
+                <li><a class="button" href="/all-post/">[ Tout les articles ]</a></li>
+                <li><a class="button" href="/contact/">[ Contact ]</a></li>
+            </ul>
+        </nav>
+        <button type="button" aria-label="Passer au thème clair" data-theme-toggle class="switch-color button">
+            <span>switch color</span>
+        </button>
+    </div>
 </header>
     
 <main class="content-grid flow categorie">
   <a href="" onclick="window.history.go(-1); return false;" class="post__retour">Retour</a>
   <h1>Article dans la catégorie : JDR</h1>
-  <section class="grid-auto sep">
+  <section class="flow sep">
     
     
         <article class="post-preview">

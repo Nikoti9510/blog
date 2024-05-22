@@ -4,16 +4,17 @@ layout: 'base.njk'
 --- 
 
     <main class="content-grid flow">
-        <section class="hero flow fullwidth content-grid">
+        <section class="hero flow">
             <figure class="hero__img">
-                <img src="/assets/img/photo-de-hero-small.jpg" alt="Une photo de mon visage, malheureusement"/>
+                <img src="/assets/img/lolo.jpg" alt="Une photo de Loic Seguin, un mec sympa."/>
+                <figcaption>Coucou Lolo ❤️</figcaption>
             </figure>
             <h1>Le blog du marmonneur</h1>
             <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeux vidéo et surement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
         </section>
         <section class="sep flow">
-            <h2># Mes derniers articles</h2>
-            <section class="grid-auto breakout">
+            <h2># Les [03] derniers articles</h2>
+            <section class="flow">
                 {% set latest_posts = collections.post %}
                     {% for post in latest_posts.slice(0,3) | reverse %}
                         {% include "post-preview.njk" %}

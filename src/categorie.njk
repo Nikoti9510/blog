@@ -14,7 +14,7 @@ permalink: /categorie/{{ tag }}/
 <main class="content-grid flow categorie">
   <a href="" onclick="window.history.go(-1); return false;" class="post__retour">Retour</a>
   <h1>Article dans la catégorie : {{ tag }}</h1>
-  <section class="grid-auto sep">
+  <section class="flow sep">
     {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
         {% include "post-preview.njk" %}

@@ -3,7 +3,7 @@ title: Tout les articles
 layout: 'base.njk'
 --- 
 
-<main class="content-grid">
+<main class="content-grid flow">
     <section>                
         <ul class="tags flex">
             {%- for tag, posts in collections -%}
@@ -15,7 +15,7 @@ layout: 'base.njk'
             {%- endfor -%}
         </ul>
     </section>
-    <section class="grid-auto sep">
+    <section class="sep flow">
         {%- for post in collections.post | reverse -%}
             {% include "post-preview.njk" %}
         {%- endfor -%}
