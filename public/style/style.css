@@ -253,6 +253,7 @@ a[target="_blank"]::after {
 /*--------- Menu ---------*/
 .header {
     padding-block-start: var(--space-gutter);
+    position: relative;
 }
 
 /* nav */
@@ -273,26 +274,38 @@ a[target="_blank"]::after {
 }
 
 @media (max-width: 45rem) {
-    .header > div {
-        position: fixed;
-        top: 0; left: 0;
-        padding: var(--space-gutter);
+    .mobile-container {
+        padding: var(--space-gutter-s);
+        background: var(--fond-hover);
+        border-radius: var(--radius);
+    }
+    .header > div:not(.mobile-container) {
+        position: absolute;
+        top: 100%; left: 0;
         background-color: red;
         width: fit-content;
     } 
-    .header > div,
+    .header > div:has(> .main-nav),
     .main-nav ul {
         --elem-gap: calc(var(--space-gutter-s) / 2);
         flex-direction: column;
         align-items: start;
     }
     div:has(>.main-nav) {
-        opacity: 0;
         pointer-events: none;
+        height: 0;
+        padding: 0;
+        transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    div:has(>.main-nav) > * {
+        opacity: 0;
     }
     div:has(>.main-nav[data-visible="true"]) {
-        opacity: 1;
+        height: auto;
         pointer-events: all;
+    }
+    div:has(>.main-nav[data-visible="true"]) > * {
+        opacity: 1;
     }
     .main-nav-toggle {
         position: relative;
@@ -300,7 +313,6 @@ a[target="_blank"]::after {
         height: 32px;
         width: 32px;
         border: 0;
-        left: 50%;
         cursor: pointer;
         background-color: transparent;
     }
@@ -317,16 +329,16 @@ a[target="_blank"]::after {
         opacity: 1;
         transform: rotate(0);
         transform-origin: center;
-        transition: all 600ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .main-nav-toggle[aria-expanded="true"] .line-1 {
-        transform: rotate(45deg);
+        transform: rotate(45deg) translate(0px, 8px);
     }
     .main-nav-toggle[aria-expanded="true"] .line-2 {
         opacity: 0;
     }
     .main-nav-toggle[aria-expanded="true"] .line-3 {
-        transform: rotate(-45deg);
+        transform: rotate(-45deg) translate(0px, -7px);
     }
 }
 

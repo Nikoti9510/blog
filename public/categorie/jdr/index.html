@@ -13,7 +13,8 @@
 </head>
 <body class="flow">
     <header class="header content-grid">
-    <button class="main-nav-toggle" aria-controls="main-nav" aria-expanded="false">
+    <div class="mobile-container flex space-between">
+        <button class="main-nav-toggle" aria-controls="main-nav" aria-expanded="false">
         <span class="sr-only">Menu</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="32" width="32">
             <g>
@@ -39,7 +40,8 @@
             <path d="M0.76 3.81h1.53v24.38H0.76Z"></path>
             </g>
         </svg>
-    </button>
+        </button>
+    </div>
     <div class="flex space-between"> 
         <nav id="main-nav" class="main-nav" data-visible="false">
             <ul class="flex">
@@ -52,6 +54,7 @@
             <span>switch color</span>
         </button>
     </div>
+
 </header>
     
 <main class="content-grid flow categorie">
