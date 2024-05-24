@@ -3,13 +3,18 @@
 <head>
     {% include 'head.njk' %}
     <script src="/scripts/postNav.js"></script>
-    {# <script src="/scripts/backToTop.js"></script> #}
 </head>
 <body class="flow">
     {% include 'header.njk' %}
     <main class="content-grid flow post relative">
         <aside class="post__post-nav">
-            <nav class="flow"></nav>
+            <nav>
+                <ul class="flow">
+                    <li class="post-nav__item">
+                        <a class="post-nav__link" href="">Retour au debut</a>
+                    </li>
+                </ul>
+            </nav>
         </aside>
         <a href="" onclick="window.history.go(-1); return false;" class="post__retour">Retour</a>
         <figure class="">
