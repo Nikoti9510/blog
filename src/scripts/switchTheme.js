@@ -35,27 +35,29 @@ function updateThemeOnHtmlEl({ theme }) {
 /* fonction principale, au chargement de la page */
 function switchColor(){
     /* récupération des éléments */
-    const button = document.querySelector("[data-theme-toggle]");
+    const buttons = document.querySelectorAll("[data-theme-toggle]");
     const localStorageTheme = localStorage.getItem("theme");
     const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
   
     /* récupération de l'état actuel du thème du site */
     let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
 
-    if(button) {
-        /* mise à jour du bouton en fonction du thème */
-        updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
-        updateThemeOnHtmlEl({ theme: currentThemeSetting });
+    if(buttons) {
+        buttons.forEach( (button) => { 
+            /* mise à jour du bouton en fonction du thème */
+            updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+            updateThemeOnHtmlEl({ theme: currentThemeSetting });
 
-        /* event listener au click sur le bouton pour changer de thème */
-        button.addEventListener("click", (event) => {
-            const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+            /* event listener au click sur le bouton pour changer de thème */
+            button.addEventListener("click", (event) => {
+                const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
   
-            localStorage.setItem("theme", newTheme);
-            updateButton({ buttonEl: button, isDark: newTheme === "dark" });
-            updateThemeOnHtmlEl({ theme: newTheme });
+                localStorage.setItem("theme", newTheme);
+                updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+                updateThemeOnHtmlEl({ theme: newTheme });
   
-            currentThemeSetting = newTheme;
+                currentThemeSetting = newTheme;
+            });
         }); 
     }
 }

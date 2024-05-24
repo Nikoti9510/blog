@@ -1,5 +1,5 @@
 /* Variables globales */
-const navBar = document.querySelector(".main-nav");
+const navBar = document.querySelector(".main-nav-container");
 const navToggle = document.querySelector(".main-nav-toggle");
 
 /* Gestion de la page active */
