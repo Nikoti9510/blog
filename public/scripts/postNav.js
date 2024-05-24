@@ -12,31 +12,36 @@ function postNav(){
 
     /* Boucle sur tout les Hn du post */
    	if(navContainer && allHn){
-        allHnArray.forEach((Hn, index) => {
-            // Creation du <a>
-            let a = document.createElement("a"),
-                hType = Hn.tagName,
-                link = "#"+uniqueId;
-            Hn.setAttribute("id", uniqueId);
-            uniqueId++;
-            a.textContent = Hn.textContent;
-            a.classList.add("post-nav__link");
-            a.classList.add("post-nav__link--"+hType);
-            a.setAttribute('href',link);
+        if (allHn.length > 3) {
+            allHnArray.forEach((Hn, index) => {
+                // Creation du <a>
+                let a = document.createElement("a"),
+                    hType = Hn.tagName,
+                    link = "#"+uniqueId;
+                Hn.setAttribute("id", uniqueId);
+                uniqueId++;
+                a.textContent = Hn.textContent;
+                a.classList.add("post-nav__link");
+                a.classList.add("post-nav__link--"+hType);
+                a.setAttribute('href',link);
 
-            // Creation du <li> contenant le lien
-            let li = document.createElement("li");
-            li.classList.add("post-nav__item");
+                // Creation du <li> contenant le lien
+                let li = document.createElement("li");
+                li.classList.add("post-nav__item");
 
-            // Ajout des deux éléments dans la nav
-            li.appendChild(a)
-            navContainer.appendChild(li);
+                // Ajout des deux éléments dans la nav
+                li.appendChild(a)
+                navContainer.appendChild(li);
 
-            // Si premier element, ajoute classe active
-            if(index == current){
-                a.classList.add("active");
-            }
-        });
+                // Si premier element, ajoute classe active
+                if(index == current){
+                    a.classList.add("active");
+                }
+            });
+        } else {
+            console.log(navContainer);
+            navContainer.style.display = "none";
+        }
     }
 
     /* Scroll vers l'élement de la nav cliqué par l'internaute */
@@ -64,9 +69,9 @@ function postNav(){
                         current = index; 
                     }
                     // Actualisation de la classe active en fonction de current
-                    if(current == index){
+                    if(current == index && navElement[index]) {
                         navElement[index].classList.add("active");
-                    } else {
+                    } else if (navElement[index]) {
                         navElement[index].classList.remove("active");
                     }
 

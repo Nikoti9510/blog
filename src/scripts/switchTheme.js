@@ -24,7 +24,7 @@ function updateButton({ buttonEl, isDark }) {
     // use an aria-label if you are omitting text on the button
     // and using a sun/moon icon, for example
     buttonEl.setAttribute("aria-label", newCta);
-    buttonEl.innerText = newCta;
+    buttonEl.querySelector('.sr-only').innerText = newCta;
 }
 
 /* fonction pour mettre à jour l'attribut sur l'élément html */
