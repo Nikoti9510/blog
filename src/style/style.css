@@ -469,15 +469,27 @@ a:has(.post-preview__content--titre) {
     font-size: var(--text-size-desc);
     color: var(--gris-600);
 }
+
+
+/*--------- bouton de retour ---------*/
 .post__retour {
-    position: relative;
+    padding: var(--space-3xs) var(--space-3xs) var(--space-3xs) 0;
     text-decoration: none;
     width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3xs);
 }
-.post__retour::before {
-    content: "←";
-    display: inline;
-    margin-inline-end: calc(var(--space-gutter-s) / 2);
+.post__retour svg {
+    width: 16px;
+    height: 16px;
+}
+.post__retour span {
+    margin-block-start: 1px;
+    font-size: var(--text-size-desc);
+}
+.post__retour span.button::after {
+    --after_height: .1rem;
 }
 
 
@@ -518,19 +530,24 @@ figcaption {
     position: sticky;
     top: var(--space-gutter);
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     margin-block-start: var(--space-m);
     margin-inline-end: var(--space-gutter);
+    width: fit-content;
+    height: 0;
+    max-width: 15em;
+}
+.post .post__post-nav  > * {
     border-top-right-radius: var(--radius);
     border-bottom-right-radius: var(--radius);
     background: var(--fond-hover);
-    width: fit-content;
-    height: fit-content;
-    max-width: 15em;
 }
 html .post .post__post-nav > nav > ul {
     --ul-margin: calc(var(--space-gutter-s) / 2);
     padding: var(--space-gutter);
+}
+.post-nav__item:first-child > a {
+    font-size: var(--text-size-desc);
 }
 .post-nav__item:first-child::marker {
     content: none;
@@ -552,12 +569,15 @@ html[data-theme="light"] .post-nav__link {
 }
 @media (max-width: 95rem) {
     .post .post__post-nav {
+        height: fit-content;
         position: initial;
         grid-column: content;
         grid-row: initial;
         margin-block-end: var(--space-gutter);
         width: 100%;
         max-width: 100%;
+    }
+    .post .post__post-nav > * {
         border-radius: var(--radius);
     }
     .post-nav__item:first-child {
