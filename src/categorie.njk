@@ -46,7 +46,7 @@ permalink: /categorie/{{ tag }}/
   <section class="flow sep">
     {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
-        {% include "post-preview.njk" %}
+        {% include "post-preview-h2.njk" %}
     {% endfor %}
   </section>
 </main>

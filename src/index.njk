@@ -6,8 +6,8 @@ layout: 'base.njk'
     <main class="content-grid flow">
         <section class="hero flow">
             <figure class="hero__img">
-                <img src="/assets/img/lolo.jpg" alt="Une photo de Loic Seguin, un mec sympa."/>
-                <figcaption>Coucou Lolo ❤️</figcaption>
+                <img src="/assets/img/lazy-jack-Batten-John-Dickson-face.jpg" alt="illustration: lazy jack, de Batten John Dickson."/>
+                {# <figcaption>Coucou Lolo ❤️</figcaption> #}
             </figure>
             <h1>Le blog du marmonneur</h1>
             <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeu vidéo et sûrement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
@@ -17,7 +17,7 @@ layout: 'base.njk'
             <section class="flow">
                 {% set latest_posts = collections.post %}
                     {% for post in latest_posts.slice(0,3) | reverse %}
-                        {% include "post-preview.njk" %}
+                        {% include "post-preview-h3.njk" %}
                     {% endfor %}
             </section>
         </section>

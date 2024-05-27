@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", switchColor);
 
 /* ------- 
-Code form Salma Alam-Naylor : https://whitep4nth3r.com/ 
+Code from Salma Alam-Naylor : https://whitep4nth3r.com/ ----- <3 ------
 ------- */
 
 /* fonction pour récupérer l'état des paramètres du thème */ 
