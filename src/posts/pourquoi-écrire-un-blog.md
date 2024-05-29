@@ -23,7 +23,7 @@ Simplement pour écrire. Oui d'accord, mais pourquoi écrire ? Et pourquoi le me
 
 Écrire est un bon exercice pour mettre à plat ces idées et structurer sa pensée. Mais également pour prendre le temps de mûrir des idées, de formuler et reformuler. Une fois une idée claire et réfléchie, il est plus simple de la communiquer, particulièrement à l'oral (en plus d'aider à mémoriser). Même si ça ne mène à rien, écrire permet d'approfondir des concepts et de faire progresser nos points de vue.  
 
-2. ## Pour améliorer mon écriture
+2. ## Améliorer mon écriture
 
 Ça paraît évident dit comme ça, mais il n'y a qu'en pratiquant, et en pratiquant souvent, que l'on peut s'améliorer. Et ceux, quel que soit le sujet ou la discipline. Le manque d'intérêt ainsi qu'un système scolaire plus que bancal ne m'ont pas particulièrement aidé en la matière, alors il est temps de (re)prendre l'habitude d'écrire. Au-delà de la simple grammaire et conjugaison, écrire permet aussi d'élargir son vocabulaire et sa compréhension de la langue. Enfin j'espère.
 
