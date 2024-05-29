@@ -17,7 +17,7 @@ L'idée d'écrire un petit blog personnel me trotte dans la tête depuis longtem
 
 Ce blog va me servir de plateforme pour mettre en avant mes compétences (techniques), de les faire évoluer avec le temps et d'expérimenter. Mais tout cela aurait pu être un portfolio. Alors pourquoi un *❀blog❀* ?
 
-Simplement pour écrire. Oui d'accord, mais pourquoi écrire ? Et pourquoi le mettre sur internet, aux yeux de tous ? Pour y répondre, j'ai préparé une liste à puce (la sixième va vous surprendre) :
+Simplement pour écrire. Oui d'accord, mais pourquoi écrire ? Et pourquoi le mettre sur internet, aux yeux de tous ? Pour y répondre, j'ai préparé une liste (le dernier va vous surprendre) :
 
 ## Structurer ma pensée
 
