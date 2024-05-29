@@ -30,6 +30,7 @@ Simplement pour écrire. Oui d'accord, mais pourquoi écrire ? Et pourquoi le me
 ## 3. Découvrir mon style
 
 Je suis persuadé que quand je relirais ces premiers articles, d'ici un an ou deux, je serais accablé de honte en me relisant. Je me vois déjà dire *"Mais comment j'ai pu pondre un truc pareil"*, la tête entre les mains. Peu importe, et même mieux, tant mieux ! Cela signifiera que j'ai : *1.* continué à écrire, et *2.* progressé au point de voir des erreurs que je ne perçois pas maintenant.\
+\
 En attendant, je vais essayer des choses. Quel ton je devrais avoir ? Lequel me convient le mieux ? Sans doute beaucoup d'autres questions auxquelles je n'ai même pas idée pour l'instant et qui me viendrons naturellement d'ici là. Ou peut-être pas d'ailleurs. 
 
 ## 4. Développer des projets personnels
