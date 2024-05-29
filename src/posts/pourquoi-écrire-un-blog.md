@@ -5,7 +5,7 @@ description: C'est bien beau de faire un blog, mais pour quoi faire ? Eh bien
   répondue.
 tags:
   - post
-  - meta
+  - Meta
 date: 2024-05-29T22:05:00.000Z
 image: /assets/img/uploads/bruce.jpg
 imageAlt: L'acteur Jim Carrey dans le film 'bruce tout puissant', écrivant sur
