@@ -631,6 +631,14 @@ footer a.button::after {
 }
 
 
+/*--------- 404 ---------*/
+.error-message {
+    font-size: var(--text-size-heading-1);
+    -webkit-text-stroke: 1px var(--text-color);
+    color: transparent;
+}
+
+
 /*--------- Classes utilitaires ---------*/
 .relative {
     position: relative;
