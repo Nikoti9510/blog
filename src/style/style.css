@@ -631,9 +631,10 @@ footer a.button::after {
 }
 
 
-/*--------- 404 ---------*/
+/*--------- Page 404 ---------*/
 .error-message {
     font-size: var(--text-size-heading-1);
+    font-family: var(--title-font);
     -webkit-text-stroke: 1px var(--text-color);
     color: transparent;
 }
