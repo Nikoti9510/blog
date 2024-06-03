@@ -18,7 +18,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/_redirects');
 
     eleventyConfig.addFilter("postDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+        const options = { year: "numeric", month: "long", day: "2-digit" };
+        return new Date(dateObj).toLocaleDateString("fr-FR", options);
+        // return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
     return {
