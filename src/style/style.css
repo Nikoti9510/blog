@@ -604,6 +604,9 @@ html[data-theme="light"] .post-nav__link {
 body footer:has(.sep) {
     margin-block-start: var(--space-regions);
 }
+footer {
+    margin-block-end: var(--space-gutter);
+}
 footer > * {
     --flow-space: var(--space-gutter-s);
 } 
