@@ -23,19 +23,6 @@ module.exports = function(eleventyConfig) {
         // return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
-    // Import prior to `module.exports` within `.eleventy.js`
-    const slugify = require("slugify");
-    eleventyConfig.addFilter("slug", (str) => {
-        if (!str) {
-            return;
-        }
-        return slugify(str, {
-            lower: true,
-            strict: true,
-            remove: /["]/g,
-         });
-    });
-
     return {
         dir: {
             input: "src",

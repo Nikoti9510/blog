@@ -10,10 +10,9 @@ collections:
     label: "Article"
     folder: "/src/posts"
     create: true
-    slug: "{{slug}}"
+    # slug: "{{slug}}"
     fields: 
       - { label: "Titre", name: "title", widget: "string" }
-      - { label: "url", name: "slug", widget: "string" }
       - { label: "Descritpion", name: "description", widget: "string" }
       - { label: "Categories", name: "tags", widget: "list", default: ["post"] }
       - { label: "Date", name: "date", widget: "datetime" }

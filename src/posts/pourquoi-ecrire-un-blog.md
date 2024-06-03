@@ -1,6 +1,5 @@
 ---
 title: Pourquoi écrire (un blog) ?
-slug: pourquoi-ecrire-un-blog
 description: C'est bien beau de faire un blog, mais pour quoi faire ? Eh bien
   c'est une excellente question, mais ne suis pas sûr qu'elle soit vite
   répondue.

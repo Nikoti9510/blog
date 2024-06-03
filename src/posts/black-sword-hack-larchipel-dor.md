@@ -1,5 +1,6 @@
 ---
 title: Black Sword Hack - l'archipel d'or
+slug: black-sword-hack-l-archipel-d-or
 description: Une ébauche de cadre de campagne pour Black Sword Hack de Kobayashi.
 tags:
   - post
