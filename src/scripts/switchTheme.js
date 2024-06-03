@@ -34,6 +34,10 @@ function updateThemeOnHtmlEl({ theme }) {
   
 /* fonction principale, au chargement de la page */
 function switchColor(){
+    /* ajoute un id de l'url de la page dans le body */
+    let url = window.location.pathname.split("/").join("");
+    document.body.id = url;
+
     /* récupération des éléments */
     const buttons = document.querySelectorAll("[data-theme-toggle]");
     const localStorageTheme = localStorage.getItem("theme");

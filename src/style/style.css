@@ -598,6 +598,9 @@ html[data-theme="light"] .post-nav__link {
 
 
 /*--------- Footer ---------*/
+#contact footer a.button {
+    display: none;
+}
 body footer:has(.sep) {
     margin-block-start: var(--space-regions);
 }
@@ -610,7 +613,6 @@ footer a.button {
     --button-text-size: var(--text-size-heading-3);
     --button-bg: var(--accent); 
     --button-text-color: var(--gris-900);
-
     width: 100%;
     text-align: center;
     padding-block: var(--button-padding);
