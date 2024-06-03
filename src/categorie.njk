@@ -8,7 +8,7 @@ pagination:
   filter:
     - post
     - all
-permalink: /categorie/{{ tag }}/
+permalink: /categorie/{{ tag | slugify }}/
 ---
 
 <main class="content-grid flow categorie">
