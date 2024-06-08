@@ -2,7 +2,7 @@
 title: "500 objets sans importances pour du post-apocalyptique "
 description: Vous venez de rentrer dans un bâtiment en ruine, la horde de zombie
   semble vous avoir enfin lâché les basques. Pourquoi ne pas fouiller un peu les
-  lieux ? Lançons 1d500.
+  lieux ? Lançez 1d500.
 tags:
   - post
   - JDR
@@ -12,15 +12,13 @@ imageAlt: Couleur d'un bâtiment en ruine, un empilement de détritus dans la lu
 ---
 # 500 objets sans importances pour du post-apocalyptique
 
-Une liste de 500 objets pouvant être trouvés dans des ruines puantes et obscures d'un monde détruit. Vos joueurs pourront trouver des traces du monde d'antan, des signes perturbants de la présence des résidents actuels, et peut être quelques objets qui pourraient bien leurs servir, avec un peu d'imagination. 
+Une liste de 500 objets pouvant être trouvés dans des ruines sales et obscures d'un monde détruit. Vos joueurs pourront trouver des traces du monde d'antan, des signes perturbants de la présence des résidents actuels, et peut être quelques objets qui pourraient bien leurs servir, avec un peu d'imagination. 
 
 Vous pouvez utiliser cette collection dans n'importe quel système de jeu. Accorder simplement un avantage ou une réussite automatique au joueur qui utilise un objet de manière créative, ou laisser les joueurs décorer leurs personnages avec les babioles puantes des décombres. 
 
 > ***Comment lancer 1d500 :*** \
 > Commencez par lancer 1d10, et attribuez le résultat de la façon suivante *\[0,1 = 1 | 2,3 = 2 | 4,5 = 3 | 6,7 = 4 | 8,9 = 5]*. Ce résultat correspond à la centaine. Ensuite, lancer 1d100 pour déterminer le reste du lancé. \
 > Exemple : Le d10 donne 3, on prend donc 2 pour la centaine. Le d100 donne 12, on a donc obtenu 212 sur le d500, un *collier de capsules de bouteilles*. Génial.
-
-
 
 ## 1d500 objets
 
