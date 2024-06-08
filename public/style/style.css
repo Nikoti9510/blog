@@ -524,15 +524,14 @@ figcaption {
     padding-block-start: calc(var(--space-gutter-s) / 2);
 } 
 .post :is(ol, ul) > * + * {
-    margin-block-start: var(--ul-margin, var(--space-gutter-s));
+    margin-block-start: var(--ul-margin, var(--space-gutter-3xs));
 }
 .post :is(ol, ul) > *::marker {
     color: var(--old-gold);
 }
 .post blockquote {
-    font-size: var(--text-size-big);
-    padding-inline-start: var(--space-gutter-s);
-    border-inline-start: solid var(--space-gutter-s) var(--accent);
+    padding-inline-start: calc(var(--space-gutter-s) / 2);
+    border-inline-start: solid calc(var(--space-gutter-s) / 2) var(--accent);
 }
 
 
@@ -603,6 +602,9 @@ html[data-theme="light"] .post-nav__link {
 }
 body footer:has(.sep) {
     margin-block-start: var(--space-regions);
+}
+footer {
+    margin-block-end: var(--space-gutter);
 }
 footer > * {
     --flow-space: var(--space-gutter-s);
