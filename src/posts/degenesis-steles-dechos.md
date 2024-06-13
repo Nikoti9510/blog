@@ -1,5 +1,5 @@
 ---
-title: Degenesis -  stèles d'échos
+title: Degenesis - stèles d'échos
 description: "Expérimentation autour de l'article de Mindstorm : NESTED MONSTER
   HIT DICE, appliqué à Degenesis."
 tags:
