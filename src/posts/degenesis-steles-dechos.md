@@ -1,10 +1,10 @@
 ---
-title: Degenesis stèles d'échos
+title: Degenesis -  stèles d'échos
 description: "Expérimentation autour de l'article de Mindstorm : NESTED MONSTER
   HIT DICE, appliqué à Degenesis."
 tags:
   - post
-  - jdr
+  - JDR
 date: 2024-06-13T22:35:00.000Z
 image: /assets/img/uploads/degenesis-steles_echos.jpg
 imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka. "
