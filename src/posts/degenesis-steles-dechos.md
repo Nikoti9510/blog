@@ -26,8 +26,9 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
    * *Benedikt Kohl - Spitalier - Préserviste*\
      épée préservalis en vant, Benedikt transperse la brume dans un silence de mort. Elman et Mara sont sur l'autre versant. Il enjambe les obstacles avec une précision chirurgicale. Les premiers filaments de mycélium s'accroches à ses bottes. Le talque sur son crane chauve vibre et ondule. Un Lesnje s'est retourné, la diversion à fait son œuvre, à lui de faire le sien. Il lui reste encore trente mètre, il accélère. Les premiers mots tribaux atteignes son esprit, les enseignements de Krangler retentissent dans son esprit. Il avance, inflexible. 
 4. **Compétences et statistiques**\
-         <u>*Lesnje*</u> : \
-         *Mouvements :* 15m\
-         *Veux :* Protéger le champ de spore mère et l'harmonie de la matrice sonore. \
-         *Rage :* Bruits dissonants\
-         *Peur :* Perdre son masque
+        <u>*Lesnje*</u> : \
+        *Mouvements :* 15m\
+        *Veux :* Protéger le champ de spore mère et l'harmonie de la matrice sonore. \
+        *Rage :* Bruits dissonants\
+        *Peur :* Perdre son masque\
+   <table><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché;</td><td>6d</td></tr><tr><td>Agilité;</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr><tr><td>Esquive</td><td>2</td></tr></tbody></table>
