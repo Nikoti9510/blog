@@ -524,7 +524,8 @@ figcaption {
     padding-block-start: calc(var(--space-gutter-s) / 2);
 } 
 .post :is(ol, ul) > * + * {
-    margin-block-start: var(--ul-margin, var(--space-gutter-3xs));
+    --ul-margin: var(--space-3xs);
+    margin-block-start: var(--ul-margin, var(--space-gutter-s));
 }
 .post :is(ol, ul) > *::marker {
     color: var(--old-gold);
