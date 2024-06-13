@@ -29,5 +29,70 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
          *Veux :* Protéger le champ de spore mère et l'harmonie de la matrice sonore. \
          *Rage :* Bruits dissonants\
          *Peur :* Perdre son masque \
-   `sdfsdfsdfsdf`
-5. ``
+   `<table>`
+
+   `  <tr>`
+
+   `    <td>Instinct</td>`
+
+   `    <td>8d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Psyché</td>`
+
+   `    <td>6d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Agilité</td>`
+
+   `    <td>5d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Physique</td>`
+
+   `    <td>7d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Intellect</td>`
+
+   `    <td>4d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Charisme</td>`
+
+   `    <td>4d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Défense passive</td>`
+
+   `    <td>3d</td>`
+
+   `  </tr>`
+
+   `  <tr>`
+
+   `    <td>Esquive</td>`
+
+   `    <td>2</td>`
+
+   `  </tr>`
+
+   `</table>`
