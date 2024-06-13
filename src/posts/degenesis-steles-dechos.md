@@ -34,18 +34,16 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
 
 <table><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché</td><td>6d</td></tr><tr><td>Agilité</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr><tr><td>Esquive</td><td>2</td></tr></tbody></table>
 
-**❤** <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
-Ajoute +4d pour percevoir l'environnement dans un rayon de 100 mètre autour du Lesnje
+* **❤** <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
+  Ajoute +4d pour percevoir l'environnement dans un rayon de 100 mètre autour du Lesnje
 
-* 🔕🛡️ *Jet d'encre : (10HP)*\
-  Les câbles du scaphandre projettent un écran d'encre qui flotte dans l'air vibrant et obscurcit la vision. +2d à la défense passive pour 1 tour.
+  * 🔕🛡️ *Jet d'encre : (10HP)*\
+    Les câbles du scaphandre projettent un écran d'encre qui flotte dans l'air vibrant et obscurcit la vision. +2d à la défense passive pour 1 tour.
+* ⚡ <u>**Stèles d'échos**</u> : *(50HP | 4 Armures)* 
 
-⚡ <u>**Stèles d'échos**</u> : *(50HP | 4 Armures)* 
-
-* 🛡️ *Résonnance : (25HP)* \
-  Tant que les stèles sont debout, elles amplifient la matrice sonore et appliquent un malus de -2D aux attaquants. 
-* 🏹⚡ *Onde sonore : (au moins 2 Lesnjes encore en vie)*\
-  Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
-
-*🗡️*<u>**Cisailles**</u> : *(8HP | 1 Armures)* \
-Le Lesnje porte à la main une cisaille rouillée mais particulièrement menacante. Elle est fixée à sa main par un assemblage de cordes et de câbles. Inflige 1d6+2 blessures superficielles.
+  * 🛡️ *Résonnance : (25HP)* \
+    Tant que les stèles sont debout, elles amplifient la matrice sonore et appliquent un malus de -2D aux attaquants. 
+  * 🏹⚡ *Onde sonore : (au moins 2 Lesnjes encore en vie)*\
+    Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
+* *🗡️*<u>**Cisailles**</u> : *(8HP | 1 Armures)* \
+  Le Lesnje porte à la main une cisaille rouillée mais particulièrement menacante. Elle est fixée à sa main par un assemblage de cordes et de câbles. Inflige 1d6+2 blessures superficielles.
