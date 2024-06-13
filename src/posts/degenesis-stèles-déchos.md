@@ -1,5 +1,5 @@
 ---
-title: Degenesis - Stèles d'échos
+title: Degenesis-steles-echos
 description: "Expérimentation autour de l'article de Mindstorm : NESTED MONSTER
   HIT DICE, appliqué à Degenesis."
 tags:
@@ -9,6 +9,8 @@ date: 2024-06-13T22:35:00.000Z
 image: /assets/img/uploads/degenesis-steles_echos.jpg
 imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka. "
 ---
+# Degenesis - Stèles d'échos
+
 1. **Lieu**\
    Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basaltes abruptes. Les grosses gouttes humidifient les étranges stèles d'échos qui percent les escarpements, entre les saillies rocheuses et les conifères. L'eau ruisselles et de curieux reflets apparaissent sur les fasses encore illuminées par les derniers rayons de soleil. La brume déjà lourde nappe le fond de la vallée, et les stèles la transperce, comme de multiples aillerons de squales, tournant autour du champs de spore mère caché sous les nappes de brouillards.
 2. **Antagonistes**\
