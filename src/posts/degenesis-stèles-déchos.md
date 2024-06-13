@@ -23,4 +23,11 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
      Les cheveux couleurs ébéne de Mara danses devants ses yeux. Elle suit le blafard comme son ombre, le talisman de sa mère est niché au creux de sa main. Le chant d'Elman raisonne dans sa poitrine, mais elle ne l'écoute pas. Elle se focalise sur la rage, le bouillonnement qui grandit. Les phalanges de sa main libre blanchissent alors qu'elle saisie son cimeterre. 
    * *Benedikt Kohl - Spitalier - Préserviste*\
      épée préservalis en vant, Benedikt transperse la brume dans un silence de mort. Elman et Mara sont sur l'autre versant. Il enjambe les obstacles avec une précision chirurgicale. Les premiers filaments de mycélium s'accroches à ses bottes. Le talque sur son crane chauve vibre et ondule. Un Lesnje s'est retourné, la diversion à fait son œuvre, à lui de faire le sien. Il lui reste encore trente mètre, il accélère. Les premiers mots tribaux atteignes son esprit, les enseignements de Krangler retentissent dans son esprit. Il avance, inflexible. 
-4. **Compétences et statistiques**
+4. **Compétences et statistiques**\
+         <u>*Lesnje*</u> : \
+         *Mouvements :* 15m\
+         *Veux :* Protéger le champ de spore mère et l'harmonie de la matrice sonore. \
+         *Rage :* Bruits dissonants\
+         *Peur :* Perdre son masque \
+   `sdfsdfsdfsdf`
+5. ``
