@@ -524,11 +524,13 @@ figcaption {
     padding-block-start: calc(var(--space-gutter-s) / 2);
 } 
 .post :is(ol, ul) > * + * {
-    --ul-margin: var(--space-3xs);
     margin-block-start: var(--ul-margin, var(--space-gutter-s));
 }
 .post :is(ol, ul) > *::marker {
     color: var(--old-gold);
+}
+.post :is(ol, ul) :is(ol, ul) {
+    margin-inline-start: var(--ul-margin, var(--space-gutter-s));
 }
 .post blockquote {
     padding-inline-start: calc(var(--space-gutter-s) / 2);
