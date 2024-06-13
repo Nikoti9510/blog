@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog du Marmonneur</title>
+<title>Degenesis-steles-echos</title>
 <link rel="icon" type="image/x-icon" href="/assets/img/lazy-jack-Batten-John-Dickson-face-fav.jpg">
 <link rel="stylesheet" href="/style/font.css">
 <link rel="stylesheet" href="/style/style.css">
 <script src="/scripts/switchTheme.js"></script>
 <script src="/scripts/menu.js" defer></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="/scripts/postNav.js"></script>
 </head>
 <body class="flow">
     <header class="header content-grid">
@@ -150,105 +151,117 @@
 </header>
 
 
-     
-
-<main class="content-grid flow">
-    <section class="hero flow">
-        <figure class="hero__img">
-            <img src="/assets/img/lazy-jack-Batten-John-Dickson-face.jpg" alt="illustration: lazy jack, de Batten John Dickson."/>
+    <main class="content-grid flow post relative">
+        <aside class="post__post-nav">
+            <nav>
+                <ul class="flow">
+                    <li class="post-nav__item">
+                        <a class="post-nav__link" href="">[Retour au debut]</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <a href="" onclick="window.history.go(-1); return false;" class="post__retour">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="32" width="32">
+                <path d="m28.95,19.81l1.53,0l0,3.05l-1.53,0l0,-3.05z"/>
+                <path d="m28.95,9.14l1.53,0l0,3.05l-1.53,0l0,-3.05z"/>
+                <path d="m27.43,22.86l1.52,0l0,3.04l-1.52,0l0,-3.04z"/>
+                <path d="m27.43,6.09l1.52,0l0,3.05l-1.52,0l0,-3.05z"/>
+                <path d="m25.9,25.9l1.53,0l0,1.53l-1.53,0l0,-1.53z"/>
+                <path d="m25.9,4.57l1.53,0l0,1.52l-1.53,0l0,-1.52z"/>
+                <path d="m22.86,27.43l3.04,0l0,1.52l-3.04,0l0,-1.52z"/>
+                <path d="m24.38,12.19l-1.52,0l0,-1.52l-9.15,0l0,-3.05l-1.52,0l0,1.52l-1.52,0l0,1.53l-1.53,0l0,1.52l-1.52,0l0,1.52l-1.53,0l0,1.53l1.53,0l0,1.52l1.52,0l0,1.53l1.53,0l0,1.52l1.52,0l0,1.52l1.52,0l0,-3.04l6.1,0l0,1.52l1.52,0l0,1.52l-1.52,0l0,1.53l-1.52,0l0,1.52l3.04,0l0,-1.52l3.05,0l0,-1.53l1.52,0l0,-7.62l-1.52,0l0,-1.52z"/>
+                <path d="m22.86,3.05l3.04,0l0,1.52l-3.04,0l0,-1.52z"/>
+                <path d="m19.81,28.95l3.05,0l0,1.53l-3.05,0l0,-1.53z"/>
+                <path d="m19.81,1.52l3.05,0l0,1.53l-3.05,0l0,-1.53z"/>
+                <path d="m12.19,30.48l7.62,0l0,1.52l-7.62,0l0,-1.52z"/>
+                <path d="m12.19,0l7.62,0l0,1.52l-7.62,0l0,-1.52z"/>
+                <path d="m9.14,28.95l3.05,0l0,1.53l-3.05,0l0,-1.53z"/>
+                <path d="m9.14,1.52l3.05,0l0,1.53l-3.05,0l0,-1.53z"/>
+                <path d="m6.09,27.43l3.05,0l0,1.52l-3.05,0l0,-1.52z"/>
+                <path d="m6.09,3.05l3.05,0l0,1.52l-3.05,0l0,-1.52z"/>
+                <path d="m4.57,25.9l1.52,0l0,1.53l-1.52,0l0,-1.53z"/>
+                <path d="m4.57,4.57l1.52,0l0,1.52l-1.52,0l0,-1.52z"/>
+                <path d="m3.05,22.86l1.52,0l0,3.04l-1.52,0l0,-3.04z"/>
+                <path d="m3.05,6.09l1.52,0l0,3.05l-1.52,0l0,-3.05z"/>
+                <path d="m1.52,19.81l1.53,0l0,3.05l-1.53,0l0,-3.05z"/>
+                <path d="m1.52,9.14l1.53,0l0,3.05l-1.53,0l0,-3.05z"/>
+                <path d="m0,12.19l1.52,0l0,7.62l-1.52,0l0,-7.62z"/>
+                <path d="m30.44,12.17l1.52,0l0,7.62l-1.52,0l0,-7.62z"/>
+            </svg>
+            <span class="button">Retour</span>
+        </a>
+        <figure class="">
+            <img class="post__image-intro" src="/assets/img/uploads/degenesis-steles_echos.jpg" alt="Illustration d&#39;un Lesnje entre des stèles d&#39;échos, par sixmorevodka. "/>
         </figure>
-        <h1>Le blog du marmonneur</h1>
-        <p>Un blog pour parler de mes hobbies. Du Webdesign, du jeu de rôle, de la figurine, du jeu vidéo et sûrement d'autres choses encore. Bref, encore un autre blog d'homme blanc trentenaire. Et non, je n'ai pas de podcast, pas la peine d'insister.</p>
-    </section>
-    <section class="sep flow">
-        <h2># Les [03] derniers articles</h2>
-        <div class="flow">
-            
-                 
-                    <article class="post-preview">
-    <section class="post-preview__content flow">
-        <a href="/posts/degenesis-stèles-déchos/">
-            <h3 class="post-preview__content--titre">Degenesis-steles-echos</h3>
-        </a>
-        <p class="post-preview__content--description">Expérimentation autour de l&#39;article de Mindstorm : NESTED MONSTER HIT DICE, appliqué à Degenesis.</p>
-        
-        <div class="post-preview__content--tags">
-            <ul class="tags flex">
-                
-                    
-                        
-                    
-                
-                    
-                        <li class="tags__tag">jdr</li>
-                    
-                
-            </ul>
-        </div>
-        <div class="flex">
-            <span class="post-preview__content--date">14 juin 2024</span>
-            <a href="/posts/degenesis-stèles-déchos/" class="button post-preview__content--button">[ Lire la suite ]</a>
-        </div>
-    </section>
-</article>
-                 
-                    <article class="post-preview">
-    <section class="post-preview__content flow">
-        <a href="/posts/500-objets-sans-importances-pour-du-post-apocalyptique/">
-            <h3 class="post-preview__content--titre">500 objets sans importances pour du post-apocalyptique </h3>
-        </a>
-        <p class="post-preview__content--description">Vous venez de rentrer dans un bâtiment en ruine, la horde de zombie semble vous avoir enfin lâché les basques. Pourquoi ne pas fouiller un peu les lieux ? Lançez 1d500.</p>
-        
-        <div class="post-preview__content--tags">
-            <ul class="tags flex">
-                
-                    
-                        
-                    
-                
-                    
-                        <li class="tags__tag">JDR</li>
-                    
-                
-            </ul>
-        </div>
-        <div class="flex">
-            <span class="post-preview__content--date">08 juin 2024</span>
-            <a href="/posts/500-objets-sans-importances-pour-du-post-apocalyptique/" class="button post-preview__content--button">[ Lire la suite ]</a>
-        </div>
-    </section>
-</article>
-                 
-                    <article class="post-preview">
-    <section class="post-preview__content flow">
-        <a href="/posts/pourquoi-ecrire-un-blog/">
-            <h3 class="post-preview__content--titre">Pourquoi écrire (un blog) ?</h3>
-        </a>
-        <p class="post-preview__content--description">C&#39;est bien beau de faire un blog, mais pour quoi faire ? Eh bien c&#39;est une excellente question, mais ne suis pas sûr qu&#39;elle soit vite répondue.</p>
-        
-        <div class="post-preview__content--tags">
-            <ul class="tags flex">
-                
-                    
-                        
-                    
-                
-                    
-                        <li class="tags__tag">Meta</li>
-                    
-                
-            </ul>
-        </div>
-        <div class="flex">
-            <span class="post-preview__content--date">30 mai 2024</span>
-            <a href="/posts/pourquoi-ecrire-un-blog/" class="button post-preview__content--button">[ Lire la suite ]</a>
-        </div>
-    </section>
-</article>
-                
-        </div>
-    </section>
-</main>
+        <h1>Degenesis - Stèles d'échos</h1>
+<ol>
+<li>
+<p><strong>Lieu</strong><br>
+Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basaltes abruptes. Les grosses gouttes humidifient les étranges stèles d'échos qui percent les escarpements, entre les saillies rocheuses et les conifères. L'eau ruisselles et de curieux reflets apparaissent sur les fasses encore illuminées par les derniers rayons de soleil. La brume déjà lourde nappe le fond de la vallée, et les stèles la transperce, comme de multiples aillerons de squales, tournant autour du champs de spore mère caché sous les nappes de brouillards.</p>
+</li>
+<li>
+<p><strong>Antagonistes</strong><br>
+Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement nus, leurs peaux pale et sale. Leurs pieds et mains griffus sont contusionnées et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandre complexes et lourds, à l'exception de leurs bouches aux dents pointus et noircis. Les casques sont posées sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutent et tourbillon dans les brumes à leurs passages.</p>
+</li>
+<li>
+<p><strong>Le groupe</strong></p>
+<ul>
+<li><em>Rika Wittwer - Hellvétique - Grenadière</em><br>
+Elle rampe dans la mousse grasse et humide derrière un monticule rocheux. Chaque mouvement est calme et mesuré. Son tympan droit lui fait mal et du sang séché colle ses cheveux court à son casque radio. Elle vérifie encore une fois la sécurité de son lance-grenade. Son harnais de reconnaissance est maculé de terre. Encore quelques mètre, et elle sera en position, juste sous cette grande stèle.</li>
+<li><em>Elman - Blafard - Solaire</em><br>
+Les dents d'Elman vibrent, il ressant la matrice sonore à travers ses pieds nus. Il avance vers le champ de spore, passant devant les séries de stèles d'échos. Les Lesnjes l'ont repérés depuis un moment déjà, ils l'écoutent. Sa bouche est sèche à force de parler, de crier, ses paroles chargées de double sens mnémétiques, frappant les cerveaux instinctifs des aberrants et les tenants à l'écart.</li>
+<li><em>Mara - Jehammétanne - Daliha</em><br>
+Les cheveux couleurs ébéne de Mara danses devants ses yeux. Elle suit le blafard comme son ombre, le talisman de sa mère est niché au creux de sa main. Le chant d'Elman raisonne dans sa poitrine, mais elle ne l'écoute pas. Elle se focalise sur la rage, le bouillonnement qui grandit. Les phalanges de sa main libre blanchissent alors qu'elle saisie son cimeterre.</li>
+<li><em>Benedikt Kohl - Spitalier - Préserviste</em><br>
+épée préservalis en vant, Benedikt transperse la brume dans un silence de mort. Elman et Mara sont sur l'autre versant. Il enjambe les obstacles avec une précision chirurgicale. Les premiers filaments de mycélium s'accroches à ses bottes. Le talque sur son crane chauve vibre et ondule. Un Lesnje s'est retourné, la diversion à fait son œuvre, à lui de faire le sien. Il lui reste encore trente mètre, il accélère. Les premiers mots tribaux atteignes son esprit, les enseignements de Krangler retentissent dans son esprit. Il avance, inflexible.</li>
+</ul>
+</li>
+<li>
+<p><strong>Compétences et statistiques</strong><br>
+<u><em>Lesnje</em></u> : <br>
+<em>Mouvements :</em> 15m<br>
+<em>Veux :</em> Protéger le champ de spore mère et l'harmonie de la matrice sonore. <br>
+<em>Rage :</em> Bruits dissonants<br>
+<em>Peur :</em> Perdre son masque <br>
+<code>&lt;table&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Instinct&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;8d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Psyché&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;6d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Agilité&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;5d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Physique&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;7d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Intellect&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;4d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Charisme&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;4d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Défense passive&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;3d&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>  &lt;tr&gt;</code></p>
+<p><code>    &lt;td&gt;Esquive&lt;/td&gt;</code></p>
+<p><code>    &lt;td&gt;2&lt;/td&gt;</code></p>
+<p><code>  &lt;/tr&gt;</code></p>
+<p><code>&lt;/table&gt;</code></p>
+</li>
+</ol>
+
+    </main>
     <footer class="content-grid flow">
     <section class="sep">
         <a href="/contact/" class="button">Pour discuter, c'est par là.</a> 
@@ -258,16 +271,5 @@
         <span>[V. 0.9]</span>
     </section>
 </footer>
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", (user) => {
-                if (!user) {
-                    window.netlifyIdentity.on("login", () => {
-                        document.location.href = "/admin/";
-                    });
-                }
-            });
-        }
-    </script>
 </body>
 </html>
