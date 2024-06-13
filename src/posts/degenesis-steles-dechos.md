@@ -13,7 +13,7 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
 
 
 
-intro 
+intro -> https://www.mindstormpress.com/nested-monster-hit-dice 
 
 
 
@@ -59,3 +59,7 @@ Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement n
     Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
 * *🗡️*<u>**Cisailles**</u> : *(8HP | 1 Armures)* \
   Le Lesnje porte à la main une cisaille rouillée mais particulièrement menaçante. Elle est fixée à sa main par un assemblage de cordes et de câbles. Inflige 1d6+2 blessures superficielles.
+
+
+
+> légende des symboles
