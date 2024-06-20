@@ -60,7 +60,6 @@ Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement n
 
 </div>
 
-> Légende : \
 > 🤎 : Point vital de l'adversaire, c'est lui qui doit être détruit pour vaincre . \
 > 👁️ : Cette élément n'est pas visible. Les joueurs peuvent apprendre son existence en se renseignant à l'avance, ou à leur dépend pendant l'affrontement.\
 > ⚡ : Compétence spéciale de l'adversaire. \
