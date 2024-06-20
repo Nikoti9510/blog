@@ -22,6 +22,8 @@ Vous pouvez utiliser cette collection dans n'importe quel système de jeu. Accor
 
 ## 1d500 objets
 
+<div class="ul-margin-small">
+
 1. vieux pneu de tracteur
 2. lunettes cerclées cassées
 3. scie à bois émoussée
@@ -522,3 +524,5 @@ Vous pouvez utiliser cette collection dans n'importe quel système de jeu. Accor
 498. bougeoir avec 1d6 bougies
 499. presse purée
 500. brouette
+
+</div>
