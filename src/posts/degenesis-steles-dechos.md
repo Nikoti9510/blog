@@ -17,11 +17,11 @@ intro -> https://www.mindstormpress.com/nested-monster-hit-dice
 
 
 
-## Lieu
+## Le lieu
 
 Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basaltes abruptes. Les grosses gouttes humidifient les étranges stèles d'échos qui percent les escarpements, entre les saillies rocheuses et les conifères. L'eau ruisselles et de curieux reflets apparaissent sur les fasses encore illuminées par les derniers rayons de soleil. La brume déjà lourde nappe le fond de la vallée, et les stèles la transperce, comme de multiples aillerons de squales, tournant autour du champs de spore mère caché sous les nappes de brouillards.
 
-## Antagonistes
+## Les antagonistes
 
 Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement nus, leurs peaux pale et sale. Leurs pieds et mains griffus sont contusionnées et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandre complexes et lourds, à l'exception de leurs bouches aux dents pointus et noircis. Les casques sont posées sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutent et tourbillon dans les brumes à leurs passages.  
 
@@ -44,9 +44,9 @@ Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement n
 *Rage :* Bruits dissonants\
 *Peur :* Perdre son masque
 
-<table><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché</td><td>6d</td></tr><tr><td>Agilité</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr><tr><td>Esquive</td><td>2</td></tr></tbody></table>
+<table class="flow-space__small"><thead><tr><th>Compétence</th><th>Valeur</th></tr></thead><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché</td><td>6d</td></tr><tr><td>Agilité</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr><tr><td>Esquive</td><td>2</td></tr></tbody></table>
 
-* **❤** <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
+* ❤ <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
   Ajoute +4d pour percevoir l'environnement dans un rayon de 100 mètre autour du Lesnje
 
   * 🔕🛡️ *Jet d'encre : (10HP)*\
@@ -59,7 +59,5 @@ Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement n
     Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
 * *🗡️*<u>**Cisailles**</u> : *(8HP | 1 Armures)* \
   Le Lesnje porte à la main une cisaille rouillée mais particulièrement menaçante. Elle est fixée à sa main par un assemblage de cordes et de câbles. Inflige 1d6+2 blessures superficielles.
-
-
 
 > légende des symboles
