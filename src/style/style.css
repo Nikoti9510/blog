@@ -531,7 +531,7 @@ figcaption {
     padding-block-start: calc(var(--space-gutter-s) / 2);
 } 
 .post .ul-margin-small :is(ol, ul) > * + * {
-    --ul-margin: var(--space-2xs);
+    --ul-margin: 0;
 }
 .post :is(ol, ul) > * + * {
     margin-block-start: var(--ul-margin, var(--space-gutter-s));
