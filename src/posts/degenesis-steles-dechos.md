@@ -11,47 +11,47 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
 ---
 # Degenesis - Stèles d'échos
 
-intro -> https://www.mindstormpress.com/nested-monster-hit-dice 
+Intro à écrire \
+<a href="https://www.mindstormpress.com/nested-monster-hit-dice" target="_blank">nested-monster-hit-dice</a>
 
-## Le lieu
+## Le lien
 
 Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basaltes abruptes. Les grosses gouttes humidifient les étranges stèles d'échos qui percent les escarpements, entre les saillies rocheuses et les conifères. L'eau ruisselles et de curieux reflets apparaissent sur les fasses encore illuminées par les derniers rayons de soleil. La brume déjà lourde nappe le fond de la vallée, et les stèles la transperce, comme de multiples aillerons de squales, tournant autour du champs de spore mère caché sous les nappes de brouillards.
 
 ## Les antagonistes
 
-Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement nus, leurs peaux pale et sale. Leurs pieds et mains griffus sont contusionnées et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandre complexes et lourds, à l'exception de leurs bouches aux dents pointus et noircis. Les casques sont posées sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutent et tourbillon dans les brumes à leurs passages.  
+Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement nus, leurs peaux pales et sales. Leurs pieds et mains griffus sont contusionnées et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandres complexes et lourds, à l'exception de leurs bouches aux dents pointus et noircis. Les casques sont posées sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutent et tourbillon dans les brumes à leurs passages.  
 
 ## Le groupe
 
 * *Rika Wittwer - Hellvétique - Grenadière*\
   Elle rampe dans la mousse grasse et humide derrière un monticule rocheux. Chaque mouvement est calme et mesuré. Son tympan droit lui fait mal et du sang séché colle ses cheveux court à son casque radio. Elle vérifie encore une fois la sécurité de son lance-grenade. Son harnais de reconnaissance est maculé de terre. Encore quelques mètre, et elle sera en position, juste sous cette grande stèle.
 * *Elman - Blafard - Solaire*\
-  Les dents d'Elman vibrent, il ressant la matrice sonore à travers ses pieds nus. Il avance vers le champ de spore, passant devant les séries de stèles d'échos. Les Lesnjes l'ont repérés depuis un moment déjà, ils l'écoutent. Sa bouche est sèche à force de parler, de crier, ses paroles chargées de double sens mnémétiques, frappant les cerveaux instinctifs des aberrants et les tenants à l'écart.   
+  Les dents d'Elman vibrent, il ressent la matrice sonore à travers ses pieds nus. Il avance vers le champ de spore, passant devant les séries de stèles d'échos. Les Lesnjes l'ont repérés depuis un moment déjà, ils l'écoutent. Sa bouche est sèche à force de parler, de crier, ses paroles chargées de double sens mnémétiques, frappant les cerveaux instinctifs des aberrants et les tenants à l'écart.   
 * *Mara - Jehammétanne - Daliha*\
-  Les cheveux couleurs ébéne de Mara danses devants ses yeux. Elle suit le blafard comme son ombre, le talisman de sa mère est niché au creux de sa main. Le chant d'Elman raisonne dans sa poitrine, mais elle ne l'écoute pas. Elle se focalise sur la rage, le bouillonnement qui grandit. Les phalanges de sa main libre blanchissent alors qu'elle saisie son cimeterre. 
+  Les cheveux couleurs ébène de Mara danses devants ses yeux. Elle suit le blafard comme son ombre, le talisman de sa mère est niché au creux de sa main. Le chant d'Elman raisonne dans sa poitrine, mais elle ne l'écoute pas. Elle se focalise sur la rage, le bouillonnement qui grandit. Les phalanges de sa main libre blanchissent alors qu'elle saisie son cimeterre. 
 * *Benedikt Kohl - Spitalier - Préserviste*\
-  épée préservalis en vant, Benedikt transperse la brume dans un silence de mort. Elman et Mara sont sur l'autre versant. Il enjambe les obstacles avec une précision chirurgicale. Les premiers filaments de mycélium s'accroches à ses bottes. Le talque sur son crane chauve vibre et ondule. Un Lesnje s'est retourné, la diversion à fait son œuvre, à lui de faire le sien. Il lui reste encore trente mètre, il accélère. Les premiers mots tribaux atteignes son esprit, les enseignements de Krangler retentissent dans son esprit. Il avance, inflexible. 
+  Épée préservalis en avant, Benedikt transperse la brume dans un silence de mort. Elman et Mara sont sur l'autre versant. Il enjambe les obstacles avec une précision chirurgicale. Les premiers filaments de mycélium s'accroches à ses bottes. Le talque sur son crane chauve vibre et ondule. Un Lesnje s'est retourné, la diversion à fait son œuvre, à lui de faire le sien. Il lui reste encore trente mètre, il accélère. Les premiers mots tribaux atteignes son esprit, les enseignements de Krangler retentissent dans son esprit. Il avance, inflexible. 
 
 ## Compétences et statistiques
 
 <u>***Lesnje***</u> : \
-*Mouvements :* 15m\
 *Veux :* Protéger le champ de spore mère et l'harmonie de la matrice sonore. \
 *Rage :* Bruits dissonants\
 *Peur :* Perdre son masque
 
-<table class="flow-space__small"><thead><tr><th>Compétence</th><th>Valeur</th></tr></thead><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché</td><td>6d</td></tr><tr><td>Agilité</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr><tr><td>Esquive</td><td>2</td></tr></tbody></table>
+<table class="flow-space__small"><thead><tr><th>Compétence</th><th>Valeur</th></tr></thead><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché</td><td>6d</td></tr><tr><td>Agilité</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr></tbody></table>
 
 <div class="no-bullet">
 
-* ❤ <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
+* 🤎 <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
   Ajoute +4d pour percevoir l'environnement dans un rayon de 100 mètre autour du Lesnje
 
-  * 🔕🛡️ *Jet d'encre : (10HP)*\
+  * 👁️🛡️ *Jet d'encre : (10HP)*\
     Les câbles du scaphandre projettent un écran d'encre qui flotte dans l'air vibrant et obscurcit la vision. +2d à la défense passive pour 1 tour.
 * ⚡ <u>**Stèles d'échos**</u> : *(50HP | 4 Armures)* 
 
-  * 🛡️ *Résonnance : (25HP)* \
+  * ⚡ *Résonnance : (tant que les stèles sont intactes)*\
     Tant que les stèles sont debout, elles amplifient la matrice sonore et appliquent un malus de -2D aux attaquants. 
   * 🏹⚡ *Onde sonore : (au moins 2 Lesnjes encore en vie)*\
     Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
@@ -60,4 +60,10 @@ Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement n
 
 </div>
 
-> légende des symboles
+> Légende : \
+> 🤎 : Point vital de l'adversaire, c'est lui qui doit être détruit pour vaincre . \
+> 👁️ : Cette élément n'est pas visible. Les joueurs peuvent apprendre son existence en se renseignant à l'avance, ou à leur dépend pendant l'affrontement.\
+> ⚡ : Compétence spéciale de l'adversaire. \
+> 🛡️ : Protection. Il faut la détruire en premier pour attaquer le(s) point(s) vital(aux) de la créature.\
+> 🏹 : Attaque à distance.\
+> 🗡️ : Attaque en corps à corps.
