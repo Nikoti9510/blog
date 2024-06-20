@@ -11,11 +11,7 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
 ---
 # Degenesis - Stèles d'échos
 
-
-
 intro -> https://www.mindstormpress.com/nested-monster-hit-dice 
-
-
 
 ## Le lieu
 
@@ -46,6 +42,8 @@ Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement n
 
 <table class="flow-space__small"><thead><tr><th>Compétence</th><th>Valeur</th></tr></thead><tbody><tr><td>Instinct</td><td>8d</td></tr><tr><td>Psyché</td><td>6d</td></tr><tr><td>Agilité</td><td>5d</td></tr><tr><td>Physique</td><td>7d</td></tr><tr><td>Intellect</td><td>4d</td></tr><tr><td>Charisme</td><td>4d</td></tr><tr><td>Défense passive</td><td>3d</td></tr><tr><td>Esquive</td><td>2</td></tr></tbody></table>
 
+<div class="no-bullet">
+
 * ❤ <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
   Ajoute +4d pour percevoir l'environnement dans un rayon de 100 mètre autour du Lesnje
 
@@ -59,5 +57,7 @@ Trois Dushani, des Lesnhe, protègent le champ de spore. Ils sont entièrement n
     Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
 * *🗡️*<u>**Cisailles**</u> : *(8HP | 1 Armures)* \
   Le Lesnje porte à la main une cisaille rouillée mais particulièrement menaçante. Elle est fixée à sa main par un assemblage de cordes et de câbles. Inflige 1d6+2 blessures superficielles.
+
+</div>
 
 > légende des symboles
