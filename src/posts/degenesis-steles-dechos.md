@@ -20,7 +20,7 @@ De cette façon, les joueurs peuvent prioriser certains points vitaux ou straté
 
 Personnellement, j'utilise ce système dès que je veux proposer un affrontement qui sort de l'ordinaire à mes joueurs. Je ne pense pas en effet qu'il soit adapté pour tout les combats dans lesquels vos joueurs vont se retrouver. Un loup galeux ne présente pas un intérêt suffisant pour en détailler les mécaniques outre mesure, alors  qu'une cocatrix traumatisant les vallons alentours depuis des semaines, oui.  
 
-J'avais envie d'écrire un peu pour le jeu <a href="https://degenesis.com/" target="_blank">Degenesis</a>, et je me suis dit que ça serait un bon prétexte pour illustrer la manière dont j'utiliser la méthode de Mindstrom, tout en découvrant un peu les Balkans, que je n'ai pas encore eu l'occasion d'explorer en jeu avec mes joueurs.  
+J'avais envie d'écrire un peu pour le jeu <a href="https://degenesis.com/" target="_blank">Degenesis</a>, et je me suis dit que ça serait un bon prétexte pour illustrer la manière dont j'utilise la méthode de Mindstrom, tout en découvrant un peu les Balkans, que je n'ai pas encore eu l'occasion d'explorer en jeu avec mes joueurs.  
 
 ## Le lien
 
@@ -74,7 +74,7 @@ Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement n
 
 </div>
 
-> 🤎 : Point vital de l'adversaire, c'est lui qui doit être détruit pour vaincre . \
+> 🤎 : Point vital de l'adversaire, c'est lui qui doit être détruit pour vaincre l'adversaire. \
 > 👁️ : Cette élément n'est pas visible. Les joueurs peuvent apprendre son existence en se renseignant à l'avance, ou à leur dépend pendant l'affrontement.\
 > ⚡ : Compétence spéciale de l'adversaire. \
 > 🏹 : Attaque à distance.\
