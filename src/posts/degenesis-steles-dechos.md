@@ -11,16 +11,28 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
 ---
 # Degenesis - Stèles d'échos
 
-Intro à écrire \
-<a href="https://www.mindstormpress.com/nested-monster-hit-dice" target="_blank">nested-monster-hit-dice</a>
+Il y a quelque temps j'ai découvert le blog Mindstorm avec ce post : \
+<a href="https://www.mindstormpress.com/nested-monster-hit-dice" target="_blank">nested-monster-hit-dice</a>. Tyrell, l'auteur du site, nous présente une méthode de création et d'interprétation des monstres qui vise à renforcer les piliers du jeu OSR, à savoir la prise d'information et de décision des joueurs fasse aux problèmes proposés par le maitre du jeu. 
+
+Selon lui, cette aspect n'est pas assez exploité lors de la phase de combat, qui se résume trop souvent par quelque chose comme : *"Je lance mon dé d'attaque, je touche et applique mes dégâts. Au suivant !".* Il nous propose donc de segmenter les adversaires en sous ensembles d'éléments, chacun possédant des caractéristiques particulières. L'idée étant de présenter les adversaires en fonction de ce que peuvent percevoir les personnages de nos joueurs, et que certains aspects restent cachés jusqu'à leurs utilisations lors du combat. 
+
+De cette façon, les joueurs peuvent prioriser certains points vitaux ou stratégiques de l'adversaire, prendre le temps de se renseigner en amont sur un ennemi pour apprendre et se préparer à l'avance, ou encore fuir un combat déséquilibrer pour revenir mieux équiper et prendre leur revanche. Tout cela est bien évidement possible sans ce système, mais celui-ci permet de le rendre organique et très simple à mettre en place pour le maitre du jeu. Je vous invite grandement à lire l'article de Mindstorm, car il explore d'autres avantages à cette méthode.
+
+Personnellement, j'utilise ce système dès que je veux proposer un affrontement qui sort de l'ordinaire à mes joueurs. Je ne pense pas en effet qu'il soit adapté pour tout les combats dans lesquels vos joueurs vont se retrouver. Un loup galeux ne présente pas un intérêt suffisant pour en détailler les mécaniques outre mesure, alors  qu'une cocatrix traumatisant les vallons alentours depuis des semaines, oui.  
+
+J'avais envie d'écrire un peu pour le jeu \
+<a href="https://degenesis.com/" target="_blank">Degenesis</a>\
+, et je me suis dit que ça serait un bon prétexte pour illustrer la manière dont j'utiliser la méthode de Mindstrom, tout en découvrant un peu les Balkans, que je n'ai pas encore eu l'occasion d'explorer en jeu avec mes joueurs.  
 
 ## Le lien
 
 Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basaltes abruptes. Les grosses gouttes humidifient les étranges stèles d'échos qui percent les escarpements, entre les saillies rocheuses et les conifères. L'eau ruisselles et de curieux reflets apparaissent sur les fasses encore illuminées par les derniers rayons de soleil. La brume déjà lourde nappe le fond de la vallée, et les stèles la transperce, comme de multiples aillerons de squales, tournant autour du champs de spore mère caché sous les nappes de brouillards.
 
+![Un champ de spore dans les balkans, par sixmorevodka.](/assets/img/uploads/balkhan-spore-field.jpg "Un champ de sport dans les balkans, par sixmorevodka.")
+
 ## Les antagonistes
 
-Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement nus, leurs peaux pales et sales. Leurs pieds et mains griffus sont contusionnées et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandres complexes et lourds, à l'exception de leurs bouches aux dents pointus et noircis. Les casques sont posées sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutent et tourbillon dans les brumes à leurs passages.  
+Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement nus, leurs peaux est pale et sale. Leurs pieds et mains griffus sont contusionnées et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandres de métal noir, d'où dépasse des dents pointus et luisantes. Les casques sont posées sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutent et tourbillon dans les brumes à leurs passages.  
 
 ## Le groupe
 
@@ -44,25 +56,28 @@ Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement n
 
 <div class="no-bullet">
 
-* 🤎 <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
+* <u>**Scaphandre**</u> : *(25HP | 3 Armures)* \
   Ajoute +4d pour percevoir l'environnement dans un rayon de 100 mètre autour du Lesnje
 
-  * 👁️🛡️ *Jet d'encre : (10HP)*\
+  * 👁️ *Jet d'encre :*\
     Les câbles du scaphandre projettent un écran d'encre qui flotte dans l'air vibrant et obscurcit la vision. +2d à la défense passive pour 1 tour.
-* ⚡ <u>**Stèles d'échos**</u> : *(50HP | 4 Armures)* 
+  * 🤎 Parasite : *(10HP)*\
+    Le kraken a percé le crane de son hôte, il frémit sous la lumière du jour, et la peur se lit dans ses yeux brillants et noirs.
+* <u>**Stèles d'échos**</u> : *(50HP | 4 Armures)* 
 
   * ⚡ *Résonnance : (tant que les stèles sont intactes)*\
     Tant que les stèles sont debout, elles amplifient la matrice sonore et appliquent un malus de -2D aux attaquants. 
   * 🏹⚡ *Onde sonore : (au moins 2 Lesnjes encore en vie)*\
     Les Lesnjes harmonisent leurs chants pour former une onde sonore infligeant 1d6+2 traumatismes. 
-* *🗡️*<u>**Cisailles**</u> : *(8HP | 1 Armures)* \
-  Le Lesnje porte à la main une cisaille rouillée mais particulièrement menaçante. Elle est fixée à sa main par un assemblage de cordes et de câbles. Inflige 1d6+2 blessures superficielles.
+* <u>**Cisailles**</u> : *(8HP | 1 Armures)* \
+  Le Lesnje porte à la main une cisaille rouillée mais particulièrement menaçante. Elle est fixée à sa main par un assemblage de cordes et de câbles. 
+
+  * *🗡️*Inflige 1d6+2 blessures superficielles.
 
 </div>
 
 > 🤎 : Point vital de l'adversaire, c'est lui qui doit être détruit pour vaincre . \
 > 👁️ : Cette élément n'est pas visible. Les joueurs peuvent apprendre son existence en se renseignant à l'avance, ou à leur dépend pendant l'affrontement.\
 > ⚡ : Compétence spéciale de l'adversaire. \
-> 🛡️ : Protection. Il faut la détruire en premier pour attaquer le(s) point(s) vital(aux) de la créature.\
 > 🏹 : Attaque à distance.\
 > 🗡️ : Attaque en corps à corps.
