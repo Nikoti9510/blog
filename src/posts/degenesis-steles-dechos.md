@@ -70,7 +70,7 @@ Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement n
 * <u>**Cisailles**</u> : *(8HP | 1 Armures)* \
   Le Lesnje porte à la main une cisaille rouillée mais particulièrement menaçante. Elle est fixée à sa main par un assemblage de cordes et de câbles. 
 
-  * *🗡️*Inflige 1d6+2 blessures superficielles.
+  * *🗡️Empalement :* Inflige 1d6+2 blessures superficielles.
 
 </div>
 
