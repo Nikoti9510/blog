@@ -26,7 +26,7 @@ J'avais envie d'écrire un peu pour le jeu <a href="https://degenesis.com/" targ
 
 Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basaltes abruptes. Les grosses gouttes humidifient les étranges stèles d'échos qui percent les escarpements, entre les saillies rocheuses et les conifères. L'eau ruisselles et de curieux reflets apparaissent sur les fasses encore illuminées par les derniers rayons de soleil. La brume déjà lourde nappe le fond de la vallée, et les stèles la transperce, comme de multiples aillerons de squales, tournant autour du champs de spore mère caché sous les nappes de brouillards.
 
-<figure>
+<figure class="breakout">
 
 ![Un champ de spore dans les balkans, par sixmorevodka.](/assets/img/uploads/balkhan-spore-field.jpg "Un champ de sport dans les balkans, par sixmorevodka.")
 
