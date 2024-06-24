@@ -31,7 +31,6 @@ Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basalte
 ![Un champ de spore dans les balkans, par sixmorevodka.](/assets/img/uploads/balkhan-spore-field.jpg "Un champ de sport dans les balkans, par sixmorevodka.")
 
 <figcaption class="flow-space__small">Un champ de spore dans les balkans, par sixmorevodka.</figcaption>
-
 </figure>
 
 ## Les antagonistes
