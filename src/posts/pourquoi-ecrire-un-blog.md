@@ -8,7 +8,7 @@ tags:
   - Meta
 date: 2024-05-29T22:05:00.000Z
 image: /assets/img/uploads/bruce.jpg
-imageAlt: L'acteur Jim Carrey dans le film 'bruce tout puissant', écrivant sur
+imageAlt: L'acteur Jim Carrey dans le film 'Bruce tout puissant', écrivant sur
   son ordinateur.
 ---
 # Pourquoi écrire (un blog) ?
@@ -43,4 +43,4 @@ Ce blog a encore pour but de me mettre face à la critique (espérons constructi
 
 ## 6. Et la dernière et plus importante des raisons
 
-Soyons honnêtes, si je commence ce blog, c'est uniquement pour avoir l'opportunité de dire un jour : *"Euuuh oui moi j'ai un blog dans lequel je parle de jeu de rôle et de design et du coup..."* alors que mon interlocuteur roule les yeux au ciel en dodelinant poliment de la tête, avant de s'éclipser à la première occasion et de ne plus jamais m'adresser la parole.
+Soyons honnêtes, si je commence ce blog, c'est uniquement pour avoir l'opportunité de dire un jour : *"Euuuh oui moi j'ai un blog dans lequel je parle de jeu de rôle et de design et..."* alors que mon interlocuteur roule les yeux au ciel en dodelinant poliment de la tête, avant de s'éclipser à la première occasion et de ne plus jamais m'adresser la parole.
