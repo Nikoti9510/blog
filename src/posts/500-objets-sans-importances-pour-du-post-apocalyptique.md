@@ -2,7 +2,7 @@
 title: "500 objets sans importances pour du post-apocalyptique "
 description: Vous venez de rentrer dans un bâtiment en ruine, la horde de zombie
   semble vous avoir enfin lâché les basques. Pourquoi ne pas fouiller un peu les
-  lieux ? Lançez 1d500.
+  lieux ? Lancez 1d500.
 tags:
   - post
   - JDR
