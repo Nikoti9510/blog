@@ -12,7 +12,7 @@ imageAlt: "Illustration d'un Lesnje entre des stèles d'échos, par sixmorevodka
 # Degenesis - Stèles d'échos
 
 Il y a quelque temps j'ai découvert le blog Mindstorm avec ce post : \
-<a href="https://www.mindstormpress.com/nested-monster-hit-dice" target="_blank">nested-monster-hit-dice</a>. Tyrell, l'auteur du site, nous présente une méthode de création et d'interprétation des monstres qui vise à renforcer les piliers du jeu OSR, à savoir la prise d'information et de décision des joueurs fasse aux problèmes proposés par le maître du jeu. 
+<a href="https://www.mindstormpress.com/nested-monster-hit-dice" target="_blank">nested-monster-hit-dice</a>. Tyrell, l'auteur du site, nous présente une méthode de création et d'interprétation des monstres qui vise à renforcer les piliers du jeu OSR, à savoir la prise d'information et de décision des joueurs face aux problèmes proposés par le maître du jeu. 
 
 Selon lui, cet aspect n'est pas assez exploité lors de la phase de combat, qui se résume trop souvent par quelque chose comme : *"Je lance mon dé d'attaque, je touche et applique mes dégâts. Au suivant !".* Il nous propose donc de segmenter les adversaires en sous ensembles d'éléments, chacun possédant des caractéristiques particulières. L'idée étant de présenter les adversaires en fonction de ce que peuvent percevoir les personnages de nos joueurs, et que certains aspects restent cachés jusqu'à leurs utilisations lors du combat. 
 
@@ -35,7 +35,7 @@ Le tonnerre gronde au loin, les nuages sombres roulent sur les flancs de basalte
 
 ## Les antagonistes
 
-Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement nus, leurs peaux sont pâles et sales. Leurs pieds et mains griffus sont contusionnés et couvertes d'hématomes. Leurs visages sont masqués sous des scaphandres de métal noir, d'où dépassent des dents pointues et luisantes. Les casques sont posés sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ces mains ondulent au-dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutes et tourbillons dans les brumes à leurs passages.  
+Trois Dushani, des Lesnje, protègent le champ de spore. Ils sont entièrement nus, leurs peaux sont pâles et sales. Leurs pieds et mains griffus sont contusionnés et couverts d'hématomes. Leurs visages sont masqués sous des scaphandres de métal noir, d'où dépassent des dents pointues et luisantes. Les casques sont posés sur leurs épaules, et des dizaines de câbles et tuyaux en sortent, dansant comme les membres indépendants d'un céphalopode. L'un est assis au centre du champ de spore, ses mains ondulent au-dessus de sa tête. Les deux autres marchent entre les stèles autour du cratère, formant volutes et tourbillons dans les brumes à leurs passages.  
 
 ## Le groupe
 
