@@ -13,15 +13,15 @@ imageAlt: L'acteur Jim Carrey dans le film 'Bruce tout puissant', écrivant sur
 ---
 # Pourquoi écrire (un blog) ?
 
-L'idée d'écrire un petit blog personnel me trotte dans la tête depuis longtemps déjà, inspiré à la fois par les nombreux blogs de développeurs et designers web, que par la blogosphère OSR, toutes deux très prolifiques et riches. La première étape était bien sur de créer mon site. Chose que je voulais faire moi-même, avec comme condition de ne pas utiliser d'outils préexistants (mais je rentrais plus en détail dans le processus de création et les explications des technologies utilisées dans un article à part entière). 
+L'idée d'écrire un petit blog personnel me trotte dans la tête depuis longtemps déjà, inspiré à la fois par les nombreux blogs de développeurs et designers web, que par la blogosphère OSR, toutes deux très prolifiques et riches. La première étape était bien sur de créer mon site. Chose que je voulais faire moi-même, avec comme condition de ne pas utiliser d'outils préexistants (mais je renterais plus en détail dans le processus de création et les explications des technologies utilisées dans un article à part entière). 
 
-Ce blog va me servir de plateforme pour mettre en avant mes compétences (techniques), de les faire évoluer et d'expérimenter. Mais tout cela aurait pu être un portfolio. Alors pourquoi un *❀blog❀* ?
+Ce blog va me servir de plateforme pour mettre en avant mes compétences (techniques), les faire évoluer et d'expérimenter. Mais tout cela aurait pu être un portfolio. Alors pourquoi un *❀blog❀* ?
 
 Simplement pour écrire. Oui d'accord, mais pourquoi écrire ? Et pourquoi le mettre sur internet, aux yeux de tous ? Pour y répondre, j'ai préparé une liste en 6 points (le dernier va vous surprendre) :
 
 ## 1. Structurer ma pensée
 
-Écrire est un bon exercice pour mettre à plat ces idées et structurer sa pensée. Mais également pour prendre le temps de mûrir des idées, de formuler et reformuler. Une fois une idée claire et réfléchie, il est plus simple de la communiquer, particulièrement à l'oral (en plus d'aider à mémoriser). Même si ça ne mène à rien, écrire permet d'approfondir des concepts et de faire progresser nos points de vue.  
+Écrire est un bon exercice pour mettre à plat ses idées et structurer sa pensée. Mais également pour prendre le temps de mûrir des idées, de formuler et reformuler. Une fois une idée claire et réfléchie, il est plus simple de la communiquer, particulièrement à l'oral (en plus d'aider à mémoriser). Même si ça ne mène à rien, écrire permet d'approfondir des concepts et faire progresser nos points de vue.  
 
 ## 2. Améliorer mon écriture
 
@@ -31,7 +31,7 @@ Simplement pour écrire. Oui d'accord, mais pourquoi écrire ? Et pourquoi le me
 
 Je suis persuadé que quand je relirais ces premiers articles, d'ici un an ou deux, je serais accablé de honte en me relisant. Je me vois déjà dire *"Mais comment j'ai pu pondre un truc pareil"*, la tête entre les mains. Peu importe, et même, tant mieux ! Cela signifiera que j'ai : *1.* continué à écrire, et *2.* progressé au point de voir des erreurs que je ne perçois pas maintenant.
 \
-En attendant, je vais essayer des choses. Quel ton je devrais avoir ? Lequel me convient le mieux ? Quel sujet ai-je envie d'aborder, et de quelle manière ? Et sans doute beaucoup d'autres questions auxquelles je n'ai même pas idée pour l'instant et qui me viendrons naturellement d'ici là. Ou peut-être pas d'ailleurs. 
+En attendant, je vais essayer des choses. Quel ton je devrais avoir ? Lequel me convient le mieux ? Quel sujet ai-je envie d'aborder, et de quelle manière ? Et sans doute beaucoup d'autres questions auxquelles je n'ai même pas idée pour l'instant et qui me viendront naturellement d'ici là. Ou peut-être pas d'ailleurs. 
 
 ## 4. Développer des projets personnels
 
