@@ -18,7 +18,7 @@ DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un unive
 
 > Le monde est brisé. Dans un univers au bord de l'effondrement, votre équipage est votre unique famille. DEATH IN SPACE vous emmène dans un futur poisseux et un univers emplit de risque, mais également d'opportunité.
 
-Un petit scénario d'introduction pouvant servir de séance unique ou de lancement pour une campagne plus longue. Un SOS, une station abandonnée, des couloirs mal éclairés, des gouttes de sang gelées flottants en apesanteurs. 
+J'ai écris un petit scénario d'introduction pouvant servir de séance unique ou de lancement pour une campagne plus longue. Un SOS, une station abandonnée, des couloirs mal éclairés, des gouttes de sang gelées flottants en apesanteurs. Tout ce qu'il faut pour découvrir Death In Space et son ambiance, le tout prêt à jouer en une vingtaine de minutes. Il ne reste plus qu'a créer quelques personnages, dessiner une carte de la station, et à se lancer !
 
 ## Le contrat
 
