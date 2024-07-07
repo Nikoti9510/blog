@@ -18,6 +18,8 @@ DEATH IN SPACE est un jeu de rôle de science-fiction et de survie dans un unive
 
 > Le monde est brisé. Dans un univers au bord de l'effondrement, votre équipage est votre unique famille. DEATH IN SPACE vous emmène dans un futur poisseux et un univers emplit de risque, mais également d'opportunité.
 
+Un petit scénario d'introduction pouvant servir de séance unique ou de lancement pour une campagne plus longue. Un SOS, une station abandonnée, des couloirs mal éclairés, des gouttes de sang gelées flottants en apesanteurs. 
+
 ## Le contrat
 
 Vous devez partir à la recherche de l'équipage du vaisseau ALENAR-ZX3. Dernier signal envoyé à proximité du cimetière de vaisseau, dans le secteur 73-C de la ceinture d'astéroïdes Messier 51. La récompense ? Le remboursement de votre dette auprès de Tride Lovi (trafiquant du Ring, veste en câble électrique, tatouage dans une langue inconnue). C'est ça ou être déclaré hors la loi dans le seul centre de population du secteur.
