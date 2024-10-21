@@ -20,7 +20,11 @@ Enquête à New Elness est un scénario d’horreur lovecraftienne que j’ai é
 ## Introduction
 
 Vous avez été engagé par **Jack Delany**, l’une de vos connaissances. Il vous a demandé d’enquêter sur une rumeur inquiétante. Dans l'ancien village isolé de **New Elness**, le taux de mortalité infantile est soit disant très élevé. On raconte que depuis plus de 10 ans, aucun enfant ne survit plus de 2 ou 3 ans. Jack est un homme réputé dans certain milieu comme un investigateur compétent, spécialisé dans les événements étranges et hors du commun. Quelles que soient vos raisons, quelques choses vous poussent à explorer les recoins sombres de notre monde, à comprendre l’incompréhensible, à expliquer l’inexplicable. Travailler pour **Jack Delany** est une aubaine, une chance de faire vos preuves et de lui prouver que vous avez du potentiel. 
+
+
 Pour ne pas éveiller de soupçons, Jack vous a trouvé une couverture. Vous travaillez pour l’entreprise **Haley Inc**, et vous avez pour mission de vous renseigner sur l’ancienne mine du village, en vue d'un potentiel rachat survenant suite à une nouvelle loi votée quelques mois avant le décès du président **Warren G. Harding** en début d’année. Cette loi implique la non exclusivité des terres inexploitées depuis au moins 10 ans, la mine de **New Elness** devenant donc rachetable, étant à l’arrêt depuis 1911.
+
+
 Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisionner l’épicerie locale. Une vieille route de campagne en mauvais état permet également de rejoindre l’ancien avant poste minier. C’est justement sur cette route que votre enquête commence, alors que vous arrivez en vue de **New Elness** à bord de la Ford T de Ray Murphy. 
 
 ## Chronologie des événements
@@ -119,9 +123,13 @@ La maison de **Preston Horne** (58 ans et veuf) se trouve à l’angle de la seu
 * Sa femme **Margie** est décédé en couche 3 ans plus tard et le petit (Mark) n’a pas survécu non plus. 
 * Selon **Preston**, l’endroit est maudit. Il y a des bruits étranges la nuit près de la mine, des cris ou des gémissements qui résonnent pendant les orages. Malgré cela, il reste à **New Elness**, car il ne peut pas se résoudre à abandonner son dernier lien avec sa famille.
 
+
+
 ### **Le chemin de fer**
 
 Un long sentier serpente sur les flancs de la colline au pied de laquelle **New Elness** est niché. Un chemin de fer en mauvais état passe au-dessus de quelques creux sur des ponts de bois en ruine. Au sommet, on aperçoit entre les conifères le grand bâtiment de la mine. *Des traces de pas dans les deux directions sont visibles sur le sentier menant à la mine. Certaines récentes.*
+
+
 
 ### **Maison de Wayne Richardson**
 
@@ -168,9 +176,13 @@ Les bureaux sont situés au troisième étage du bâtiment de chargement et de t
 
 En suivant la petite piste grimpant vers l’ouest entre les racines sinueuses, on débouche sur une petite clairière de moins de 10 mètres. Au centre, un tilleul mort à l’écorce particulièrement sombre et aux branches mortes taillées en têtard. Au pied de l’arbre, une petite chaise est adossée, et de nombreux ossements et restes de bêtes diverses sont étalés tout autour. Enfin, à quelques pas de là, un petit renfoncement recouvert d’une trappe ouverte protège une ancienne cheminée d’aération de la mine. Plusieurs cordes semblent permettre de faire descendre ou monter un vieux seau en ferraille. 
 
+
+
 ### **Entrée de la mine abandonné**
 
 De vieux chemins de fer et quelques chariots sont à l'abandon devant l’entrée de la mine. Des traces de pas sont très facile à discerner dans le sol légèrement mouillé suite à la pluie des derniers jours. Sur une poutre en piteux état, une araignée a tissé une toile, une grosse mouche se débat pour essayer de lui échapper, en vain. 
+
+
 
 ### **Les tunnels de la mine**
 
@@ -254,31 +266,31 @@ Ces questions peuvent servir de base pour continuer l’aventure de ces personna
 
 J'ai préparé cinq personnages pour rapidement commencer l'aventure avec mes joueurs, mais vous pouvez très facilement en créer d'autres, ou prendre les personnages déjà existant. Je n'ai pas inclus ici d'information lié à un système de jeu en particulier, libre à vous d'adapter avec ce qui vous convient le mieux.
 
-### Ray Murphy
+### **Ray Murphy**
 
 Ancien courtier à la Bourse de Boston, et à bientôt 80 ans, vous vous êtes pris depuis plusieurs années de passion pour l'occulte et l’étrange. Cela déplaît à votre femme Judith bien sûr, avec qui vous êtes mariée depuis 46 ans. Plus exactement depuis le 16 août 1877, impossible d’oublier la date, Judith vous la rabâche sans cesse.
 
 Vous connaissez bien Ernest Faulkner, avec qui vous avez eu l'occasion de travailler à de nombreuses reprises dans le passé. Ces deux jeunes journalistes, Betty Burnett et Frank Austin vous sont inconnus, mais des esprits jeunes et encore relativement innocents seront sans doute bénéfiques. Enfin tant qu'ils arrivent à tenir leurs langues. Quant au Dr. Allen Stokes, qui ne ferait pas confiance à un vieil anglais fumeur de pipe ?
 
-### Betty Burnett
+### **Betty Burnett**
 
 Suite à vos études de journalisme (où vous avez rencontré Frank Austin), vous avez été embauché au Boston Globe, rubrique économique. Rien de plus lassant que d’écrire sur les transactions économiques à longueur de journée.Mais pas cette semaine ! Car cette semaine c’est votre cadeau de fiançailles. Frank et vous allez mener une enquête, une vraie ! C’est notre chance de faire la première page du journal (et de rendre maman fière qui sait ?).
 
 Vous connaissez Ray Murphy de nom grâce à votre travail, il a eu un impact considérable dans la vie économique de Boston en tant que courtier. Ernest Faulkner et Dr. Allen Stokes par contre, jamais entendu parlé.
 
-### Ernest Faulkner
+### **Ernest Faulkner**
 
 Vous avez travaillé dans le minerai toute votre vie. D’abord comme mineur, puis dans la revente un peu plus tard. Ce que ça vous a apporté ? Un dos en miettes surtout, mais aussi, un certain attrait pour l’obscurité et tout ce qui est enfoui. Vous êtes persuadé que Jack Delany vous a uniquement embauché pour cette mission de par votre passé de mineur. Mais rien ne vous empêche de lui prouver que vous êtes un bon investigateur. 
 
 Cela vous fait plaisir de revoir Ray Murphy, avec qui vous avez eu l’occasion de travailler dans le passé à la Bourse de Boston. Et il est bon de voir que Jack vous a fait confiance et a embauché le Dr. Allen Stokes suite à votre recommandation. Les deux jeunes journalistes, Betty Burnett et Frank Austin, m’ont l’air fort sympathiques. J’ai hâte d’apprendre à mieux les connaître. 
 
-### Dr Allen Stokes
+### **Dr Allen Stokes**
 
 Vous avez enseigné la géologie à l’université de Boston pendant 30 ans. Mais il y a 3 ans, votre vie a basculé à la suite de votre rencontre avec Lori Lake. Un divorce et une démission plus tard, vous travaillez maintenant à l’université Miskatonic d’Arkham en tant que spécialiste géologue pour une expédition en Antarctique. Votre vie est passée de la route monotone à l'excitation de l’aventure, et tout cela est dû à Lori. Elle a réveillé en vous la curiosité, et vous n’en pouvez plus de partir dans le grand nord avec elle et les autres chercheurs. 
 
 En attendant, votre vieil ami Ernest Burnett vous a proposé un petit travail. C’est une bonne occasion de se mettre en jambes. Rester derrière un bureau, ça ne prépare pas pour le terrain. Vous avez fait la rencontre de Ray Murphy, un ancien courtier qui ne vous inspire franchement pas l’aventure. Mais aussi de deux jeunes journalistes, Betty Burnett et Frank Austin, qui ressemble déjà plus à l’image que vous avez d’un investigateur.
 
-### Frank Austin
+### **Frank Austin**
 
 Qui aurait cru qu’une bague de fiançailles coûterait aussi cher ? Je me retrouve à devoir travailler double. Mais si ça rend ma Betty Burnett heureuse alors ça vaut le coup. En plus, ce Jack Delany paie bien, et la plupart du temps, les petits travaux de filature qu’il me donne ne sont pas trop compliqués à réaliser. Et puis ça me change un peu de ma routine de pigiste. 
 
