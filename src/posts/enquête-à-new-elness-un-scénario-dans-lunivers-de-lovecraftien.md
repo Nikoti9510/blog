@@ -81,10 +81,10 @@ Juste devant la vieille gare du village, la petite épicerie semble être le seu
 
 <div class="ul-margin-small">
 
-* *La mine a été rachetée en mai 1911,*
-* *La mine a fermé en octobre 1911,*
-* *Une cave a été découverte avant la fermeture,*
-* *Que la mine n’avait aucune bonne raison d’être fermée. Le vieux salopard de Wayne à sans doute trouvé quelque chose de précieux dans la cave et a voulu le garder pour lui.*
+* La mine a été rachetée en mai 1911,
+* La mine a fermé en octobre 1911,
+* Une cave a été découverte avant la fermeture,
+* Que la mine n’avait aucune bonne raison d’être fermée. Le vieux salopard de Wayne à sans doute trouvé quelque chose de précieux dans la cave et a voulu le garder pour lui.
 
 </div>
 
@@ -92,9 +92,9 @@ A l'intérieur, le tenancier **Sam Holcomb** s’occupe de trier une livraison r
 
 <div class="ul-margin-small">
 
-* *La mine a été rachetée en mai 1911,*
-* *Les filles de **Preston Horne** et **Thomas** et **Chelsea Wilder** ont disparu un peu avant la fermeture de la mine, et qu’ils vivent encore en ville,*
-* ***Wayne Richardson** est un personnage taciturne et esseulé. Il vient parfois acheter des boîtes de conserve ou quelques balles de fusils de chasse.*
+* La mine a été rachetée en mai 1911,
+* Les filles de **Preston Horne** et **Thomas** et **Chelsea Wilder** ont disparu un peu avant la fermeture de la mine, et qu’ils vivent encore en ville,
+* **Wayne Richardson** est un personnage taciturne et esseulé. Il vient parfois acheter des boîtes de conserve ou quelques balles de fusils de chasse.
 
 </div>
 
@@ -102,28 +102,30 @@ A l'intérieur, le tenancier **Sam Holcomb** s’occupe de trier une livraison r
 
 **Thomas** et **Chelsea Wilder** (61 ans et 57 ans) vivent dans une petite maison de mineur insalubre, dans laquelle ils restent enfermés à longueur de journée. Ils ne vivent que dans l’espoir de voir revenir leur petite fille, en dépit de toute logique. Pour eux, elle peut franchir la porte à tout instant, et ils refusent de discuter avec **Preston Horne**, car celui-ci ne partage pas leur point de vue. 
 
-* *Leur fille **Theresa Wilder** à disparu le 22 octobre 1911 alors qu’elle jouait avec **Jeanne Horne** dans les bois proches du village. Jamais retrouvé, malgré plusieurs battues.*
-* **\*Thomas** se souvient de **Wayne Richardson** le jour où il a annoncé la fermeture de la mine, dans les bureaux. Il était agité, il a refusé d’expliquer la raison de la fermeture.* 
-* **\*Chelsea** a aperçu **Wayne** marcher proche de l’entrée de la mine à plusieurs reprises.*
+* Leur fille **Theresa Wilder** à disparu le 22 octobre 1911 alors qu’elle jouait avec **Jeanne Horne** dans les bois proches du village. Jamais retrouvé, malgré plusieurs battues.
+* **Thomas** se souvient de **Wayne Richardson** le jour où il a annoncé la fermeture de la mine, dans les bureaux. Il était agité, il a refusé d’expliquer la raison de la fermeture.
+* **Chelsea** a aperçu **Wayne** marcher proche de l’entrée de la mine à plusieurs reprises.
 
 ### **Cimetière**
 
-Au plus bas du village, des rigoles d’eau pluviales détrempent la terre. Les tombes sont peu nombreuses. Il est possible de voir un petit endroit à part, à l’ombre des grands arbres du bois qui entourent le village. Il n’y a, dans cette espace délimité par un petit muret, que des sépultures d’enfants, et la dernière date d’il y a environ trois semaines. *Cette tombe attire l’attention car la terre est plus meuble que les autres. Avec un peu d’attention, on peut voir qu’il en manque, et qu’un petit bout de tissu rouge est coincé entre deux petits cailloux.*  
+Au plus bas du village, des rigoles d’eau pluviales détrempent la terre. Les tombes sont peu nombreuses. Il est possible de voir un petit endroit à part, à l’ombre des grands arbres du bois qui entourent le village. Il n’y a, dans cette espace délimité par un petit muret, que des sépultures d’enfants, et la dernière date d’il y a environ trois semaines. 
+
+* Cette tombe attire l’attention car la terre est plus meuble que les autres. Avec un peu d’attention, on peut voir qu’il en manque, et qu’un petit bout de tissu rouge est coincé entre deux petits cailloux.  
 
 ### **Église**
 
 Adossé au petit cimetière de la ville, l’office du pasteur **Roland Simmons** ne paye pas de mine, mais c’est sans doute le bâtiment le mieux entretenu de **New Elness**. Le pasteur accueille tous les visiteurs chaleureusement et est ravi de répondre aux questions. 
 
-* *Il est en mesure de dire, grâce à son recueil des décès et des naissances, que les morts en couche et décès de nourrisson ont commencé depuis décembre 1911.* 
-* *Il a vu les corps des enfants, déformés, mais il refuse catégoriquement de croire à autre chose que des maladie dues à la pollution de la mine.*
-* *Il aide le vieux mineur **Martin Henderson** et sait que sa mère est morte (il l’a enterré au cimetière).* 
+* Il est en mesure de dire, grâce à son recueil des décès et des naissances, que les morts en couche et décès de nourrisson ont commencé depuis décembre 1911. 
+* Il a vu les corps des enfants, déformés, mais il refuse catégoriquement de croire à autre chose que des maladie dues à la pollution de la mine.
+* Il aide le vieux mineur **Martin Henderson** et sait que sa mère est morte (il l’a enterré au cimetière). 
 
 ### **Maison de Martin Henderson**
 
 **Martin Henderson** est l’un des mineurs ayant découvert la cave, et le seul toujours à **New Elness**. Il est capable d'indiquer le chemin pour l'atteindre, mais refuse de s’y rendre. Il ne semble pas très stable mentalement, et passe ses journées à aider le pasteur **Roland Simmons** avec l'église, mais il peut également être aperçu sur le palier de sa maison, dessinant à la pastel (qu’il récupère au bureau de poste). Quand il est à l'extérieur, il regarde le sol, et ne lève jamais le regard vers le ciel. Si quelqu’un est plus grand que lui, il ne le regarde pas dans les yeux. Il prétend s’occuper de sa mère, madame **Elizabeth Henderson**, gravement malade. Mais celle-ci est en réalité décédée depuis plusieurs années. Il lui apporte à manger trois fois par jour et discute avec elle, répondant au silence comme s’il entendait sa mère. À l’étage de la maison, il y a deux chambres : 
 
-* *La première est celle de la mère de Martin Henderson. Il ne laisse personne rentrer, mais on peut percevoir si on l’accompagne une pièce très sombre sentant le renfermé.*
-* *La seconde est celle de Martin, sobre et triste. La fenêtre donne sur le cimetière du village. Il y a de nombreux croquis sur la table de nuit et dans le placard, portrait et scène du village, d’un réalisme saisissant. Il est possible de trouver un dessin montrant un homme dans un mentaux rouge marchant sous la pluie, sortant du cimetière de nuit, une pelle sur l’épaule.* 
+* La première est celle de la mère de Martin Henderson. Il ne laisse personne rentrer, mais on peut percevoir si on l’accompagne une pièce très sombre sentant le renfermé.
+* La seconde est celle de Martin, sobre et triste. La fenêtre donne sur le cimetière du village. Il y a de nombreux croquis sur la table de nuit et dans le placard, portrait et scène du village, d’un réalisme saisissant. Il est possible de trouver un dessin montrant un homme dans un mentaux rouge marchant sous la pluie, sortant du cimetière de nuit, une pelle sur l’épaule. 
 
 ### **Maison des Horne**
 
@@ -135,7 +137,9 @@ La maison de **Preston Horne** (58 ans et veuf) se trouve à l’angle de la seu
 
 ### **Le chemin de fer**
 
-Un long sentier serpente sur les flancs de la colline au pied de laquelle **New Elness** est niché. Un chemin de fer en mauvais état passe au-dessus de quelques creux sur des ponts de bois en ruine. Au sommet, on aperçoit entre les conifères le grand bâtiment de la mine. *Des traces de pas dans les deux directions sont visibles sur le sentier menant à la mine. Certaines récentes.*
+Un long sentier serpente sur les flancs de la colline au pied de laquelle **New Elness** est niché. Un chemin de fer en mauvais état passe au-dessus de quelques creux sur des ponts de bois en ruine. Au sommet, on aperçoit entre les conifères le grand bâtiment de la mine. 
+
+* Des traces de pas dans les deux directions sont visibles sur le sentier menant à la mine. Certaines récentes.
 
 ### **Maison de Wayne Richardson**
 
@@ -147,22 +151,22 @@ Une petite maison en bois construite proche des entrepôts de la mine. Les vitre
 2. Un petit **hall d’entrée**, à droite une ouverture vers le salon, à gauche les escaliers vers l’étage. Un sillon de poussière vient du salon et se dirige vers l’étage. Au fond, un petit placard, dans lequel est rangé un fusil de chasse et une cartouchière (4 balles), ainsi qu’un vieux manteau rouge. 
 3. **Salle à manger**, entièrement vide à l'exception d’une table ovale et d’une pendule non remonté. Sur la table, un monticule de manteaux en cuir, chemises, pantalon en jean. Odeur de crasse et de moisie. 
 
-   * *Une petite robe de fillette se trouve cachée dans le monticule.* 
-   * *Il est possible de croiser la réflexion de Wayne sur la pendule.*
+   * Une petite robe de fillette se trouve cachée dans le monticule. 
+   * Il est possible de croiser la réflexion de Wayne sur la pendule.
 4. **Cuisine** empestant la charogne. Plusieurs paires de bottes sales au palier de la porte arrière. Deux gros couteaux à moitié rouillés, des taches de sang et des carcasses d’animaux sauvages. Des piles de déchets jonchent le sol et les meubles (boites de conserves, journaux, chiffons sales, etc). 
 
-   * *Une lettre est posée sur le meuble de la cuisine, à côté de la porte. Il ne semble pas y avoir beaucoup de poussière sur la lettre.*
-   * *Il est possible de croiser la réflexion de Wayne dans l’eau stagnante de l’évier.*
+   * Une lettre est posée sur le meuble de la cuisine, à côté de la porte. Il ne semble pas y avoir beaucoup de poussière sur la lettre.
+   * Il est possible de croiser la réflexion de Wayne dans l’eau stagnante de l’évier.
 5. **Porche arrière**, une pelle (avec trace de terre fraîche) et de nombreuses empreintes de bottes. Certaines sont récentes. Un sentier couvert de terre part vers l’entrée de la mine, visible d’ici, gouffre lugubre et menaçant en pleine nuit.
 6. En montant l’**escalier**, on fait face à une photographie de Wayne Richardson datant d’au moins 20 ans. Cheveux mis long et lisse, moustache en fer à cheval, le tout brun. Un gros nez large et épaté, les yeux enfoncés dans leurs orbites. Les yeux suivent du regard les visiteurs. Les traces partent vers la chambre.
 7. La lourde porte de la **chambre de Wayne Richardson** est verrouillée. À l’intérieur, un grand lit jauni par la sueur. Les deux vitres menant à la toiture sont fermées par des rideaux épais et moites. 
 
-   * *Sur la table de chevet se trouve une copie du rituel de création de la petite mère, à l’intérieur d’un journal personnel.* 
-   * *Les annotations sont de Wayne, dans une langue inconnue.*
-   * *La clé de la chambre est dans le manteau de Wayne (sur lui s’il n’est pas là, sinon accroché sur le porche arrière).*
+   * Sur la table de chevet se trouve une copie du rituel de création de la petite mère, à l’intérieur d’un journal personnel. 
+   * Les annotations sont de Wayne, dans une langue inconnue.
+   * La clé de la chambre est dans le manteau de Wayne (sur lui s’il n’est pas là, sinon accroché sur le porche arrière).
 8. Une **salle de bain** autrefois luxueuse. Elle est à l’abandon, mais on peut tout de même y trouver un rasoir usé et rouillé. Un grand miroir est fixé au fond de la pièce, au-dessus d’un petit lavabo. Une trace de main a nettoyé la crasse incrustée sur le miroir. 
 
-   * *Si on s’approche, on aperçoit quelques instants Wayne immobile sur la dernière marche de l'escalier, comme s’il attendait derrière la personne qui regarde dans le miroir.* 
+   * Si on s’approche, on aperçoit quelques instants Wayne immobile sur la dernière marche de l'escalier, comme s’il attendait derrière la personne qui regarde dans le miroir. 
 9. **Petit balcon** accessible depuis le couloir. Le bois à flanc de colline est tout proche de la maison. Les érables, châtaigniers et tilleuls s’élancent vers le ciel et semblent se balancer au rythme d’un psaume inaudible. Etre sur le balcon donne l'impression d’être à la proue d’un navire au milieu d’une mer agitée d’arbres sombres. On aperçoit un petit campement à 300 mètres à l’ouest, entre les arbres sur le flanc de la colline.
 
 ### **Ancien Bureau de la compagnie Champlin-Herman mining company**
@@ -174,9 +178,9 @@ Les bureaux sont situés au troisième étage du bâtiment de chargement et de t
 3. **2ème étage** : Entrepôt de stockage, des caisses en bois vide pour la plupart. Un atelier de réparation d'outils, une petite scierie. C’est ici que le générateur alimentant toute la mine est installé. Des grands câbles partent vers le nord en direction du tunnel de la mine. Il est alimenté par du charbon, et bien qu'il soit à l’arrêt depuis de nombreuses années, le générateur peut être remis en marche. Avec une bonne dose de charbon, il devrait y avoir du courant dans la mine pendant 1h.
 4. **3ème étage** : Grande salle de réunion, un espace vide avec un grand tableau noir. C’est ici que les instructions étaient données aux mineurs. Un bureau est fermé par une cloison à moitié vitrée au fond de la pièce, il est inscrit sur la porte “Direction de la Champlin-Herman mining company”. Dans l’office, on trouve un grand meuble de bureau, des fenêtres à l'arrière donne sur l’entrée de la mine. Des grandes bibliothèques sont placées contre les murs à droite et à gauche. Il y a des papiers partout, les locaux semblent avoir été fouillé à de nombreuses reprises. On peut trouver : 
 
-   * *Un plan de la mine avec des indications de Wayne sur la position de la cave*
-   * *Un vieux télégramme de Wayne Richardson indiquant à ses acolytes la découverte de la cave.*
-   * *Une liste des mineurs décédés lors de l’exploitation de la mine.* 
+   * Un plan de la mine avec des indications de Wayne sur la position de la cave
+   * Un vieux télégramme de Wayne Richardson indiquant à ses acolytes la découverte de la cave.
+   * Une liste des mineurs décédés lors de l’exploitation de la mine. 
 
 ### **Petit camp de chasse**
 
@@ -206,10 +210,10 @@ Une fois rentrée dans la mine, les sons de la montagne disparaissent pour laiss
    > Si Wayne n’a pas commencé son rituel, il peut tendre une embuscade au groupe dans les tunnels. Il est dans son domaine, alors choisissez un moment où le groupe est en difficulté pour le faire surgir d’un recoin sombre. Il se précipite en hurlant comme un lunatique, vociférant qu’il veut protéger la “petite mère”, ou “l’outil de sa renaissance”, avant d'attaquer avec un long couteau à dépecer. Il ne se battra pas jusqu'à la mort. S’il est blessé, faites le se replier au fond de la mine. Et même si le groupe réussit à le maîtriser ou à l'éliminer, il reste encore la petite mère au fond du gouffre, alors ne laissez pas la tension retomber. 
 5. **L’excavation** : En suivant les traces ou les indications sur le plan, le groupe finit par découvrir le site d’excavation. Un large espace bas de plafond où de multiples renforts en bois de pin viennent donner un effet étrange d’espace liminal au lieu. Sur tout le mur droit de la pièce, on remarque une roche différente du reste de la mine. Elle est brillante malgré la poussière, lisse et noire comme de l’obsidienne. Contre un des piliers proche de l’entrée, une petite table de chantier, couverte de papier humide, ainsi qu’une chaise en bois, sont orientées de façon à pouvoir voir une ouverture, faite à l’explosif, au centre du mur sombre. De la lumière vacillante en réchappe, et il faut se faufiler à travers les roches coupantes pour atteindre la cave. A l'opposé du grand espace ouvert, proche de l’autre entrée, une petite forme ballote presque imperceptiblement. En s’approchant, on découvre le corps en décomposition d’un très jeune enfant, malformé et encore couvert de terre. Il est pendu pas un pied, et a été vidé. Une bassine de cuivre, ainsi qu’une fiole au fond cramoisie et un vieux couteau sont posés juste en dessous. 
 
-   * *Sur la table de chantier, on trouve une traduction du rituel, pleine de ratures et de corrections.*
+   * Sur la table de chantier, on trouve une traduction du rituel, pleine de ratures et de corrections.
 6. **La cave du rituel** : Les murs suintent de l’eau froide, et le tout à un aspect déroutant d’une peau luisante, ou de l’intérieur d’une bête malade et fatiguée. La cave est très grande, l'entrée est en hauteur, et il faut descendre un petit escalier en pierre, visiblement taillé il y a une éternité. Il n’y a aucune autre issue. Le lieu était donc fermé depuis des centaines, voire des milliers d’années. Cette simple idée provoque une sensation de dégoût et de panique instinctive et incontrôlable. Au fond de la cave, un espace circulaire d’une centaine de mètres de large au centre duquel se trouve un autel de pierre couvert de sang, de carcasse d’animaux, de peau et de bois de cerf. En face de celui-ci, tapis dans la pénombre, la petite mère gémit. C’est une création abominable, les corps des deux fillettes sont atrocement mutilés et assemblé, en un amalgame de chair, de bois et de liquide purulent. On la distingue à peine dans la noirceur de la cave, mais les quatre yeux brillent d’une présence impossiblement maligne. Un orifice béant est à la jonction des deux corps. Cette construction, une insulte au corps humain, prend la forme d’un énorme vagin dénaturé et partiel. Partout sur le corps de la créature, des poils longs, drus et noirs poussent. Trois jambes aux extrémités terminées par des sabots fragiles pendouilles mollement. 
 
-   * *Sur l’autel, un petit miroir taché de sang, ainsi qu’une statuette vulgaire et écœurante à l'effigie de Shub Niggurath. Au pied de l’autel, le manteau rouge de Wayne est percé par une corne de bouc.*
+   * Sur l’autel, un petit miroir taché de sang, ainsi qu’une statuette vulgaire et écœurante à l'effigie de Shub Niggurath. Au pied de l’autel, le manteau rouge de Wayne est percé par une corne de bouc.
 
 ## Prélude
 
