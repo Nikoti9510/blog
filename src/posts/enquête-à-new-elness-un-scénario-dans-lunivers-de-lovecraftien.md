@@ -21,9 +21,7 @@ Enquête à New Elness est un scénario d’horreur lovecraftienne que j’ai é
 
 Vous avez été engagé par **Jack Delany**, l’une de vos connaissances. Il vous a demandé d’enquêter sur une rumeur inquiétante. Dans l'ancien village isolé de **New Elness**, le taux de mortalité infantile est soit disant très élevé. On raconte que depuis plus de 10 ans, aucun enfant ne survit plus de 2 ou 3 ans. Jack est un homme réputé dans certain milieu comme un investigateur compétent, spécialisé dans les événements étranges et hors du commun. Quelles que soient vos raisons, quelques choses vous poussent à explorer les recoins sombres de notre monde, à comprendre l’incompréhensible, à expliquer l’inexplicable. Travailler pour **Jack Delany** est une aubaine, une chance de faire vos preuves et de lui prouver que vous avez du potentiel. 
 
-
 Pour ne pas éveiller de soupçons, Jack vous a trouvé une couverture. Vous travaillez pour l’entreprise **Haley Inc**, et vous avez pour mission de vous renseigner sur l’ancienne mine du village, en vue d'un potentiel rachat survenant suite à une nouvelle loi votée quelques mois avant le décès du président **Warren G. Harding** en début d’année. Cette loi implique la non exclusivité des terres inexploitées depuis au moins 10 ans, la mine de **New Elness** devenant donc rachetable, étant à l’arrêt depuis 1911.
-
 
 Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisionner l’épicerie locale. Une vieille route de campagne en mauvais état permet également de rejoindre l’ancien avant poste minier. C’est justement sur cette route que votre enquête commence, alors que vous arrivez en vue de **New Elness** à bord de la Ford T de Ray Murphy. 
 
@@ -52,6 +50,8 @@ Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisio
 
 ## Listes des Indices
 
+<div class="ul-margin-small">
+
 1. Rachat de la mine 6 mois avant la fermeture par Wayne Richardson. (13 mai 1911)
 2. Découverte d'une cave deux semaines avant la fermeture. (vendredi 13 octobre 1911)
 3. Deux fillettes (Jeanne Horne et Theresa Wilder) disparaissent une semaine avant la fermeture. (Dimanche 22 octobre 1911)
@@ -67,6 +67,8 @@ Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisio
 13. Trace de terre et une pelle chez Wayne Richardson.
 14. Liste des décès à l'église. Le dernier enfants est morts il y a 3 semaines.
 
+</div>
+
 
 
 ## New Elness et les différents lieux à visiter
@@ -77,16 +79,24 @@ Juste devant la vieille gare du village, la petite épicerie semble être le seu
 
 **Clyde** et **Carls Higgin** sont deux frères, des habitués de l’épicerie et d’anciens mineurs. Ils traînent devant le magasin et sont ravis d’avoir de la compagnie. Ils savent que : 
 
+<div class="ul-margin-small">
+
 * *La mine a été rachetée en mai 1911,*
 * *La mine a fermé en octobre 1911,*
 * *Une cave a été découverte avant la fermeture,*
 * *Que la mine n’avait aucune bonne raison d’être fermée. Le vieux salopard de Wayne à sans doute trouvé quelque chose de précieux dans la cave et a voulu le garder pour lui.*
 
+</div>
+
 A l'intérieur, le tenancier **Sam Holcomb** s’occupe de trier une livraison reçue la veille. Il sait que : 
+
+<div class="ul-margin-small">
 
 * *La mine a été rachetée en mai 1911,*
 * *Les filles de **Preston Horne** et **Thomas** et **Chelsea Wilder** ont disparu un peu avant la fermeture de la mine, et qu’ils vivent encore en ville,*
-* **\*Wayne Richardson** est un personnage taciturne et esseulé. Il vient parfois acheter des boîtes de conserve ou quelques balles de fusils de chasse.* 
+* ***Wayne Richardson** est un personnage taciturne et esseulé. Il vient parfois acheter des boîtes de conserve ou quelques balles de fusils de chasse.*
+
+</div>
 
 ### **Maison des Wilder**
 
@@ -123,13 +133,9 @@ La maison de **Preston Horne** (58 ans et veuf) se trouve à l’angle de la seu
 * Sa femme **Margie** est décédé en couche 3 ans plus tard et le petit (Mark) n’a pas survécu non plus. 
 * Selon **Preston**, l’endroit est maudit. Il y a des bruits étranges la nuit près de la mine, des cris ou des gémissements qui résonnent pendant les orages. Malgré cela, il reste à **New Elness**, car il ne peut pas se résoudre à abandonner son dernier lien avec sa famille.
 
-
-
 ### **Le chemin de fer**
 
 Un long sentier serpente sur les flancs de la colline au pied de laquelle **New Elness** est niché. Un chemin de fer en mauvais état passe au-dessus de quelques creux sur des ponts de bois en ruine. Au sommet, on aperçoit entre les conifères le grand bâtiment de la mine. *Des traces de pas dans les deux directions sont visibles sur le sentier menant à la mine. Certaines récentes.*
-
-
 
 ### **Maison de Wayne Richardson**
 
@@ -176,13 +182,9 @@ Les bureaux sont situés au troisième étage du bâtiment de chargement et de t
 
 En suivant la petite piste grimpant vers l’ouest entre les racines sinueuses, on débouche sur une petite clairière de moins de 10 mètres. Au centre, un tilleul mort à l’écorce particulièrement sombre et aux branches mortes taillées en têtard. Au pied de l’arbre, une petite chaise est adossée, et de nombreux ossements et restes de bêtes diverses sont étalés tout autour. Enfin, à quelques pas de là, un petit renfoncement recouvert d’une trappe ouverte protège une ancienne cheminée d’aération de la mine. Plusieurs cordes semblent permettre de faire descendre ou monter un vieux seau en ferraille. 
 
-
-
 ### **Entrée de la mine abandonné**
 
 De vieux chemins de fer et quelques chariots sont à l'abandon devant l’entrée de la mine. Des traces de pas sont très facile à discerner dans le sol légèrement mouillé suite à la pluie des derniers jours. Sur une poutre en piteux état, une araignée a tissé une toile, une grosse mouche se débat pour essayer de lui échapper, en vain. 
-
-
 
 ### **Les tunnels de la mine**
 
