@@ -14,19 +14,14 @@ imageAlt: "Un tunnel sombre d'une mine à l'abandon "
 ---
 Enquête à New Elness est un scénario d’horreur lovecraftienne que j’ai écrit pour mes joueurs, s’inspirant de différents scénarios existant et de plusieurs nouvelles du mythe. Étant un univers horrifique, j’ai ouvertement puisé dans des thèmes et sujets violents et potentiellement sensibles pour certains. Vous trouverez ci-dessous la liste des sujets abordés, avant de jouer à ce scénario, discutez en avec vos joueurs pour vous assurer que tout le monde est partant ! Vous pouvez également consulter ce [Kit de sécurité en JDR](https://drive.google.com/drive/folders/1ZqTPQ2eTxHyTPO1BQAmUWP8VtnhH6qw_) pour vous aider.
 
-
 <u>Avertissements de Contenu</u> :\
 #Meurtre ; #Suicide ; #Viol ; #Claustrophobie ; #Troubles mentaux ; #Paranoïa ; #Sévices subis par des enfants ; #Chasse ; #Deuil
-
-
 
 ## Introduction
 
 Vous avez été engagé par **Jack Delany**, l’une de vos connaissances. Il vous a demandé d’enquêter sur une rumeur inquiétante. Dans l'ancien village isolé de **New Elness**, le taux de mortalité infantile est soit disant très élevé. On raconte que depuis plus de 10 ans, aucun enfant ne survit plus de 2 ou 3 ans. Jack est un homme réputé dans certain milieu comme un investigateur compétent, spécialisé dans les événements étranges et hors du commun. Quelles que soient vos raisons, quelques choses vous poussent à explorer les recoins sombres de notre monde, à comprendre l’incompréhensible, à expliquer l’inexplicable. Travailler pour **Jack Delany** est une aubaine, une chance de faire vos preuves et de lui prouver que vous avez du potentiel. 
 Pour ne pas éveiller de soupçons, Jack vous a trouvé une couverture. Vous travaillez pour l’entreprise **Haley Inc**, et vous avez pour mission de vous renseigner sur l’ancienne mine du village, en vue d'un potentiel rachat survenant suite à une nouvelle loi votée quelques mois avant le décès du président **Warren G. Harding** en début d’année. Cette loi implique la non exclusivité des terres inexploitées depuis au moins 10 ans, la mine de **New Elness** devenant donc rachetable, étant à l’arrêt depuis 1911.
 Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisionner l’épicerie locale. Une vieille route de campagne en mauvais état permet également de rejoindre l’ancien avant poste minier. C’est justement sur cette route que votre enquête commence, alors que vous arrivez en vue de **New Elness** à bord de la Ford T de Ray Murphy. 
-
-
 
 ## Chronologie des événements
 
@@ -51,30 +46,28 @@ Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisio
 * Si les PJ n'arrêtent pas le processus, **Wayne Richardson**, maintenant un **satyr**, fait un carnage dans le village. Si les PJ ne sont pas présents à **New Elness** lors de l’attaque, quelques habitants réussissent à fuir dans une voiture, donc le postier. Ils rencontrent les PJ sur les routes et les arrêtent pour les prévenir ou au quartier général de la police de Boston. 
 * Si les PJ vont dans la mine avant le nuit, **Wayne Richardson** les attend à la sortie de la mine pour leur dire que c'est une propriété privée. 
 
-
-
 ## Listes des Indices
 
-* Rachat de la mine 6 mois avant la fermeture par Wayne Richardson. (13 mai 1911)
-* Découverte d'une cave deux semaines avant la fermeture. (vendredi 13 octobre 1911)
-* Deux fillettes (Jeanne Horne et Theresa Wilder) disparaissent une semaine avant la fermeture. (Dimanche 22 octobre 1911)
-* Fermeture de la mine pour raison inconnue par Wayne Richardson. (27 octobre 1911)
-* Correspondance avec un interlocuteur inconnu de black goat LLC indiquant l'existence de la nouvelle loi et que les préparatifs doivent être accéléré. 
-* Plan de la mine avec tunnels les plus récents.
-* Depuis la fermeture, naissance difficile et nourrissons mal formés. 
-* Copie du rituel de création de la petite mère.
-* Mention de l'existence de “la mère des bois aux milles enfants”.
-* Anti-rituel et rituel de renaissance dans la grotte.
-* Un bout de tissu rouge dans la terre retourné d'une tombe d'un des nourrisson. 
-* Un cadavre de nourrisson mal formée (excroissance sur le crâne, poil noir et epais, trapus) dans un tunnel proche de la cave.
-* Trace de terre et une pelle chez Wayne Richardson.
-* Liste des décès à l'église. Le dernier enfants est morts il y a 3 semaines.
+1. Rachat de la mine 6 mois avant la fermeture par Wayne Richardson. (13 mai 1911)
+2. Découverte d'une cave deux semaines avant la fermeture. (vendredi 13 octobre 1911)
+3. Deux fillettes (Jeanne Horne et Theresa Wilder) disparaissent une semaine avant la fermeture. (Dimanche 22 octobre 1911)
+4. Fermeture de la mine pour raison inconnue par Wayne Richardson. (27 octobre 1911)
+5. Correspondance avec un interlocuteur inconnu de black goat LLC indiquant l'existence de la nouvelle loi et que les préparatifs doivent être accéléré. 
+6. Plan de la mine avec tunnels les plus récents.
+7. Depuis la fermeture, naissance difficile et nourrissons mal formés. 
+8. Copie du rituel de création de la petite mère.
+9. Mention de l'existence de “la mère des bois aux milles enfants”.
+10. Anti-rituel et rituel de renaissance dans la grotte.
+11. Un bout de tissu rouge dans la terre retourné d'une tombe d'un des nourrisson. 
+12. Un cadavre de nourrisson mal formée (excroissance sur le crâne, poil noir et epais, trapus) dans un tunnel proche de la cave.
+13. Trace de terre et une pelle chez Wayne Richardson.
+14. Liste des décès à l'église. Le dernier enfants est morts il y a 3 semaines.
 
 
 
 ## New Elness et les différents lieux à visiter
 
-### Épicerie/poste “Sam’s common goods” 
+### **Épicerie/poste “Sam’s common goods”**
 
 Juste devant la vieille gare du village, la petite épicerie semble être le seul bâtiment du village encore à peu prêt entretenu. A la fois magasin général, bar et bureau de poste, c’est le dernier commerce du village. La ligne électrique qui longe la route sinueuse menant au village s'arrête ici. 
 
@@ -89,27 +82,21 @@ A l'intérieur, le tenancier **Sam Holcomb** s’occupe de trier une livraison r
 
 * *La mine a été rachetée en mai 1911,*
 * *Les filles de **Preston Horne** et **Thomas** et **Chelsea Wilder** ont disparu un peu avant la fermeture de la mine, et qu’ils vivent encore en ville,*
-* ***Wayne Richardson** est un personnage taciturne et esseulé. Il vient parfois acheter des boîtes de conserve ou quelques balles de fusils de chasse.* 
+* **\*Wayne Richardson** est un personnage taciturne et esseulé. Il vient parfois acheter des boîtes de conserve ou quelques balles de fusils de chasse.* 
 
-
-
-### Maison des Wilder
+### **Maison des Wilder**
 
 **Thomas** et **Chelsea Wilder** (61 ans et 57 ans) vivent dans une petite maison de mineur insalubre, dans laquelle ils restent enfermés à longueur de journée. Ils ne vivent que dans l’espoir de voir revenir leur petite fille, en dépit de toute logique. Pour eux, elle peut franchir la porte à tout instant, et ils refusent de discuter avec **Preston Horne**, car celui-ci ne partage pas leur point de vue. 
 
 * *Leur fille **Theresa Wilder** à disparu le 22 octobre 1911 alors qu’elle jouait avec **Jeanne Horne** dans les bois proches du village. Jamais retrouvé, malgré plusieurs battues.*
-* ***Thomas** se souvient de **Wayne Richardson** le jour où il a annoncé la fermeture de la mine, dans les bureaux. Il était agité, il a refusé d’expliquer la raison de la fermeture.* 
-* ***Chelsea** a aperçu **Wayne** marcher proche de l’entrée de la mine à plusieurs reprises.*
+* **\*Thomas** se souvient de **Wayne Richardson** le jour où il a annoncé la fermeture de la mine, dans les bureaux. Il était agité, il a refusé d’expliquer la raison de la fermeture.* 
+* **\*Chelsea** a aperçu **Wayne** marcher proche de l’entrée de la mine à plusieurs reprises.*
 
-
-
-### Cimetière
+### **Cimetière**
 
 Au plus bas du village, des rigoles d’eau pluviales détrempent la terre. Les tombes sont peu nombreuses. Il est possible de voir un petit endroit à part, à l’ombre des grands arbres du bois qui entourent le village. Il n’y a, dans cette espace délimité par un petit muret, que des sépultures d’enfants, et la dernière date d’il y a environ trois semaines. *Cette tombe attire l’attention car la terre est plus meuble que les autres. Avec un peu d’attention, on peut voir qu’il en manque, et qu’un petit bout de tissu rouge est coincé entre deux petits cailloux.*  
 
-
-
-### Église 
+### **Église**
 
 Adossé au petit cimetière de la ville, l’office du pasteur **Roland Simmons** ne paye pas de mine, mais c’est sans doute le bâtiment le mieux entretenu de **New Elness**. Le pasteur accueille tous les visiteurs chaleureusement et est ravi de répondre aux questions. 
 
@@ -117,18 +104,14 @@ Adossé au petit cimetière de la ville, l’office du pasteur **Roland Simmons*
 * *Il a vu les corps des enfants, déformés, mais il refuse catégoriquement de croire à autre chose que des maladie dues à la pollution de la mine.*
 * *Il aide le vieux mineur **Martin Henderson** et sait que sa mère est morte (il l’a enterré au cimetière).* 
 
-
-
-### Maison de Martin Henderson
+### **Maison de Martin Henderson**
 
 **Martin Henderson** est l’un des mineurs ayant découvert la cave, et le seul toujours à **New Elness**. Il est capable d'indiquer le chemin pour l'atteindre, mais refuse de s’y rendre. Il ne semble pas très stable mentalement, et passe ses journées à aider le pasteur **Roland Simmons** avec l'église, mais il peut également être aperçu sur le palier de sa maison, dessinant à la pastel (qu’il récupère au bureau de poste). Quand il est à l'extérieur, il regarde le sol, et ne lève jamais le regard vers le ciel. Si quelqu’un est plus grand que lui, il ne le regarde pas dans les yeux. Il prétend s’occuper de sa mère, madame **Elizabeth Henderson**, gravement malade. Mais celle-ci est en réalité décédée depuis plusieurs années. Il lui apporte à manger trois fois par jour et discute avec elle, répondant au silence comme s’il entendait sa mère. À l’étage de la maison, il y a deux chambres : 
 
 * *La première est celle de la mère de Martin Henderson. Il ne laisse personne rentrer, mais on peut percevoir si on l’accompagne une pièce très sombre sentant le renfermé.*
 * *La seconde est celle de Martin, sobre et triste. La fenêtre donne sur le cimetière du village. Il y a de nombreux croquis sur la table de nuit et dans le placard, portrait et scène du village, d’un réalisme saisissant. Il est possible de trouver un dessin montrant un homme dans un mentaux rouge marchant sous la pluie, sortant du cimetière de nuit, une pelle sur l’épaule.* 
 
-
-
-### Maison des Horne
+### **Maison des Horne**
 
 La maison de **Preston Horne** (58 ans et veuf) se trouve à l’angle de la seule rue perpendiculaire à l’avenue unique du village. On peut voir le petit chemin de fer autrefois utilisé par les mineurs passer devant chez lui et tourner en direction de la gare. Il est morose, mais aidera tout de même les nouveaux visiteurs s’ils se montrent sympathiques à son égard. C’est un homme intelligent qui vivote à New Elness depuis la fermeture de la mine, pour laquelle il était ingénieur. L’intérieur de la bâtisse est sombre et poussiéreuse. On peut voir des portraits de sa femme et de sa fille sur les murs, et quelques éditions du Boston Globe des mois derniers. 
 
@@ -136,15 +119,11 @@ La maison de **Preston Horne** (58 ans et veuf) se trouve à l’angle de la seu
 * Sa femme **Margie** est décédé en couche 3 ans plus tard et le petit (Mark) n’a pas survécu non plus. 
 * Selon **Preston**, l’endroit est maudit. Il y a des bruits étranges la nuit près de la mine, des cris ou des gémissements qui résonnent pendant les orages. Malgré cela, il reste à **New Elness**, car il ne peut pas se résoudre à abandonner son dernier lien avec sa famille.
 
-
-
-### Le chemin de fer
+### **Le chemin de fer**
 
 Un long sentier serpente sur les flancs de la colline au pied de laquelle **New Elness** est niché. Un chemin de fer en mauvais état passe au-dessus de quelques creux sur des ponts de bois en ruine. Au sommet, on aperçoit entre les conifères le grand bâtiment de la mine. *Des traces de pas dans les deux directions sont visibles sur le sentier menant à la mine. Certaines récentes.*
 
-
-
-### Maison de Wayne Richardson
+### **Maison de Wayne Richardson**
 
 Au cours des 10 années qui se sont passées depuis la fermeture de la mine, Wayne Richardson à eu le temps de mettre en place des rites de protection païens dans son domicile et ses bureaux. Ils lui permettent d’observer à travers les surfaces réflectives les mouvements des lieux protégés. Les personnes qui s'infiltrent peuvent apercevoir des mouvements flous ou des yeux les fixant pendant un bref instant dans les reflets. 
 
@@ -172,9 +151,7 @@ Une petite maison en bois construite proche des entrepôts de la mine. Les vitre
    * *Si on s’approche, on aperçoit quelques instants Wayne immobile sur la dernière marche de l'escalier, comme s’il attendait derrière la personne qui regarde dans le miroir.* 
 9. **Petit balcon** accessible depuis le couloir. Le bois à flanc de colline est tout proche de la maison. Les érables, châtaigniers et tilleuls s’élancent vers le ciel et semblent se balancer au rythme d’un psaume inaudible. Etre sur le balcon donne l'impression d’être à la proue d’un navire au milieu d’une mer agitée d’arbres sombres. On aperçoit un petit campement à 300 mètres à l’ouest, entre les arbres sur le flanc de la colline.
 
-
-
-### Ancien Bureau de la compagnie Champlin-Herman mining company
+### **Ancien Bureau de la compagnie Champlin-Herman mining company**
 
 Les bureaux sont situés au troisième étage du bâtiment de chargement et de tri de la mine. L’édifice haut de 4 étages domine le haut de la colline. C’est d’ici que part le petit chemin de fer permettant de relier la gare en bas du village et la mine. De chaque côté du bâtiment se trouvent deux trémies de chargement. *(Les deux sont encore plein, si un joueur passe dessous, Wayne en fait tomber le contenu)*. Le bâtiment est visiblement à l’abandon, les outils sont rouillés, les planches moisies, les mauvaises herbes partout. Une porte est entrouverte à l’ouest du bâtiment. Les étages sont reliés entre eux par un escalier central.
 
@@ -187,21 +164,15 @@ Les bureaux sont situés au troisième étage du bâtiment de chargement et de t
    * *Un vieux télégramme de Wayne Richardson indiquant à ses acolytes la découverte de la cave.*
    * *Une liste des mineurs décédés lors de l’exploitation de la mine.* 
 
-
-
-### Petit camp de chasse
+### **Petit camp de chasse**
 
 En suivant la petite piste grimpant vers l’ouest entre les racines sinueuses, on débouche sur une petite clairière de moins de 10 mètres. Au centre, un tilleul mort à l’écorce particulièrement sombre et aux branches mortes taillées en têtard. Au pied de l’arbre, une petite chaise est adossée, et de nombreux ossements et restes de bêtes diverses sont étalés tout autour. Enfin, à quelques pas de là, un petit renfoncement recouvert d’une trappe ouverte protège une ancienne cheminée d’aération de la mine. Plusieurs cordes semblent permettre de faire descendre ou monter un vieux seau en ferraille. 
 
-
-
-### Entrée de la mine abandonné
+### **Entrée de la mine abandonné**
 
 De vieux chemins de fer et quelques chariots sont à l'abandon devant l’entrée de la mine. Des traces de pas sont très facile à discerner dans le sol légèrement mouillé suite à la pluie des derniers jours. Sur une poutre en piteux état, une araignée a tissé une toile, une grosse mouche se débat pour essayer de lui échapper, en vain. 
 
-
-
-### Les tunnels de la mine
+### **Les tunnels de la mine**
 
 Une fois rentrée dans la mine, les sons de la montagne disparaissent pour laisser place aux mélodies de la roche. On entend les gouttes d’eau ruisseler, les graviers crisser sous les chaussures, les souffles haletants. L’air est moite et l’odeur de charbon sur les poumons.
 
@@ -226,8 +197,6 @@ Une fois rentrée dans la mine, les sons de la montagne disparaissent pour laiss
 
    * *Sur l’autel, un petit miroir taché de sang, ainsi qu’une statuette vulgaire et écœurante à l'effigie de Shub Niggurath. Au pied de l’autel, le manteau rouge de Wayne est percé par une corne de bouc.*
 
-
-
 ## Prélude
 
 Si vous avez le temps, il est possible de jouer une ou deux scènes d'enquêtes à Boston avant de partir pour New Elness. Cela permet de commencer doucement le scénario, ce qui donnera encore plus de contraste à la partie. Laissez les joueurs faire des propositions, et piochez dans la liste des indices pour récompenser les bonnes idées. 
@@ -243,8 +212,6 @@ Voici quatre lieux de Boston et les indices que l’on peut y trouver :
    * Il existe un site archéologique dans les montagnes voisines à la mine, indiqué comme un probable site religieux [des peuples amérindiens de la région](https://fr.wikipedia.org/wiki/Massachusetts_(tribu)). Il n’a jamais été étudié en détail, principalement dû au manque de moyen de l'université de Boston dans le domaine. Le seul rapport existant fait état de la présence de gravures iconographiques représentant divers arbres et végétaux.
 
 La ville Boston met à disposition des [photographies d’archives de la ville](https://cityofboston.access.preservica.com/uncategorized/SO_73348a96-11c7-49ba-8dd5-9b9d01711302/), parfaites pour illustrer ce prélude.
-
-
 
 ## Conseils pour mener l'enquête
 
@@ -263,8 +230,6 @@ Insister sur l’étrangeté des personnages que les joueurs rencontrent durant 
 Concernant les confrontations violentes, je vous conseille de les utiliser en dernier recours, car elles doivent être le point culminant d’une session. Ne les faites pas durer, c’est un monde violent dans lequel évolue nos enquêteurs, et ce ne sont pas des héros. Un coup de couteau bien placé ou une simple balle de fusil sont tout ce qu’il faut pour mettre fin à leurs aventures, et la mort doit attendre un personnage trop peu prudent. Cela dit, ne punissez pas un joueur s’il a mal compris une situation. Soyez toujours clair dans les enjeux de chaque scène et interaction. Ne cachez pas une information derrière un jet de dé, il est bien plus intéressant pour les joueurs et pour vous de décider en connaissance de cause. Et pas d'inquiétude, les joueurs prendront toujours la pire décision à leur disposition.
 
 Préparez vous une liste d'une dizaine de noms pour improviser des habitants de **New Elness**, afin d’être prêt quand vos joueurs vont inévitablement vous surprendre et partir dans une direction imprévue. Partez du principe que les personnes encore présentes dans le village sont pauvres et très probablement d'anciens mineurs. Vos joueurs vont sans doute rencontrer des parents endeuillés de la disparition d’un enfant mal né. Ils pourront être surpris de constater que ces parents sont pour la plupart relativement âgés, l’influence de la petite mère impactant la fertilité des habitants. Vous pouvez également vous préparer quelques portraits, en piochant dans les photographies [d’hommes et de femmes de l’époque](https://www.pinterest.fr/pin/26247610305056076/). 
-
-
 
 ## Et ensuite ?
 
@@ -285,13 +250,9 @@ Ces questions peuvent servir de base pour continuer l’aventure de ces personna
 * Les forêts de toutes sortes ont toujours étaient le repaire favori des adorateurs de Shub-niggurath et de ces [sombres rejetons](https://lovecraft.fandom.com/wiki/Dark_Young_of_Shub-Niggurath). SI vous voulez rester dans la même atmosphère, peut-être que le repère de celui ou celle qui tire les ficelles est caché au fin fond d’un bois obscure de la nouvelle Angleterre. Mais pourquoi pas au cœur d’un bayou de la Louisiane ou dans un recoin moite de la forêt tropicale du Yucatán pour changer complètement d’ambiance ? 
 * Est-ce qu’il y a un but derrière tout cela ? C’est le point qui fait souvent dérailler le mythe de Cthulhu pour moi. Il est facile de trouver des buts aux acteurs humains de ces histoires, dans notre cas, les associés de Black Goat Inc veulent l'immortalité, guidés purement par l'hubris. Mais pourquoi les rejetons ou Shub-niggurath les aident-ils ? Je pense que le mieux, c’est de rester flou. C’est dans ce flou que l’horreur vie et survie. Car peu importe où mènent les recherchent de nos investigateurs, rien ne sera jamais certain. Cela dit, peut-être que ces divinités, qui n’en sont pas vraiment, sont-elles également sujettent aux affres de l’égo ?   
 
-
-
 ## Les personnages joueurs
 
 J'ai préparé cinq personnages pour rapidement commencer l'aventure avec mes joueurs, mais vous pouvez très facilement en créer d'autres, ou prendre les personnages déjà existant. Je n'ai pas inclus ici d'information lié à un système de jeu en particulier, libre à vous d'adapter avec ce qui vous convient le mieux.
-
-  
 
 ### Ray Murphy
 
@@ -299,23 +260,17 @@ Ancien courtier à la Bourse de Boston, et à bientôt 80 ans, vous vous êtes p
 
 Vous connaissez bien Ernest Faulkner, avec qui vous avez eu l'occasion de travailler à de nombreuses reprises dans le passé. Ces deux jeunes journalistes, Betty Burnett et Frank Austin vous sont inconnus, mais des esprits jeunes et encore relativement innocents seront sans doute bénéfiques. Enfin tant qu'ils arrivent à tenir leurs langues. Quant au Dr. Allen Stokes, qui ne ferait pas confiance à un vieil anglais fumeur de pipe ?
 
-
-
 ### Betty Burnett
 
 Suite à vos études de journalisme (où vous avez rencontré Frank Austin), vous avez été embauché au Boston Globe, rubrique économique. Rien de plus lassant que d’écrire sur les transactions économiques à longueur de journée.Mais pas cette semaine ! Car cette semaine c’est votre cadeau de fiançailles. Frank et vous allez mener une enquête, une vraie ! C’est notre chance de faire la première page du journal (et de rendre maman fière qui sait ?).
 
 Vous connaissez Ray Murphy de nom grâce à votre travail, il a eu un impact considérable dans la vie économique de Boston en tant que courtier. Ernest Faulkner et Dr. Allen Stokes par contre, jamais entendu parlé.
 
-
-
-### Ernest Faulkner 
+### Ernest Faulkner
 
 Vous avez travaillé dans le minerai toute votre vie. D’abord comme mineur, puis dans la revente un peu plus tard. Ce que ça vous a apporté ? Un dos en miettes surtout, mais aussi, un certain attrait pour l’obscurité et tout ce qui est enfoui. Vous êtes persuadé que Jack Delany vous a uniquement embauché pour cette mission de par votre passé de mineur. Mais rien ne vous empêche de lui prouver que vous êtes un bon investigateur. 
 
 Cela vous fait plaisir de revoir Ray Murphy, avec qui vous avez eu l’occasion de travailler dans le passé à la Bourse de Boston. Et il est bon de voir que Jack vous a fait confiance et a embauché le Dr. Allen Stokes suite à votre recommandation. Les deux jeunes journalistes, Betty Burnett et Frank Austin, m’ont l’air fort sympathiques. J’ai hâte d’apprendre à mieux les connaître. 
-
-
 
 ### Dr Allen Stokes
 
@@ -323,15 +278,11 @@ Vous avez enseigné la géologie à l’université de Boston pendant 30 ans. Ma
 
 En attendant, votre vieil ami Ernest Burnett vous a proposé un petit travail. C’est une bonne occasion de se mettre en jambes. Rester derrière un bureau, ça ne prépare pas pour le terrain. Vous avez fait la rencontre de Ray Murphy, un ancien courtier qui ne vous inspire franchement pas l’aventure. Mais aussi de deux jeunes journalistes, Betty Burnett et Frank Austin, qui ressemble déjà plus à l’image que vous avez d’un investigateur.
 
-
-
 ### Frank Austin
 
 Qui aurait cru qu’une bague de fiançailles coûterait aussi cher ? Je me retrouve à devoir travailler double. Mais si ça rend ma Betty Burnett heureuse alors ça vaut le coup. En plus, ce Jack Delany paie bien, et la plupart du temps, les petits travaux de filature qu’il me donne ne sont pas trop compliqués à réaliser. Et puis ça me change un peu de ma routine de pigiste. 
 
 L’idée de mener une enquête en amoureux avec Betty est plaisante, mais il faut dire que je suis bien content d’être accompagné par des vieux briscards comme Ray Murphy, Ernest Faulkner et Dr. Allen Stokes. En plus, ils connaissent Jack. Si je me fais bien voir, il me donnera peut-être des missions plus importantes à l’avenir.
-
-
 
 ## Annexes
 
