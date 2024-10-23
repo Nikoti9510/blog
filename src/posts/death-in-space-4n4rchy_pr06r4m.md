@@ -7,7 +7,6 @@ description: DEATH IN SPACE est un jeu de rôle de science-fiction et de survie
 tags:
   - post
   - JDR
-  - Donjon
 date: 2024-04-19T20:41:00.000Z
 image: /assets/img/uploads/65b6a12cc8177e5b4d5c34fa_space-colony-13.jpg
 imageAlt: Stanford torus external view by Don Davis AC76-0525
