@@ -7,7 +7,7 @@ description: Vous avez été engagé par Jack Delany, l’une de vos
   ne survit plus de 2   ou 3 ans.
 tags:
   - post
-  - jdr
+  - JDR
 date: 2024-10-21T21:20:00.000Z
 image: /assets/img/uploads/58103027.jpg
 imageAlt: "Un tunnel sombre d'une mine à l'abandon "
