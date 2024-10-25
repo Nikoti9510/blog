@@ -69,8 +69,6 @@ Deux fois par mois, une livraison arrive en ville par la gare pour réapprovisio
 
 </div>
 
-
-
 ## New Elness et les différents lieux à visiter
 
 ### **Épicerie/poste “Sam’s common goods”**
@@ -304,18 +302,58 @@ L’idée de mener une enquête en amoureux avec Betty est plaisante, mais il fa
 
 ## Annexes
 
+<figure>
+
 ![Plan de la mine](/assets/img/uploads/mine-plan.jpg "[Carte de la mine]")
+
+<figcaption class="flow-space__small">\[Carte de la mine]</figcaption>
+</figure>
+
+<figure>
 
 ![Carte de la mine avec indication de Wayne Richardson](/assets/img/uploads/map-indication.png "[Carte de la mine avec indication de Wayne Richardson]")
 
+<figcaption class="flow-space__small">\[Carte de la mine avec indication de Wayne Richhardson]</figcaption>
+</figure>
+
+<figure>
+
 ![Télégraphe d'un expéditeur inconnu](/assets/img/uploads/télégraphe.png "[Télégraphe d'un expéditeur inconnu]")
+
+<figcaption class="flow-space__small">\[Télégraphe d'un expéditeur inconnu]</figcaption>
+</figure>
+
+<figure>
 
 ![Liste des décès durant l'exploitation de la mine](/assets/img/uploads/liste-décès.png "[Liste des décès durant l'exploitation de la mine]")
 
+<figcaption class="flow-space__small">\[Liste des décès durant l'exploitation de la mine]</figcaption>
+</figure>
+
+<figure>
+
 ![Le rituel non traduit](/assets/img/uploads/rituel-de-la-mère.jpg "[Le rituel non traduit]")
+
+<figcaption class="flow-space__small">\[Le rituel non traduit]</figcaption>
+</figure>
+
+<figure>
 
 ![Traduction du rituel](/assets/img/uploads/rituel_maj.png "[Traduction du rituel]")
 
+<figcaption class="flow-space__small">\[Traduction du rituel]</figcaption>
+</figure>
+
+<figure>
+
 ![Inversion du rituel](/assets/img/uploads/anti-rituel_maj.png "[Inversion du rituel]")
 
+<figcaption class="flow-space__small">\[Inversion du rituel]</figcaption>
+</figure>
+
+<figure>
+
 ![Lettre de Harvey](/assets/img/uploads/lettre-harvey.png "[Lettre de Harvey]")
+
+<figcaption class="flow-space__small">\[Lettre de harvey]</figcaption>
+</figure>
