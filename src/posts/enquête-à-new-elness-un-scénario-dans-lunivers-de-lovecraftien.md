@@ -1,10 +1,10 @@
 ---
 title: Enquête à New Elness - Un scénario dans l'univers Lovecraftien
 description: Vous avez été engagé par Jack Delany, l’une de vos connaissances.
-  Il vous a demandé d’enquêter sur une rumeur inquiétante. Dans l'ancien
-  village   isolé de New Elness, le taux de mortalité infantile est soit disant
-  très élevé. On raconte que depuis plus de 10 ans, aucun enfant ne survit plus
-  de deux ou trois ans.
+  Il vous a demandé d’enquêter sur une rumeur inquiétante. Dans l'ancien village
+  isolé de New Elness, le taux de mortalité infantile est soit disant très
+  élevé. On raconte que depuis plus de dix ans, aucun enfant ne survit plus de
+  deux ou trois ans.
 tags:
   - post
   - JDR
