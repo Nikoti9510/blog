@@ -12,7 +12,7 @@ date: 2024-10-21T21:20:00.000Z
 image: /assets/img/uploads/58103027.jpg
 imageAlt: "Un tunnel sombre d'une mine à l'abandon "
 ---
-# Enquête à New Elness
+# Enquête à New Elness - Un scénario dans l'univers Lovecraftien
 
 Enquête à New Elness est un scénario d’horreur lovecraftienne que j’ai écrit pour mes joueurs, s’inspirant de différents scénarios existant et de plusieurs nouvelles du mythe. Étant un univers horrifique, j’ai ouvertement puisé dans des thèmes et sujets violents et potentiellement sensibles pour certains. Vous trouverez ci-dessous la liste des sujets abordés, avant de jouer à ce scénario, discutez en avec vos joueurs pour vous assurer que tout le monde est partant ! Vous pouvez également consulter ce [Kit de sécurité en JDR](https://drive.google.com/drive/folders/1ZqTPQ2eTxHyTPO1BQAmUWP8VtnhH6qw_) pour vous aider.
 
