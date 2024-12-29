@@ -10,6 +10,8 @@ imageAlt: Un enfant devant un ordinateur levant le pousse en l'air
 ---
 \#WIP#WIP#WIP#WIP#WIP#WIP
 
+# Création d'un portfolio simple en prenant avantage de la JamStack.
+
 Avant de rentrer dans le vif du sujet, on présente rapidement le principe, les outils et la méthodologie. 
 
 On parle de JamStack pour décrire un site créer en prenant avantage de plusieurs outils mis à disposition (gratuitement, en libre de droit, payant, avec abonnement, etc..) et en les assemblant afin de bénéficier de leurs avantages (et ne pas réinventer la roue à chaque contrainte). Par exemple, plutôt que de gérer manuellement l'hébergement de notre site, on utilise un outil puissant et performant (dans notre cas Netlify) qui le fait pour nous. L'idée, c'est de ne pas perdre de temps sur des fonctionnalités déjà existantes, et de se concentrer sur le design et le contenu du site.
