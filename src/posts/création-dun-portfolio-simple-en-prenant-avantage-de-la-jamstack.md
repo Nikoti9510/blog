@@ -36,3 +36,20 @@ Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en
 Si on retourne dans notre dashboard, on voit que nouveau notre répertoire est bien créé. 
 
 ![Dashboard de github avec le nouveau répertoire présent](/assets/img/uploads/dashboard-github-etape-3.png)
+
+Maintenant, rendons nous dans Github Desktop. Si ce n'est pas déjà fait, connecter l'application à votre compte Github. Une fois cela fait, on va pouvoir cloner notre répertoire afin de pouvoir travailler en local. \
+En haut à gauche, on clique sur "*File*" > "*Clone repository*". 
+
+![Interface de github desktop, clonage d'un répertoire ](/assets/img/uploads/github-desktop-etape-1.png)
+
+On choisit le répertoire que l'on a créé plus tôt et on clique sur "Clone" en bas de la fenêtre. 
+
+![Choix d'un répertoire dans github desktop ](/assets/img/uploads/github-desktop-etape-2.png)
+
+Une fois le répertoire cloné, on peut constater que l'on se trouve bien dans le bon espace de travail en haut à gauche (et passer d'un projet à un autre si besoin). On peut maintenant ouvrir notre projet dans VScode en cliquant dans le bouton "Open in Visual Studio Code" au centre de l'écran.
+
+![Interface de github desktop une fois un répertoire cloné](/assets/img/uploads/github-desktop-etape-3.png)
+
+Et voilà, on est prêt à travailler ! On pourrait s'arrêter là et créer un site internet statique en créant des pages en HTML, en les personnalisant avec des feuilles de styles CSS et en ajoutant de l'interaction en Javascript. Mais avant de faire ça, on va pour notre projet installer Hugo. 
+
+## Installation du Hugo et premier push sur github
