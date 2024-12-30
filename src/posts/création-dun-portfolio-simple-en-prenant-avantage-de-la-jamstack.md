@@ -25,14 +25,14 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 
 ## Mettre en place le projet 
 
-Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton "New" en haut à gauche.
+Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton "*New*" en haut à gauche.
 
 ![Interface du dashboard Github](/assets/img/uploads/dashboard-github.png)
 
- Donner un nom à votre répertoire, dans notre exemple ce sera tutoriel_portfolio, et validez en cliquant sur "Create repository" en bas à droite. (les autres options peuvent être laissés par défaut). 
+ Donner un nom à votre répertoire, dans notre exemple ce sera "*tutoriel_portfolio*", et validez en cliquant sur "*Create repository*" en bas à droite. (les autres options peuvent être laissés par défaut). 
 
 ![Création d'un répertoire dans l'interface github](/assets/img/uploads/dashboard-github-etape-2.png)
 
-Si on retourne dans notre dashboard, on voit bien que nouveau notre répertoire est bien créé. 
+Si on retourne dans notre dashboard, on voit que nouveau notre répertoire est bien créé. 
 
 ![Dashboard de github avec le nouveau répertoire présent](/assets/img/uploads/dashboard-github-etape-3.png)
