@@ -21,4 +21,18 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 * [Github Desktop](https://desktop.github.com/download/) nous permet de gérer facilement notre projet, de créer des sauvegardes et différentes versions de travailles, ainsi que de stocker notre projet en ligne. On utilise la version desktop pour nous simplifier le travail, et ne pas avoir à apprendre les commandes gits. 
 * [Visual Studio Code](https://code.visualstudio.com/) pour notre éditeur de code. il nous permet de facilement faire le lien avec Github et Hugo. Il est tout à fait possible d'en utiliser un autre, mais c'est de loin de plus pratique.
 * [Hugo](https://gohugo.io/), un framework ultra rapide et open source, qui nous permet de simplifier la construction d'un site web optimisé, avec des options de templating nous permettant de facilité la maintenabilité et les modifications du site.
-* [Netlify](https://www.netlify.com/), qui fait le lien avec notre répertoire github où est stocké notre projet, pour le transformer en site internet disponible en ligne.
+* [Netlify](https://www.netlify.com/), qui fait le lien avec notre répertoire github où est stocké notre projet, pour le transformer en site internet disponible en ligne. 
+
+## Mettre en place le projet 
+
+Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton "New" en haut à gauche.
+
+![Interface du dashboard Github](/assets/img/uploads/dashboard-github.png)
+
+ Donner un nom à votre répertoire, dans notre exemple ce sera tutoriel_portfolio, et validez en cliquant sur "Create repository" en bas à droite. (les autres options peuvent être laissés par défaut). 
+
+![Création d'un répertoire dans l'interface github](/assets/img/uploads/dashboard-github-etape-2.png)
+
+Si on retourne dans notre dashboard, on voit bien que nouveau notre répertoire est bien créé. 
+
+![Dashboard de github avec le nouveau répertoire présent](/assets/img/uploads/dashboard-github-etape-3.png)
