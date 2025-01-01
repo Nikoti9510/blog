@@ -1,7 +1,7 @@
 local_backend: true
 
 backend:
-  name: local
+  name: github
   repo: Nikoti9510/blog
   branch: main # Branch to update (optional; defaults to master)
 
@@ -13,7 +13,7 @@ collections:
     label: "Article"
     folder: "/src/posts"
     create: true
-    # slug: "{{slug}}"
+    slug: "{{slug}}"
     fields: 
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Descritpion", name: "description", widget: "string" }
