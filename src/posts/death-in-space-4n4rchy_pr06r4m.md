@@ -1,6 +1,6 @@
 ---
 title: "Death In Space #4N4RCHY PR06R4M"
-slug: "death-in-space-4N4RCHY-PR06R4M"
+slug: death-in-space-4N4RCHY-PR06R4M
 description: DEATH IN SPACE est un jeu de rôle de science-fiction et de survie
   dans un univers dévasté par la guerre, écrit par Christian Plogfors et
   Niblaeus du Stockholm Kartell.
