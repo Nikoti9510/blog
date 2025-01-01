@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway #github
+  name: Git Gateway #github
   repo: Nikoti9510/blog
   branch: main # Branch to update (optional; defaults to master)
 
