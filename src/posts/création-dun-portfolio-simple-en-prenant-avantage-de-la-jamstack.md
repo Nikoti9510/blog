@@ -6,7 +6,6 @@ tags:
   - post
   - web-dev
 date: 2024-12-29T17:57:00.000Z
-slug: tutoriel-portfolio
 image: /assets/img/uploads/photo1608697941321-16086979414821299367462-2464785606.jpg
 imageAlt: Un enfant devant un ordinateur levant le pousse en l'air
 ---
