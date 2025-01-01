@@ -1,6 +1,5 @@
 ---
 title: "Création d'un portfolio simple en prenant avantage de la JamStack. #WIP"
-slug: tutoriel-portfolio
 description: Avec Hugo, Netlify et Github.
 tags:
   - post

@@ -1,6 +1,5 @@
 ---
 title: "500 objets sans importances pour du post-apocalyptique "
-slug: 500-objets-post-apocalyptique
 description: Vous venez de rentrer dans un bâtiment en ruine, la horde de zombie
   semble vous avoir enfin lâché les basques. Pourquoi ne pas fouiller un peu les
   lieux ? Lancez 1d500.
