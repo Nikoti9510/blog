@@ -23,7 +23,7 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 * [Hugo](https://gohugo.io/), un framework ultra rapide et open source, qui nous permet de simplifier la construction d'un site web optimisé, avec des options de templating nous permettant de facilité la maintenabilité et les modifications du site.
 * [Netlify](https://www.netlify.com/), qui fait le lien avec notre répertoire github où est stocké notre projet, pour le transformer en site internet disponible en ligne. 
 
-## Mettre en place le projet 
+## Mettre en place le projet
 
 Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton "*New*" en haut à gauche.
 
@@ -50,6 +50,24 @@ Une fois le répertoire cloné, on peut constater que l'on se trouve bien dans l
 
 ![Interface de github desktop une fois un répertoire cloné](/assets/img/uploads/github-desktop-etape-3.png)
 
-Et voilà, on est prêt à travailler ! On pourrait s'arrêter là et créer un site internet statique en créant des pages en HTML, en les personnalisant avec des feuilles de styles CSS et en ajoutant de l'interaction en Javascript. Mais avant de faire ça, on va pour notre projet installer Hugo. 
+Et voilà, on est prêt à travailler ! On pourrait s'arrêter là et faire un site internet statique en créant des pages en HTML, en les personnalisant avec des feuilles de styles CSS et en ajoutant de l'interaction en Javascript. Mais avant de faire ça, on va installer Hugo afin de nous faciliter la vie. 
 
-## Installation du Hugo et premier push sur github
+## Installation de Hugo et premier push sur Github
+
+Commençons par nous rendre sur [](gohugo.io/installation/)[gohugo.io/installation/](<>) et cliquez sur l'option correspondant à votre navigateur. Pour ce tutoriel, je vais suivre les étapes correspondant à Windows (c'est plus simple pour MacOS). 
+
+Dans un premier temps, il nous faut installer [Go](https://go.dev/doc/install), le langage de programmation dans lequel Hugo est écrit. Pas de panique, nous n'aurons pas besoin d'apprendre un nouveau langage pour ce projet, il est simplement nécessaire de l'installer sur notre machine pour la mise en place du projet. Télécharger l'exécutable pour Windows et suivez les instructions de l'installateur. 
+
+![Choisir le bon exécutable pour installer Go](/assets/img/uploads/go.png "Choisir le bon exécutable pour installer Go")
+
+Vous pouvez changer l'emplacement de l'installation sans problème lors de l'installation. 
+
+![Changement de l'emplacement d'installation de Go](/assets/img/uploads/go_2.png "Changement de l'emplacement d'installation de Go")
+
+Une fois l'installation terminé, on peut ouvrir un invite de commande (Windows + R et sélectionner "*cmd*" ou cliquer sur le menu démarrer et chercher "*cmd*"). Taper dans le console la ligne "*Go version*" pour constater que l'installation est bien réussit. 
+
+![Go est bien installé sur cette machine](/assets/img/uploads/go_3.png "Go est bien installé sur cette machine")
+
+Dans la même console, on peut maintenant copier la commande suivante pour installer Hugo : 
+
+`go install github.com/gohugoio/hugo@latest`
