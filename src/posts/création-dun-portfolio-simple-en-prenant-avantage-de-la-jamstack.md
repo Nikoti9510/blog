@@ -82,8 +82,7 @@ Dans la même console, on peut maintenant copier la commande suivante pour insta
 
 
 
-## 
-Création du site avec Hugo
+## Création du site avec Hugo
 
 Une fois que l'installation est terminé, on est prêt à créer notre site ! Pour ça, on réouvre GitHub Desktop et notre projet dans Visual Studio Code. Une fois dans VScode, on va dans "*Terminal* > *New Terminal*". 
 
