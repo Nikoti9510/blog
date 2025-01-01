@@ -1,10 +1,11 @@
 ---
 title: "Création d'un portfolio simple en prenant avantage de la JamStack. #WIP"
-description: Avec Hugo, Netlify et Github.
+description: Avec Hugo, Sveltia, Netlify et Github.
 tags:
   - post
   - web-dev
 date: 2024-12-29T17:57:00.000Z
+slug: tutoriel-portfolio
 image: /assets/img/uploads/photo1608697941321-16086979414821299367462-2464785606.jpg
 imageAlt: Un enfant devant un ordinateur levant le pousse en l'air
 ---
@@ -21,6 +22,7 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 * [Github Desktop](https://desktop.github.com/download/) nous permet de gérer facilement notre projet, de créer des sauvegardes et différentes versions de travailles, ainsi que de stocker notre projet en ligne. On utilise la version desktop pour nous simplifier le travail, et ne pas avoir à apprendre les commandes gits. 
 * [Visual Studio Code](https://code.visualstudio.com/) pour notre éditeur de code. il nous permet de facilement faire le lien avec Github et Hugo. Il est tout à fait possible d'en utiliser un autre, mais c'est de loin de plus pratique.
 * [Hugo](https://gohugo.io/), un framework ultra rapide et open source, qui nous permet de simplifier la construction d'un site web optimisé, avec des options de templating nous permettant de facilité la maintenabilité et les modifications du site.
+* Sveltia, à présenter
 * [Netlify](https://www.netlify.com/), qui fait le lien avec notre répertoire github où est stocké notre projet, pour le transformer en site internet disponible en ligne. 
 
 ## Mettre en place le projet
