@@ -80,7 +80,7 @@ Dans la même console, on peut maintenant copier la commande suivante pour insta
 
 ### Installer Git
 
-
+Rendez vous sur le [site de git pour Windows](https://git-scm.com/downloads/win) pour télécharger la dernière version en cliquant sur le premier lien. Il fois le téléchargement terminé, lancez l'exécutable et suivez les instructions. Voilà, c'est terminé. Pour le moment, pas si terrible.
 
 ## Création du site avec Hugo
 
@@ -90,7 +90,7 @@ Une fois que l'installation est terminé, on est prêt à créer notre site ! Po
 
 Dans le terminal qui s'est ouvert en bas de l'éditeur, on va pouvoir maintenant gérer notre site avec hugo. Pour cela, rien de plus simple, il suffit de taper la ligne de commande suivante : 
 
-`Hugo new site NOM_DU_SITE `
+`Hugo new site NOM_DU_SITE`
 
 Il suffit de remplacer NOM_DU_SITE par le nom de votre choix (sans espaces ni caractères spéciaux).
 
