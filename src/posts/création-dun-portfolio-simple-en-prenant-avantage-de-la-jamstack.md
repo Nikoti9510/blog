@@ -54,7 +54,11 @@ Et voilà, on est prêt à travailler ! On pourrait s'arrêter là et faire un s
 
 ***Avant de continuer, fermez GitHub Desktop et Visual Studio Code.***
 
-## Installation de Hugo et premier push sur Github
+## Installation de Go, Hugo et Git
+
+Oui je sais, j'ai écris plus haut qu'on n'aurait pas besoin de travailler avec Git. j'ai un tout petit peut menti, mais promis c'est très simple ! Et surtout, ce n'est que pour l'étape d'installation et d'initialisation du projet. Ensuite, on travaille avec la version Desktop (mais comme Git sera installé, si l'envie vous prend d'aller plus loin, c'est possible).
+
+### Installer GO et Hugo
 
 Commençons par nous rendre sur [](gohugo.io/installation/)[gohugo.io/installation/](<>) et cliquez sur l'option correspondant à votre navigateur. Pour ce tutoriel, je vais suivre les étapes correspondant à Windows (c'est plus simple pour MacOS). 
 
@@ -74,6 +78,13 @@ Dans la même console, on peut maintenant copier la commande suivante pour insta
 
 `go install github.com/gohugoio/hugo@latest`
 
+### Installer Git
+
+
+
+## 
+Création du site avec Hugo
+
 Une fois que l'installation est terminé, on est prêt à créer notre site ! Pour ça, on réouvre GitHub Desktop et notre projet dans Visual Studio Code. Une fois dans VScode, on va dans "*Terminal* > *New Terminal*". 
 
 ![Ouvrir un terminal dans Visual Studio Code](/assets/img/uploads/terminal.png "Ouvrir un terminal dans Visual Studio Code")
@@ -82,7 +93,7 @@ Dans le terminal qui s'est ouvert en bas de l'éditeur, on va pouvoir maintenant
 
 `Hugo new site NOM_DU_SITE `
 
-Il suffit de remplacer NOM_DU_SITE par le nom de votre choix (dans espace ni caractères spéciaux).
+Il suffit de remplacer NOM_DU_SITE par le nom de votre choix (sans espaces ni caractères spéciaux).
 
 ![La création du site est terminé dans VScode](/assets/img/uploads/hugo-new-site.png "La création du site est terminé dans VScode")
 
