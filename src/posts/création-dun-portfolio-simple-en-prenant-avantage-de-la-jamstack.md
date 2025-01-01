@@ -27,30 +27,32 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 
 Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton "*New*" en haut à gauche.
 
-![Interface du dashboard Github](/assets/img/uploads/dashboard-github.png)
+![Interface du dashboard Github](/assets/img/uploads/dashboard-github.png "Interface du dashboard Github")
 
  Donner un nom à votre répertoire, dans notre exemple ce sera "*tutoriel_portfolio*", et validez en cliquant sur "*Create repository*" en bas à droite. (les autres options peuvent être laissés par défaut). 
 
-![Création d'un répertoire dans l'interface github](/assets/img/uploads/dashboard-github-etape-2.png)
+![Création d'un répertoire dans l'interface github](/assets/img/uploads/dashboard-github-etape-2.png "Création d'un répertoire dans l'interface github")
 
 Si on retourne dans notre dashboard, on voit que nouveau notre répertoire est bien créé. 
 
-![Dashboard de github avec le nouveau répertoire présent](/assets/img/uploads/dashboard-github-etape-3.png)
+![Dashboard de github avec le nouveau répertoire présent](/assets/img/uploads/dashboard-github-etape-3.png "Dashboard de github avec le nouveau répertoire présent")
 
 Maintenant, rendons nous dans Github Desktop. Si ce n'est pas déjà fait, connecter l'application à votre compte Github. Une fois cela fait, on va pouvoir cloner notre répertoire afin de pouvoir travailler en local. \
 En haut à gauche, on clique sur "*File*" > "*Clone repository*". 
 
-![Interface de github desktop, clonage d'un répertoire ](/assets/img/uploads/github-desktop-etape-1.png)
+![Interface de github desktop, clonage d'un répertoire ](/assets/img/uploads/github-desktop-etape-1.png "Interface de github desktop, clonage d'un répertoire")
 
 On choisit le répertoire que l'on a créé plus tôt et on clique sur "Clone" en bas de la fenêtre. 
 
-![Choix d'un répertoire dans github desktop ](/assets/img/uploads/github-desktop-etape-2.png)
+![Choix d'un répertoire dans github desktop ](/assets/img/uploads/github-desktop-etape-2.png "Choix d'un répertoire dans github desktop")
 
 Une fois le répertoire cloné, on peut constater que l'on se trouve bien dans le bon espace de travail en haut à gauche (et passer d'un projet à un autre si besoin). On peut maintenant ouvrir notre projet dans VScode en cliquant dans le bouton "Open in Visual Studio Code" au centre de l'écran.
 
-![Interface de github desktop une fois un répertoire cloné](/assets/img/uploads/github-desktop-etape-3.png)
+![Interface de github desktop une fois un répertoire cloné](/assets/img/uploads/github-desktop-etape-3.png "Interface de github desktop une fois le répertoire cloné")
 
 Et voilà, on est prêt à travailler ! On pourrait s'arrêter là et faire un site internet statique en créant des pages en HTML, en les personnalisant avec des feuilles de styles CSS et en ajoutant de l'interaction en Javascript. Mais avant de faire ça, on va installer Hugo afin de nous faciliter la vie. 
+
+***Avant de continuer, fermez GitHub Desktop et Visual Studio Code.***
 
 ## Installation de Hugo et premier push sur Github
 
@@ -71,3 +73,17 @@ Une fois l'installation terminé, on peut ouvrir un invite de commande (Windows 
 Dans la même console, on peut maintenant copier la commande suivante pour installer Hugo : 
 
 `go install github.com/gohugoio/hugo@latest`
+
+Une fois que l'installation est terminé, on est prêt à créer notre site ! Pour ça, on réouvre GitHub Desktop et notre projet dans Visual Studio Code. Une fois dans VScode, on va dans "*Terminal* > *New Terminal*". 
+
+![Ouvrir un terminal dans Visual Studio Code](/assets/img/uploads/terminal.png "Ouvrir un terminal dans Visual Studio Code")
+
+Dans le terminal qui s'est ouvert en bas de l'éditeur, on va pouvoir maintenant gérer notre site avec hugo. Pour cela, rien de plus simple, il suffit de taper la ligne de commande suivante : 
+
+`Hugo new site NOM_DU_SITE `
+
+Il suffit de remplacer NOM_DU_SITE par le nom de votre choix (dans espace ni caractères spéciaux).
+
+![La création du site est terminé dans VScode](/assets/img/uploads/hugo-new-site.png "La création du site est terminé dans VScode")
+
+On constate une fois la création du site terminé, que des dossiers et fichiers ont été ajoutés dans notre projet.
