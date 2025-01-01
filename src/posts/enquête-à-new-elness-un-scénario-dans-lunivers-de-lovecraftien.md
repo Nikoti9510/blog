@@ -1,5 +1,5 @@
 ---
-title: Enquête à New Elness - Un scénario dans l'univers Lovecraftien
+title: "Enquête à New Elness - Un scénario dans l'univers Lovecraftien"
 slug : New-Elness
 description: Vous avez été engagé par Jack Delany, l’une de vos connaissances.
   Il vous a demandé d’enquêter sur une rumeur inquiétante. Dans l'ancien village
