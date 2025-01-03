@@ -117,3 +117,38 @@ Une fois la commande lancé et le thème téléchargé, il ne reste plus qu'a in
 Et voila ! Le template est chargé et on peut le prévisualiser sur le serveur de test, mais on va voir ensemble comment faire cela juste après, en partant de notre projet vierge. 
 
 ## Configuration du site sans template
+
+Dans cette partie, nous allons créer la structure de base pour notre site. On va commencer par créer une page d'accueil, avec une header, du contenu et un footer. Le contenu de cette page comprendra une section d'introduction, une liste de projet et une bandeau de contact. Cela va nous permettre de prendre en main le fonctionnement de Hugo, en particulier le système de *partials* et comment les manipuler. 
+
+### Lancer un serveur de test
+
+Hugo nous permet de tester notre travail via un serveur local. Pour cela, il suffit de taper la commande suivant dans le terminal : 
+
+`hugo serve`
+
+Une fois le serveur lancé, il suffit de cliquer sur le lien que nous donne Hugo pour visualiser notre site. (Il faut utiliser le raccourcis clavier *Ctrl+C* pour couper le serveur local).
+
+![Lancement d'un serveur de test](/assets/img/uploads/hugo-serve.png "lancement d'un serveur de test")
+
+ Si on se rend sur la page, on se rend compte qu'il y a un soucis. 
+
+![Hugo ne trouve pas de page à afficher](/assets/img/uploads/404-rip.png "Hugo ne trouve pas de page à afficher")
+
+C'est parce que notre site est vide. Regardons la structure généré par Hugo lors de la création de plus près. 
+
+![Structure du projet dans VScode](/assets/img/uploads/structure-du-site.png "Structure du projet dans VScode")
+
+Pour le moment, il y a 3 dossiers qui nous intéresses :
+
+1. assets : C'est ici que l'on va stocker toutes les ressources utiles au site, tels que les images, les fichiers CSS et Javascripts, etc.
+2. content : Dans ce dossier, on va retrouver nos pages, en format *.HTML* ou *.md* (pour [Markdown](https://www.markdownguide.org/cheat-sheet/))
+3. layouts : Où l'on va stocker les fameuses Partials, en quelques sortent des sections ou widgets, que l'on va pouvoir réutiliser dans notre site.
+
+Pour plus de détails sur la structure de Hugo, consulter la documentation à ce sujet : [gohugo.io/getting-started/directory-structure/#directories](https://gohugo.io/getting-started/directory-structure/#directories)
+
+Pour que notre site puisse fonctionner, il y quelques étapes à suivre : 
+
+1. Créer un dossier *_default* dans *layouts*.
+2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
+
+[](https://gohugo.io/getting-started/directory-structure/#directories)
