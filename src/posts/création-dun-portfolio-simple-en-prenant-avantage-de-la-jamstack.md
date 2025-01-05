@@ -104,7 +104,7 @@ On constate une fois la création du site terminé, que des dossiers et fichiers
 
 Hugo propose une [collection de thème gratuit sur son site](https://themes.gohugo.io/), et il est également possible d'en trouver des plus complets sur d'autres sites, comme par exemple [gethugothemes.com](https://gethugothemes.com/products) ou [anvodstudio.com](https://anvodstudio.com/hugo-themes/). Pour l'exemple, j'ai choisi le thème [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/). Pour l'installer, rien de compliqué, il suffit de se rendre sur le page Github du thème (en cliquant sur le bouton "Download" dans la page du thème) et de copier la commande pour installer le submodule dans le terminal de VScode. Pour PaperMod, voilà la commande : 
 
-`git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod `
+`git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod`
 
 > /!\ Il faut s'assurer que l'on se trouve à la racine de notre projet avant d'exécuter la commande. Dans le terminal, le chemin devrait être "GitHub\tutoriel_portfolio". Si ce n'est pas le cas, il faut s'y rendre. Utiliser *cd Nom_du_dossier* vous permet de vous rendre à cette endroit. Utilisez *ls* vous permet de lister tout les dossiers en enfant de celui dans lequel vous êtes. Utilisez *cd ..* vous permet de remonter un niveau. 
 
@@ -149,6 +149,42 @@ Pour plus de détails sur la structure de Hugo, consulter la documentation à ce
 Pour que notre site puisse fonctionner, il y quelques étapes à suivre : 
 
 1. Créer un dossier *_default* dans *layouts*.
-2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
+2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :\
+   `{{ define "main" }}`
+
+   `    {{ .Content }}`
+
+   `    <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>`
+
+   `{{ end }}`
+3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :\
+   `<!DOCTYPE html>`
+
+   `<html lang="{{ site.Language }}">`
+
+   `  <body>`
+
+   `    <main>`
+
+   `      {{- block "main" . }}`
+
+   `      {{ end }}`
+
+   `    </main>`
+
+   `  </body>`
+
+   `</html>`
+4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : \
+   `---`
+
+   `title: "Page d'accueil"`
+
+   `---`
+
+   `# Bonjour internet`\
+   ``Voilà le contenu de la page d'accueil, qui vient de `content/_index.md`!``
+
+![Création des nouveaux fichiers](/assets/img/uploads/fichier-de-base.png "Création des nouveaux fichiers")
 
 [](https://gohugo.io/getting-started/directory-structure/#directories)
