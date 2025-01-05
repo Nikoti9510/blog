@@ -134,8 +134,6 @@ Une fois le serveur lancé, il suffit de cliquer sur le lien que nous donne Hugo
 
 ![Hugo ne trouve pas de page à afficher](/assets/img/uploads/404-rip.png "Hugo ne trouve pas de page à afficher")
 
-
-
 ## Structure d'un site Hugo
 
 Si rien ne s'affiche, c'est parce que notre site est vide (malin je sais). Regardons la structure généré par Hugo lors de la création du site d'un peu plus près. 
@@ -153,28 +151,30 @@ Pour plus de détails sur la structure de Hugo, consulter la documentation à ce
 Pour que notre site puisse fonctionner, il y quelques étapes à suivre : 
 
 1. Créer un dossier *_default* dans *layouts*.
-2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :\
-   `{{ define "main" }}\
-       {{ .Content }}\
-       <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>\
-   {{ end }}`
-3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :\
-   `<!DOCTYPE html>\
-   <html lang="{{ site.Language }}">\
-       <body>\
-           <main>\
-               {{- block "main" . }}\
-               {{ end }}\
-           </main>\
-       </body>\
-   </html>`
-4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : \
-   `---\
-   title: "Page d'accueil"\
-   ---\
-   # Bonjour internet\
-   Voilà le contenu de la page d'accueil, qui vient de "content/_index.md"!`
+2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
+
+   ![Contenu du fichier index.html](/assets/img/uploads/indexhtml-contenu.png "Contenu du fichier index.html")
+3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :
+
+   ![Contenu de baseof.html](/assets/img/uploads/baseofhhtml-contenu.png "Contenu de baseof.html")
+
+
+4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : 
+
+   ![Contenu de index.md](/assets/img/uploads/indexmd-contenu.png "Contenu de index.md")
+
+Voilà à quoi ressemble la structure après la création.
 
 ![Création des nouveaux fichiers](/assets/img/uploads/fichier-de-base.png "Création des nouveaux fichiers")
 
-[](https://gohugo.io/getting-started/directory-structure/#directories)
+Si on relance notre serveur de test, on constate bien que du contenu s'affiche ! 
+
+![La page affiche bien du contenu](/assets/img/uploads/le-site-fonctionne-.png "la page affiche bien du contenu")
+
+Expliquons ce que l'on vient de faire : 
+
+On créer un fichier index.html qui correspond à notre page d'accueil et on l'ajoute dans le dossier layouts pour que Hugo le trouve. Dans ce fichier, on défini un bloc que l'on appelle "main" dans lequel on ajoute le contenu de la page, "*Content*". Ce contenu est récupéré automatiquement par Hugo dans le fichier *.md* possédant le même nom que notre page, si celle-ci existe dans le dossier content. On a également ajouté une balise HTML, qui elle sera statique et ne dépendra pas du contenu de la page. 
+
+On a ensuite défini dans notre dossier _defaut le template de page pour toute nos pages, qui se nomme toujours baseof.html. C'est cette page qui est toujours utilisé par Hugo pour assembler nos pages (il est possible d'en définir plusieurs en cas de besoin, voir [gohugo.io/templates/lookup-order](https://gohugo.io/templates/lookup-order/)). Pour le moment, notre fichier baseof.html est très simple, mais on va venir l'améliorer un peu plus tard. 
+
+Enfin, on créer le fichier Markdown, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. [](https://gohugo.io/getting-started/directory-structure/#directories)
