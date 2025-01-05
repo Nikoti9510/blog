@@ -203,7 +203,9 @@ Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléme
 
 On a ajouté dans notre page de partials, head.html et footer.html. La syntaxe est toujours : 
 
-`{{ partials "chemin/du/partial.html" . }}`
+```
+{{ partials "chemin/du/partial.html" . }}
+```
 
 > [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement du partial. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
 
