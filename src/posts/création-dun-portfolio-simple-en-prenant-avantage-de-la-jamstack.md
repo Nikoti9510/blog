@@ -203,7 +203,7 @@ Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléme
 
 On a ajouté dans notre page de partials, head.html et footer.html. La syntaxe est toujours : 
 
-`"{{ partials "chemin/du/partial.html" . }}`[](https://gohugo.io/getting-started/directory-structure/#directories)
+`{{ partials "chemin/du/partial.html" . }}`[](https://gohugo.io/getting-started/directory-structure/#directories)
 
 > [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
 
@@ -211,13 +211,13 @@ Il faut maintenant créer ces fichiers pour que Hugo puisse les charger. Pour ce
 
 ![Le dossier des partials](/assets/img/uploads/dossier-partials.png "Le dossier des partials")
 
-Dans nos partials, on construit notre éléments avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un footer très simple avec simplement le contenu suivant : 
+Dans nos partials, on construit notre éléments avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un *footer* très simple avec simplement le contenu suivant : 
 
 ```html
 <p>Le footer de mon site - 2025</p>
 ```
 
-Pour notre head, ajoutons un tout petit peu plus de contenu : 
+Pour notre *head*, ajoutons un tout petit peu plus de contenu : 
 
 ```css
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -225,7 +225,7 @@ Pour notre head, ajoutons un tout petit peu plus de contenu :
 <link rel="stylesheet" href="/css/style.css">
 ```
 
-Dans la balise <title>, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier index.md. Il changera donc en fonction de la page dans lequel on se trouve. 
+Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier index.md. Il changera donc en fonction de la page dans lequel on se trouve. 
 
 On a également ajouté un lien vers un fichier CSS. Celui doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (et j'ai perdu quelques cheveux à le comprendre) !
 
