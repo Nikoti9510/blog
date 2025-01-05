@@ -236,3 +236,10 @@ Avec un peu de CSS basique et nos deux partials, notre site commence (presque) �
 ![Le site avec les partials et le CSS](/assets/img/uploads/le-site-avec-les-partials-et-le-css.png "Le site avec les partials et le CSS")
 
 On peut faire un nouveau commit pour sauvegarder notre travail. Pensez à le faire de temps à temps, une fois que vous avez ajouter des fichiers ou modifier du contenu de manière significative.
+
+Reste à faire : 
+
+* Créer une autre page et un menu de navigation 
+* Créer les projets 
+* Mettre en ligne le site 
+* Mettre en place le CMS pour la backoffice
