@@ -157,8 +157,6 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
 3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :
 
    ![Contenu de baseof.html](/assets/img/uploads/baseofhhtml-contenu.png "Contenu de baseof.html")
-
-
 4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : 
 
    ![Contenu de index.md](/assets/img/uploads/indexmd-contenu.png "Contenu de index.md")
@@ -191,8 +189,46 @@ On clique ensuite sur "Commit to main" en bas de la fenêtre. Il ne reste plus q
 
 ![Publier le commit en ligne](/assets/img/uploads/publier-la-branch-en-ligne.png "Publier le commit en ligne")
 
-Une fois cela fait et le chargement effectué, on peut bien retrouver notre travail sur notre espace github en ligne. 
+Une fois cela fait et le chargement effectué, on peut bien retrouver notre travail sur notre espace GitHub en ligne. 
 
 ![Notre projet sur le dashboard GitHub](/assets/img/uploads/premier-push-sur-le-dahsboard-github.png "Notre projet sur le dashboard GitHub")
 
- [](https://gohugo.io/getting-started/directory-structure/#directories)
+Améliorons un peu notre site.
+
+## Mettre en place des sections avec les Partials
+
+Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléments ou sections qui vont nous permettre de réutiliser les bout de code à plusieurs endroits de notre site. Dans notre template par defaut *baseof.html*, ajoutons le code suivant : 
+
+![Ajout de partials dans le layout de base](/assets/img/uploads/partials-dans-baseof.png "Ajout de partials dans le layout de base")
+
+On a ajouté dans notre page de partials, head.html et footer.html. La syntaxe est toujours : 
+
+`"{{ partials "chemin/du/partial.html" . }}`[](https://gohugo.io/getting-started/directory-structure/#directories)
+
+> [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
+
+Il faut maintenant créer ces fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier *partials* dans le dossiers *layouts. On peut créer nos deux partials dans ce dossier*. On se retrouve avec la structure suivante : 
+
+![Le dossier des partials](/assets/img/uploads/dossier-partials.png "Le dossier des partials")
+
+Dans nos partials, on construit notre éléments avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un footer très simple avec simplement le contenu suivant : 
+
+```html
+<p>Le footer de mon site - 2025</p>
+```
+
+Pour notre head, ajoutons un tout petit peu plus de contenu : 
+
+```css
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }}</title>
+<link rel="stylesheet" href="/css/style.css">
+```
+
+Dans la balise <title>, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier index.md. Il changera donc en fonction de la page dans lequel on se trouve. 
+
+On a également ajouté un lien vers un fichier CSS. Celui doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (et j'ai perdu quelques cheveux à le comprendre) !
+
+Avec un peu de CSS basique et nos deux partials, notre site commence (presque) à ressembler à quelque chose.
+
+![Le site avec les partials et le CSS](/assets/img/uploads/le-site-avec-les-partials-et-le-css.png "Le site avec les partials et le CSS")
