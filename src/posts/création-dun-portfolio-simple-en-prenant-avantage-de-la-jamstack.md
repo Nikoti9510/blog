@@ -227,7 +227,7 @@ Pour notre *head*, ajoutons un tout petit peu plus de contenu :
 <link rel="stylesheet" href="/css/style.css">
 ```
 
-Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier index.md. Il changera donc en fonction de la page dans lequel on se trouve. 
+Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier markdown correspondant. Il changera donc en fonction de la page dans lequel on se trouve. 
 
 On a également ajouté un lien vers un fichier CSS. Celui-ci doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (j'ai perdu quelques cheveux à comprendre ça).
 
