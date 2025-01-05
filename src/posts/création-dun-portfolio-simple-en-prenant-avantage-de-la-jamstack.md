@@ -205,13 +205,13 @@ On a ajouté dans notre page de partials, head.html et footer.html. La syntaxe e
 
 `{{ partials "chemin/du/partial.html" . }}`
 
-> [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
+> [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement du partial. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
 
-Il faut maintenant créer ces fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier *partials* dans le dossiers *layouts. On peut créer nos deux partials dans ce dossier*. On se retrouve avec la structure suivante : 
+Il faut maintenant créer les fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier *partials* dans le dossiers *layouts.* On peut créer nos deux partials dans ce dossier et on se retrouve avec la structure suivante : 
 
 ![Le dossier des partials](/assets/img/uploads/dossier-partials.png "Le dossier des partials")
 
-Dans nos partials, on construit notre éléments avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un *footer* très simple avec simplement le contenu suivant : 
+Dans nos partials, on construit notre élément avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un *footer* très simple avec le contenu suivant : 
 
 ```html
 <p>Le footer de mon site - 2025</p>
@@ -227,7 +227,7 @@ Pour notre *head*, ajoutons un tout petit peu plus de contenu :
 
 Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier index.md. Il changera donc en fonction de la page dans lequel on se trouve. 
 
-On a également ajouté un lien vers un fichier CSS. Celui doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (et j'ai perdu quelques cheveux à le comprendre) !
+On a également ajouté un lien vers un fichier CSS. Celui-ci doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (j'ai perdu quelques cheveux à comprendre ça).
 
 Avec un peu de CSS basique et nos deux partials, notre site commence (presque) à ressembler à quelque chose.
 
