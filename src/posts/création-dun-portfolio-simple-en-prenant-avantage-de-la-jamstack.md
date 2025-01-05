@@ -134,15 +134,19 @@ Une fois le serveur lancé, il suffit de cliquer sur le lien que nous donne Hugo
 
 ![Hugo ne trouve pas de page à afficher](/assets/img/uploads/404-rip.png "Hugo ne trouve pas de page à afficher")
 
-C'est parce que notre site est vide. Regardons la structure généré par Hugo lors de la création de plus près. 
+
+
+## Structure d'un site Hugo
+
+Si rien ne s'affiche, c'est parce que notre site est vide (malin je sais). Regardons la structure généré par Hugo lors de la création du site d'un peu plus près. 
 
 ![Structure du projet dans VScode](/assets/img/uploads/structure-du-site.png "Structure du projet dans VScode")
 
 Pour le moment, il y a 3 dossiers qui nous intéresses :
 
-1. assets : C'est ici que l'on va stocker toutes les ressources utiles au site, tels que les images, les fichiers CSS et Javascripts, etc.
-2. content : Dans ce dossier, on va retrouver nos pages, en format *.HTML* ou *.md* (pour [Markdown](https://www.markdownguide.org/cheat-sheet/))
-3. layouts : Où l'on va stocker les fameuses Partials, en quelques sortent des sections ou widgets, que l'on va pouvoir réutiliser dans notre site.
+1. **assets** : C'est ici que l'on va stocker toutes les ressources utiles au site, tels que les images, les fichiers CSS et Javascripts, etc.
+2. **content** : Dans ce dossier, on va retrouver nos pages, en format *.HTML* ou *.md* (pour [Markdown](https://www.markdownguide.org/cheat-sheet/))
+3. **layouts** : Où l'on va stocker les fameuses Partials, en quelques sortent des sections ou widgets, que l'on va pouvoir réutiliser dans notre site.
 
 Pour plus de détails sur la structure de Hugo, consulter la documentation à ce sujet : [gohugo.io/getting-started/directory-structure/#directories](https://gohugo.io/getting-started/directory-structure/#directories)
 
@@ -150,38 +154,24 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
 
 1. Créer un dossier *_default* dans *layouts*.
 2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :\
-   `{{ define "main" }}`
-
-   `    {{ .Content }}`
-
-   `    <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>`
-
+   `{{ define "main" }}`\
+   `    {{ .Content }}`\
+   `    <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>`\
    `{{ end }}`
 3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :\
-   `<!DOCTYPE html>`
-
-   `<html lang="{{ site.Language }}">`
-
-   `  <body>`
-
-   `    <main>`
-
-   `      {{- block "main" . }}`
-
-   `      {{ end }}`
-
-   `    </main>`
-
-   `  </body>`
-
+   `<!DOCTYPE html>`\
+   `<html lang="{{ site.Language }}">`\
+   `    <body>`\
+   `        <main>`\
+   `            {{- block "main" . }}`\
+   `            {{ end }}`\
+   `        </main>`\
+   `    </body>`\
    `</html>`
 4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : \
-   `---`
-
-   `title: "Page d'accueil"`
-
-   `---`
-
+   `---`\
+   `title: "Page d'accueil"`\
+   `---`\
    `# Bonjour internet`\
    ``Voilà le contenu de la page d'accueil, qui vient de `content/_index.md`!``
 
