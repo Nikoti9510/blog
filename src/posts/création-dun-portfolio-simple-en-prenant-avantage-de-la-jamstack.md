@@ -177,4 +177,22 @@ On créer un fichier index.html qui correspond à notre page d'accueil et on l'a
 
 On a ensuite défini dans notre dossier _defaut le template de page pour toute nos pages, qui se nomme toujours baseof.html. C'est cette page qui est toujours utilisé par Hugo pour assembler nos pages (il est possible d'en définir plusieurs en cas de besoin, voir [gohugo.io/templates/lookup-order](https://gohugo.io/templates/lookup-order/)). Pour le moment, notre fichier baseof.html est très simple, mais on va venir l'améliorer un peu plus tard. 
 
-Enfin, on créer le fichier Markdown, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. [](https://gohugo.io/getting-started/directory-structure/#directories)
+Enfin, on créer le fichier Markdown, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. 
+
+Avant d'aller plus loin, sauvegardons notre travail. 
+
+## Pousser les fichiers locaux sur Github
+
+On se rend dans GitHub Desktop, et on remarque que plusieurs fichiers sont ajoutés dans la liste des modifications. Pour pouvoir les envoyer sur notre RepoGitHub™, il faut donner un nom à notre commit. Quelques choses dans la veine de "Premier push" fera l'affaire. Vous pouvez ajouter une descriptions si l'envie vous prend. Essayez d'être clair et précis dans vos noms de push, car vous pourrez les retrouver dans Github et revenir en arrière quand les bugs vont inévitablement apparaitre.  
+
+![Le premier push sur notre répertoire GitHub](/assets/img/uploads/premier-push-github.png "Le premier push sur notre répertoire GitHub")
+
+On clique ensuite sur "Commit to main" en bas de la fenêtre. Il ne reste plus qu'a publier le commit sur le projet, pour cela, on clique sur "Publish branch". 
+
+![Publier le commit en ligne](/assets/img/uploads/publier-la-branch-en-ligne.png "Publier le commit en ligne")
+
+Une fois cela fait et le chargement effectué, on peut bien retrouver notre travail sur notre espace github en ligne. 
+
+![Notre projet sur le dashboard GitHub](/assets/img/uploads/premier-push-sur-le-dahsboard-github.png "Notre projet sur le dashboard GitHub")
+
+ [](https://gohugo.io/getting-started/directory-structure/#directories)
