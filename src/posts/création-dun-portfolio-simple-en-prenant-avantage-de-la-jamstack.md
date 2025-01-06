@@ -142,7 +142,7 @@ Si rien ne s'affiche, c'est parce que notre site est vide (malin je sais). Regar
 
 Pour le moment, il y a 3 dossiers qui nous intéresses :
 
-1. **assets** : C'est ici que l'on va stocker toutes les ressources utiles au site, tels que les images, les fichiers CSS et Javascripts, etc.
+1. **static** : C'est ici que l'on va stocker toutes les ressources utiles au site qui ne changent jamais, tels que les images réutilisées dans toutes les pages, les fichiers CSS et Javascripts, etc.
 2. **content** : Dans ce dossier, on va retrouver nos pages, en format *.HTML* ou *.md* (pour [Markdown](https://www.markdownguide.org/cheat-sheet/))
 3. **layouts** : Où l'on va stocker les fameuses Partials, en quelques sortent des sections ou widgets, que l'on va pouvoir réutiliser dans notre site.
 
@@ -151,25 +151,50 @@ Pour plus de détails sur la structure de Hugo, consulter la documentation à ce
 Pour que notre site puisse fonctionner, il y quelques étapes à suivre : 
 
 1. Créer un dossier *_default* dans *layouts*.
-2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
-3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :
-4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : 
+2. Dans *_default*, créer un fichier *home.html* avec le contenu suivant :
+
+   ```
+   {{ define "main" }}
+       {{ .Content }}
+   {{ end }}
+   ```
+3. Toujours *layouts* > *_default*, créer un fichier *baseof.html* avec le contenu suivant :
+
+   ```html
+   <html lang="{{ site.Language }}">
+   <body>
+     <main>
+       {{ block "main" . }}{{ end }}
+     </main>
+   </body>
+   </html>
+   ```
+4. enfin, dans le dossier *content*, ajouter un fichier _*index.md* avec le contenu suivant : 
+
+   ```markdown
+   ---
+   title: "Page d'accueil"
+   ---
+
+   # Bonjour internet
+   Voilà le contenu de la page d'accueil, qui vient de `content/_index.md`!
+   ```
 
 Voilà à quoi ressemble la structure après la création.
 
-![Création des nouveaux fichiers](/assets/img/uploads/fichier-de-base.png "Création des nouveaux fichiers")
+![Création des nouveaux fichiers](/assets/img/uploads/structure-v2.png "Création des nouveaux fichiers")
 
 Si on relance notre serveur de test, on constate bien que du contenu s'affiche ! 
 
-![La page affiche bien du contenu](/assets/img/uploads/le-site-fonctionne-.png "la page affiche bien du contenu")
+![La page affiche bien du contenu](/assets/img/uploads/le-site-fonctionne-v2.png "la page affiche bien du contenu")
 
 Expliquons ce que l'on vient de faire : 
 
-On créer un fichier index.html qui correspond à notre page d'accueil et on l'ajoute dans le dossier layouts pour que Hugo le trouve. Dans ce fichier, on défini un bloc que l'on appelle "main" dans lequel on ajoute le contenu de la page, "*Content*". Ce contenu est récupéré automatiquement par Hugo dans le fichier *.md* possédant le même nom que notre page, si celle-ci existe dans le dossier content. On a également ajouté une balise HTML, qui elle sera statique et ne dépendra pas du contenu de la page. 
+On créer un fichier *home.html* qui correspond à notre page d'accueil et on l'ajoute dans le dossier *layouts > _default* afin que Hugo le trouve. Dans ce fichier, on défini un bloc que l'on appelle "main" dans lequel on ajoute le contenu de la page, "*Content*". Ce contenu est récupéré automatiquement par Hugo dans le fichier *_index.md,* si celle-ci existe dans le dossier content. On a également ajouté une balise HTML, qui elle sera statique et ne dépendra pas du contenu de la page. 
 
-On a ensuite défini dans notre dossier _defaut le template de page pour toute nos pages, qui se nomme toujours baseof.html. C'est cette page qui est toujours utilisé par Hugo pour assembler nos pages (il est possible d'en définir plusieurs en cas de besoin, voir [gohugo.io/templates/lookup-order](https://gohugo.io/templates/lookup-order/)). Pour le moment, notre fichier baseof.html est très simple, mais on va venir l'améliorer un peu plus tard. 
+On a ensuite défini dans notre dossier *_defaut* le template de page pour toute nos pages, qui se nomme toujours *baseof.html*. C'est cette page qui est toujours utilisé par Hugo pour assembler nos pages (il est possible d'en définir plusieurs en cas de besoin, voir [gohugo.io/templates/lookup-order](https://gohugo.io/templates/lookup-order/)). Pour le moment, notre fichier *baseof.html* est très simple, mais on va venir l'améliorer un peu plus tard. 
 
-Enfin, on créer le fichier Markdown, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. 
+Enfin, on créer le fichier Markdown *_index.md*, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. 
 
 Avant d'aller plus loin, sauvegardons notre travail. 
 
@@ -197,13 +222,13 @@ Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléme
 
 On a ajouté dans notre page de partials, head.html et footer.html. La syntaxe est toujours : 
 
-```
-partials "chemin/du/partial.html" . 
+```html
+{{ partials "chemin/du/partial.html" . }}
 ```
 
 > [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement du partial. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
 
-Il faut maintenant créer les fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier *partials* dans le dossiers *layouts.* On peut créer nos deux partials dans ce dossier et on se retrouve avec la structure suivante : 
+Il faut maintenant créer les fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier *partials* dans le dossiers *layouts.* On peut créer nos deux partials ici et on se retrouve avec la structure suivante : 
 
 ![Le dossier des partials](/assets/img/uploads/dossier-partials.png "Le dossier des partials")
 
@@ -215,21 +240,109 @@ Dans nos partials, on construit notre élément avec uniquement ce qui est néce
 
 Pour notre *head*, ajoutons un tout petit peu plus de contenu : 
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{.Title}}</title>
+<title>{{ .Title }}</title>
 <link rel="stylesheet" href="/css/style.css">
 ```
 
-Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier markdown correspondant. Il changera donc en fonction de la page dans lequel on se trouve. 
+Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier Markdown correspondant. Il changera donc en fonction de la page dans lequel on se trouve. 
 
-On a également ajouté un lien vers un fichier CSS. Celui-ci doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (j'ai perdu quelques cheveux à comprendre ça).
+On a également ajouté un lien vers un fichier CSS. Celui-ci doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (j'ai perdu quelques cheveux à comprendre ça). 
 
 Avec un peu de CSS basique et nos deux partials, notre site commence (presque) à ressembler à quelque chose.
 
-![Le site avec les partials et le CSS](/assets/img/uploads/le-site-avec-les-partials-et-le-css.png "Le site avec les partials et le CSS")
+![Le site avec les partials et le CSS](/assets/img/uploads/le-site-avec-les-partials-et-le-css-v2.png "Le site avec les partials et le CSS")
 
 On peut faire un nouveau commit pour sauvegarder notre travail. Pensez à le faire de temps à temps, une fois que vous avez ajouter des fichiers ou modifier du contenu de manière significative.
+
+## Ajouter des pages 
+
+Pour ajouter des pages dans notre site, il faut que l'on créer deux dossiers intitulés *pages*. Le premier est inséré dans *layouts*, au même niveau que *_default* et *partials*. Le second est ajouté dans *content*, au même niveau que notre fichier *_index.md*. Notre structure ressemble à ceci : 
+
+![Ajout des dossiers pages](/assets/img/uploads/ajoutes-des-dossiers-pages.png "Ajout des dossiers pages")
+
+Dans layout, on créer un fichier .html qui va correspondre à notre nouvelle page. Pour notre exemple, créons une page contact.html avec le code suivant : 
+
+```html
+{{ define "main" }}
+    {{ .Content }}
+    <form action="#">
+        <input type="text" value="Votre message">
+        <input type="submit" value="Envoyer">
+    </form>
+    <a class="btn" href='/'>Retour à l'accueil</a>
+{{ end }}
+```
+
+À la suite de notre injection de contenu, on créer un petit formulaire de contact et un lien vers la page d'accueil. On remarque que le lien est fait en référencent la racine du site avec *"/"*. 
+
+On créer ensuite un fichier Markdown correspondant dans le dossiers *content > pages*, c'est à dire avec le même nom que notre page. Ici, on créer donc une page *contact.md* avec le contenu suivant : 
+
+```markdown
+---
+title: "Page d'accueil"
+layout: "contact"
+url: "/contact/"
+---
+
+# Discutons ensemble :smile:
+Je suis à votre écoute pour réaliser votre projet !
+```
+
+C'est le bon moment pour introduire le fonctionnement des fichiers Markdown. Vous l'avez sans doute remarqué plus haut, on a ajouté du contenu entre des blocs "---" en haut de nos fichiers .md. C'est le contenu [Frontmatter](https://frontmatter.codes/docs) de notre page. Il nous permet de définir tout un collection d'information relative à la page, que l'on pourra ensuite piloter via notre CMS plus tard. On reviendra un peu plus en détail sur cette partie plus tard, quand on abordera la création des projets. 
+
+Pour le moment, il faut noter que pour que notre page affiche bien le bon contenu, il faut lui préciser le layout que l'on veut qu'elle utilise, ainsi que son url. 
+
+`layout: "contact"`\
+`url: "/contact/`
+
+> Les émojis ne sont pas activés par défaut dans un site Hugo, il faut le définir dans le fichier de configuration *hugo.toml* ou *config.toml*. Plus d'infos ici : [gohugo.io/quick-reference/emojis/](https://gohugo.io/quick-reference/emojis/)
+
+Pour finir, il faut que l'on ajoute un lien vers notre page contact sur notre page d'accueil afin de pouvoir l'atteindre. On a ici deux choix : 
+
+* on ajoute un lien dans le fichier *home.html* via une balise *<a>*, de la même manière que dans la page contact.html que l'on vient de créer.
+* On ajoute un lien dans le fichier *_index.md*, c'est à dire le contenu de notre page d'accueil. 
+
+Ce choix va dépendre de notre usage et de notre situation, mais ici, il est plus logique que le lien soit directement dans le contenu de la page (et ça nous permet de voir comment ajouter un lien et une classe en Markdown). 
+
+Dans _index.md donc : 
+
+```
+---
+title: "Page d'accueil"
+---
+
+# Bonjour internet
+Voilà le contenu de la page d'accueil, qui vient de `content/_index.md` !
+
+[Contactez moi](/contact/ "Contactez moi")
+{.btn}
+```
+
+Ajouter un lien en Markdown est relativement simple comme vous pouvez le voir. La structure est toujours : \
+`[infobulle](/url/ "text du lien)`\
+\
+Pour ajouter une classe ou un ID à un élément, il suffit de le définir entre accoladent sous cet élément (à l'exception des titre Hn et des blocs de code, [plus de détail dans la documentation à ce sujet](https://gohugo.io/content-management/markdown-attributes/#usage)). Cependant, il n'est pas possible d'ajouter directement une classe sur un bouton. Dans notre cas, j'ajoute du morceau de code {.btn} créer une balise <p> englobant notre lien. Il faut donc le prendre en compte dans notre CSS. 
+
+L'idéal est de définir un style par défaut pour les liens issus d'un bloc de contenu provenant d'un fichier markdown qui ne requiert pas d'ajout de classe, et j'ajouter les liens différents via des partials. 
+
+> L'ajout de classe dans les fichiers .md n'est pas activé par défaut dans Hugo, il faut ajouter dans le fichier *hugo.toml* ou *config.toml* le contenu suivant : 
+>
+> ```toml
+> [markup]
+>   [markup.goldmark]
+>     [markup.goldmark.parser]
+>       [markup.goldmark.parser.attribute]
+>         block = true
+>         title = true
+> ```
+>
+> Plus d'info dans la documentation ici : [gohugo.io/content-management/markdown-attributes/#block-elements](https://gohugo.io/content-management/markdown-attributes/#block-elements)
+
+Il ne reste plus qu'a ajouter un peu de CSS, de relancer notre serveur et de naviguer jusqu'à notre superbe page de contact ! 
+
+![Notre page de contact fonctionne](/assets/img/uploads/page-contact-.png "Notre page de contact fonctionne")
 
 Reste à faire : 
 
