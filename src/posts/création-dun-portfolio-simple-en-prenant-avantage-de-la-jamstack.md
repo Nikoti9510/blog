@@ -118,7 +118,7 @@ Et voila ! Le template est chargé et on peut le prévisualiser sur le serveur d
 
 ## Configuration du site sans template
 
-Dans cette partie, nous allons créer la structure de base pour notre site. On va commencer par créer une page d'accueil, avec une header, du contenu et un footer. Le contenu de cette page comprendra une section d'introduction, une liste de projet et une bandeau de contact. Cela va nous permettre de prendre en main le fonctionnement de Hugo, en particulier le système de *partials* et comment les manipuler. 
+Dans cette partie, nous allons créer la structure de base pour notre site. On va commencer par créer une page d'accueil, avec une header, du contenu et un footer. Cela va nous permettre de prendre en main le fonctionnement de Hugo, en particulier le système de *partials* et comment les manipuler. On prendra également le temps de voir comment créer un menu de navigation ainsi qu'une liste de projets dans notre page d'accueil. 
 
 ### Lancer un serveur de test
 
@@ -216,7 +216,7 @@ Améliorons un peu notre site.
 
 ## Mettre en place des sections avec les Partials
 
-Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléments ou sections qui vont nous permettre de réutiliser les bout de code à plusieurs endroits de notre site. Dans notre template par defaut *baseof.html*, ajoutons le code suivant : 
+Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléments ou sections qui vont nous permettre de réutiliser les bout de code à plusieurs endroits de notre site. Dans notre template par défaut *baseof.html*, ajoutons le code suivant : 
 
 ![Ajout de partials dans le layout de base](/assets/img/uploads/partials-dans-baseof.png "Ajout de partials dans le layout de base")
 
@@ -350,13 +350,16 @@ Il ne reste plus qu'a ajouter un peu de CSS, de relancer notre serveur et de nav
 
 ![Notre page de contact fonctionne](/assets/img/uploads/page-contact-.png "Notre page de contact fonctionne")
 
+On oublie pas de commit notre travail sur GitHub, et on continu. 
+
+## Créer un menu de navigation 
+
 
 
 
 
 Reste à faire : 
 
-* Créer un menu de navigation 
 * Créer les projets 
 * Mettre en ligne le site 
 * Mettre en place le CMS pour la backoffice
