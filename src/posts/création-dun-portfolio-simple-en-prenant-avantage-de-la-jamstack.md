@@ -158,13 +158,6 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
        <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>
    \{\{ end \}\}
 ```
-
-   ```suggestion
-   {{ define "main" }}
-       {{ .Content }}
-       <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>
-   {{ end }}
-   ```
 3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :
 
    ```markdown
