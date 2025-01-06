@@ -152,33 +152,8 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
 
 1. Créer un dossier *_default* dans *layouts*.
 2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
-```html
-`{`{ define "main" `}`}
-    {{ .Content }}
-    <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>
-{{ end }}
-```
 3. Dans *layouts* > *_default*, créer un fichier baseof.html avec le contenu suivant :
-
-   ```markdown
-   <html lang="\{\{ site.Language \}\}">
-   <body>
-     <main>
-       \{\{ block "main" . \}\}\{\{ end \}\}
-     </main>
-   </body>
-   </html>
-   ```
 4. enfin, dans le dossier content, ajouter un fichier index.md avec le contenu suivant : 
-
-   ```markdown
-   ---
-   title: "Page d'accueil"
-   ---
-
-   # Bonjour internet
-   Voilà le contenu de la page d'accueil, qui vient de `content/_index.md`!
-   ```
 
 Voilà à quoi ressemble la structure après la création.
 
@@ -242,7 +217,7 @@ Pour notre *head*, ajoutons un tout petit peu plus de contenu :
 
 ```css
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ .Title }}</title>
+<title>{{{ .Title }}}</title>
 <link rel="stylesheet" href="/css/style.css">
 ```
 
