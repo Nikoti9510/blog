@@ -152,7 +152,7 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
 
 1. Créer un dossier *_default* dans *layouts*.
 2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
-```
+```html
 `{`{ define "main" `}`}
     {{ .Content }}
     <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>
