@@ -215,7 +215,7 @@ Dans nos partials, on construit notre élément avec uniquement ce qui est néce
 
 Pour notre *head*, ajoutons un tout petit peu plus de contenu : 
 
-```html
+```jsonc
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ .Title }}</title>
 <link rel="stylesheet" href="/css/style.css">
