@@ -215,11 +215,11 @@ Dans nos partials, on construit notre élément avec uniquement ce qui est néce
 
 Pour notre *head*, ajoutons un tout petit peu plus de contenu : 
 
-~~~
+```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ .Title }}</title>
+<title>{ { .Title } }</title>
 <link rel="stylesheet" href="/css/style.css">
-~~~
+```
 
 Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier markdown correspondant. Il changera donc en fonction de la page dans lequel on se trouve. 
 
