@@ -154,7 +154,7 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
 2. Toujours dans layouts, créer un fichier index.html avec le contenu suivant :
 
    ```suggestion
-   {{ define "main" }}
+   &#123&#123 {{ define "main" }} &#125&#125
        {{ .Content }}
        <p>Un autre contenu présent dans <code>layouts/index.html</code>.</p>
    {{ end }}
