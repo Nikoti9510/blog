@@ -321,7 +321,13 @@ Voilà le contenu de la page d'accueil, qui vient de `content/_index.md` !
 ```
 
 Ajouter un lien en Markdown est relativement simple comme vous pouvez le voir. La structure est toujours : \
-`[infobulle](/url/ "text du lien)`\
+`[infobulle](/url/ "text du lien")`
+
+Dans cet exemple, j'ai indiqué le lien moi même, mais il est possible de laisser Hugo générer lui même le lien en utilisant une de ces nombreuses fonctions. On peut modifier le code de la manière suivante :
+
+`[Contactez moi]({{< ref "/pages/contact" >}} "Contactez moi")`
+
+Ici, *{{< ref "/pages/contact" >}}* appelle la fonction "ref" de Hugo, qui retourne le lien absolue de notre page. 
 \
 Pour ajouter une classe ou un ID à un élément, il suffit de le définir entre accoladent sous cet élément (à l'exception des titre Hn et des blocs de code, [plus de détail dans la documentation à ce sujet](https://gohugo.io/content-management/markdown-attributes/#usage)). Cependant, il n'est pas possible d'ajouter directement une classe sur un bouton. Dans notre cas, j'ajoute du morceau de code {.btn} créer une balise <p> englobant notre lien. Il faut donc le prendre en compte dans notre CSS. 
 
@@ -344,9 +350,13 @@ Il ne reste plus qu'a ajouter un peu de CSS, de relancer notre serveur et de nav
 
 ![Notre page de contact fonctionne](/assets/img/uploads/page-contact-.png "Notre page de contact fonctionne")
 
+
+
+
+
 Reste à faire : 
 
-* Créer une autre page et un menu de navigation 
+* Créer un menu de navigation 
 * Créer les projets 
 * Mettre en ligne le site 
 * Mettre en place le CMS pour la backoffice
