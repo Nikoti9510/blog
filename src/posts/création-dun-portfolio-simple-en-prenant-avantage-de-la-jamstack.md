@@ -301,12 +301,12 @@ Pour le moment, il faut noter que pour que notre page affiche bien le bon conten
 
 Pour finir, il faut que l'on ajoute un lien vers notre page contact sur notre page d'accueil afin de pouvoir l'atteindre. On a ici deux choix : 
 
-* on ajoute un lien dans le fichier *home.html* via une balise *<a>*, de la même manière que dans la page contact.html que l'on vient de créer.
+* on ajoute un lien dans le fichier *home.html* via une balise *a*, de la même manière que dans la page contact.html que l'on vient de créer.
 * On ajoute un lien dans le fichier *_index.md*, c'est à dire le contenu de notre page d'accueil. 
 
 Ce choix va dépendre de notre usage et de notre situation, mais ici, il est plus logique que le lien soit directement dans le contenu de la page (et ça nous permet de voir comment ajouter un lien et une classe en Markdown). 
 
-Dans _index.md donc : 
+Dans *_index.md* donc : 
 
 ```
 ---
