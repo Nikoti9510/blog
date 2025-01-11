@@ -570,16 +570,16 @@ figcaption {
 .post em {
     font-weight: var(--font-weight-semi-bold);
 }
-/* p:has(> .code) {
+p:has(> .code) {
     --flow-space: var(--space-s);
 }
 .post code {
     padding: calc(var(--space-gutter-s) / 2) var(--space-gutter-s);
     background: var(--fond-hover);
     width: 100%;
-    display: block;
+    /* display: block; */
     border-radius: 4px;
-} */
+}
 /* tableau */
 .post table {
     overflow-x: auto;
