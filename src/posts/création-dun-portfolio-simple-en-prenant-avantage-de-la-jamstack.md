@@ -379,7 +379,46 @@ Il existe d'autres [options de menu que vous pouvez consulter dans le documentat
 
 Une fois notre menu créé, il faut que l'on ajoute un partials pour l'appeler et générer du code en conséquence. Pour cela, on se rend dans `layouts > partials` et on créer le fichier `nav.html`.
 
+Celui-ci va contenir le code suivant : 
 
+```html
+<nav>
+    <ul>
+        {{ range .Site.Menus.header }}
+        <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+```
+
+On créer simplement la structure de notre navigation en HTML, et on vient utiliser une autre fonction de Hugo, [range](https://gohugo.io/functions/go-template/range/), pour itérer sur les pages de notre navigation. L'[objet Site comporte tout un tas de méthode](https://gohugo.io/methods/site/), dont `Menus`, qui nous permet de récupérer un menu que l'on a configurer dans le fichier de configuration du site.
+
+Il ne nous reste plus qu'a appeler notre partial dans le fichier `baseof.html` pour que notre menu apparaisse. On ajoute une balise `header` ici, mais on aurait aussi pu créer un partial avec la balise `header`, en fonction de notre préférence : 
+
+```html
+<html lang="{{ site.Language }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "nav.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>
+```
+
+Et voilà, notre menu apparait dans toutes nos pages ! 
+
+![Notre menu de navigation foncitonne](/assets/img/uploads/menu-ok.png "Notre menu de navigation fonctionne")
 
 
 
