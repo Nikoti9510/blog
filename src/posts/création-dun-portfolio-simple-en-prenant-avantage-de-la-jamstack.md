@@ -27,11 +27,11 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 
 ## Mettre en place le projet
 
-Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton "*New*" en haut à gauche.
+Une fois Github Desktop et Visual Studio Code installé, on va pouvoir mettre en place le projet. On se rend dans notre [espace personnel sur GitHub](https://github.com/) et on créer un nouveau répertoire en cliquant sur le bouton `New` en haut à gauche.
 
 ![Interface du dashboard Github](/assets/img/uploads/dashboard-github.png "Interface du dashboard Github")
 
- Donner un nom à votre répertoire, dans notre exemple ce sera "*tutoriel_portfolio*", et validez en cliquant sur "*Create repository*" en bas à droite. (les autres options peuvent être laissés par défaut). 
+ Donner un nom à votre répertoire, dans notre exemple ce sera "*tutoriel_portfolio*", et validez en cliquant sur `Create repository` en bas à droite. (les autres options peuvent être laissés par défaut). 
 
 ![Création d'un répertoire dans l'interface github](/assets/img/uploads/dashboard-github-etape-2.png "Création d'un répertoire dans l'interface github")
 
@@ -40,15 +40,15 @@ Si on retourne dans notre dashboard, on voit que notre nouveau répertoire est b
 ![Dashboard de github avec le nouveau répertoire présent](/assets/img/uploads/dashboard-github-etape-3.png "Dashboard de github avec le nouveau répertoire présent")
 
 Maintenant, rendons nous dans Github Desktop. Si ce n'est pas déjà fait, connecter l'application à votre compte Github. Ensuite, on peut cloner notre répertoire afin de pouvoir travailler localement sur notre machine. \
-En haut à gauche, on clique sur "*File*" > "*Clone repository*". 
+En haut à gauche, on clique sur `File > Clone repository`.
 
 ![Interface de github desktop, clonage d'un répertoire ](/assets/img/uploads/github-desktop-etape-1.png "Interface de github desktop, clonage d'un répertoire")
 
-On choisit le répertoire que l'on a créé plus tôt et on clique sur "Clone" en bas de la fenêtre. 
+On choisit le répertoire que l'on a créé plus tôt et on clique sur `Clone` en bas de la fenêtre. 
 
 ![Choix d'un répertoire dans github desktop ](/assets/img/uploads/github-desktop-etape-2.png "Choix d'un répertoire dans github desktop")
 
-Une fois le répertoire cloné, on peut constater que l'on se trouve bien dans le bon espace de travail en haut à gauche (et passer d'un projet à un autre si besoin). On peut maintenant ouvrir notre projet dans VScode en cliquant dans le bouton "Open in Visual Studio Code" au centre de l'écran.
+Une fois le répertoire cloné, on peut constater que l'on se trouve bien dans le bon espace de travail en haut à gauche (et passer d'un projet à un autre si besoin). On peut maintenant ouvrir notre projet dans VScode en cliquant dans le bouton `Open in Visual Studio Code` au centre de l'écran.
 
 ![Interface de github desktop une fois un répertoire cloné](/assets/img/uploads/github-desktop-etape-3.png "Interface de github desktop une fois le répertoire cloné")
 
@@ -72,7 +72,7 @@ Vous pouvez changer l'emplacement de l'installation sans problème lors de l'ins
 
 ![Changement de l'emplacement d'installation de Go](/assets/img/uploads/go_2.png "Changement de l'emplacement d'installation de Go")
 
-Une fois l'installation terminé, on ouvre une invite de commande (Windows + R et sélectionner "*cmd*" ou cliquer sur le menu démarrer et chercher "*cmd*"). Taper dans le console la ligne "*Go version*" pour constater que l'installation est bien réussit. 
+Une fois l'installation terminé, on ouvre une invite de commande (Windows + R et sélectionner `cmd` ou cliquer sur le menu démarrer et chercher `cmd`). Taper dans le console la ligne `Go version` pour constater que l'installation est bien réussit. 
 
 ![Go est bien installé sur cette machine](/assets/img/uploads/go_3.png "Go est bien installé sur cette machine")
 
@@ -86,7 +86,7 @@ Rendez vous sur le [site de git pour Windows](https://git-scm.com/downloads/win)
 
 ## Création du site avec Hugo
 
-Une fois que l'installation est terminé, on est prêt à créer notre site ! Pour ça, on réouvre GitHub Desktop et notre projet dans Visual Studio Code. Une fois dans VScode, on va dans "*Terminal* > *New Terminal*". 
+Une fois que l'installation est terminé, on est prêt à créer notre site ! Pour ça, on réouvre GitHub Desktop et notre projet dans Visual Studio Code. Une fois dans VScode, on va dans `Terminal > New Terminal`.
 
 ![Ouvrir un terminal dans Visual Studio Code](/assets/img/uploads/terminal.png "Ouvrir un terminal dans Visual Studio Code")
 
@@ -106,9 +106,9 @@ Hugo propose une [collection de thème gratuit sur son site](https://themes.gohu
 
 `git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod`
 
-> /!\ Il faut s'assurer que l'on se trouve à la racine de notre projet avant d'exécuter la commande. Dans le terminal, le chemin devrait être "GitHub\tutoriel_portfolio". Si ce n'est pas le cas, il faut s'y rendre. Utiliser *cd Nom_du_dossier* vous permet de vous rendre à cette endroit. Utilisez *ls* vous permet de lister tout les dossiers en enfant de celui dans lequel vous êtes. Utilisez *cd ..* vous permet de remonter un niveau. 
+> /!\ Il faut s'assurer que l'on se trouve à la racine de notre projet avant d'exécuter la commande. Dans le terminal, le chemin devrait être "GitHub\tutoriel_portfolio". Si ce n'est pas le cas, il faut s'y rendre. Utiliser `cd Nom_du_dossier` vous permet de vous rendre à cette endroit. Utilisez `ls` vous permet de lister tout les dossiers en enfant de celui dans lequel vous êtes. Utilisez `cd ..` vous permet de remonter un niveau. 
 
-Une fois la commande lancé et le thème téléchargé, il ne reste plus qu'a indiquer à Hugo que nous souhaitons utiliser ce thème. Pour cela, il faut se rendre dans le fichier de configuration *config.toml* (ou *hugo.toml* cela les cas) et d'ajouter la ligne suivante dans le fichier : 
+Une fois la commande lancé et le thème téléchargé, il ne reste plus qu'a indiquer à Hugo que nous souhaitons utiliser ce thème. Pour cela, il faut se rendre dans le fichier de configuration `config.toml` (ou `hugo.toml` cela les cas) et d'ajouter la ligne suivante dans le fichier : 
 
 `theme = ["PaperMod"]`
 
@@ -118,7 +118,7 @@ Et voila ! Le template est chargé et on peut le prévisualiser sur le serveur d
 
 ## Configuration du site sans template
 
-Dans cette partie, nous allons créer la structure de base pour notre site. On va commencer par créer une page d'accueil, avec une header, du contenu et un footer. Cela va nous permettre de prendre en main le fonctionnement de Hugo, en particulier le système de *partials* et comment les manipuler. On prendra également le temps de voir comment créer un menu de navigation ainsi qu'une liste de projets dans notre page d'accueil. 
+Dans cette partie, nous allons créer la structure de base pour notre site. On va commencer par créer une page d'accueil, avec une header, du contenu et un footer. Cela va nous permettre de prendre en main le fonctionnement de Hugo, en particulier le système de partials et comment les manipuler. On prendra également le temps de voir comment créer un menu de navigation ainsi qu'une liste de projets dans notre page d'accueil. 
 
 ### Lancer un serveur de test
 
@@ -143,24 +143,23 @@ Si rien ne s'affiche, c'est parce que notre site est vide (malin je sais). Regar
 Pour le moment, il y a 3 dossiers qui nous intéresses :
 
 1. **static** : C'est ici que l'on va stocker toutes les ressources utiles au site qui ne changent jamais, tels que les images réutilisées dans toutes les pages, les fichiers CSS et Javascripts, etc.
-2. **content** : Dans ce dossier, on va retrouver nos pages, en format *.HTML* ou *.md* (pour [Markdown](https://www.markdownguide.org/cheat-sheet/))
+2. **content** : Dans ce dossier, on va retrouver nos pages, en format `.HTML` ou `.md` (pour [Markdown](https://www.markdownguide.org/cheat-sheet/))
 3. **layouts** : Où l'on va stocker les fameuses Partials, en quelques sortent des sections ou widgets, que l'on va pouvoir réutiliser dans notre site.
 
 Pour plus de détails sur la structure de Hugo, consulter la documentation à ce sujet : [gohugo.io/getting-started/directory-structure/#directories](https://gohugo.io/getting-started/directory-structure/#directories)
 
 Pour que notre site puisse fonctionner, il y quelques étapes à suivre : 
 
-1. Créer un dossier *_default* dans *layouts*.
-2. Dans *_default*, créer un fichier *home.html* avec le contenu suivant :
+1. Créer un dossier `_default` dans `layouts`.
+2. Dans `_default`, créer un fichier `home.html` avec le contenu suivant :
 
    ```
    {{ define "main" }}
        {{ .Content }}
    {{ end }}
    ```
-3. Toujours *layouts* > *_default*, créer un fichier *baseof.html* avec le contenu suivant :
-
-   ```html
+3. Toujours `layouts > _default`, créer un fichier `baseof.html` avec le contenu suivant :
+4. ```html
    <html lang="{{ site.Language }}">
    <body>
      <main>
@@ -169,7 +168,7 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
    </body>
    </html>
    ```
-4. enfin, dans le dossier *content*, ajouter un fichier _*index.md* avec le contenu suivant : 
+5. enfin, dans le dossier *content*, ajouter un fichier `_index.md` avec le contenu suivant : 
 
    ```markdown
    ---
@@ -190,11 +189,11 @@ Si on relance notre serveur de test, on constate bien que du contenu s'affiche !
 
 Expliquons ce que l'on vient de faire : 
 
-On créer un fichier *home.html* qui correspond à notre page d'accueil et on l'ajoute dans le dossier *layouts > _default* afin que Hugo le trouve. Dans ce fichier, on défini un bloc que l'on appelle "main" dans lequel on ajoute le contenu de la page, "*Content*". Ce contenu est récupéré automatiquement par Hugo dans le fichier *_index.md,* si celle-ci existe dans le dossier content. On a également ajouté une balise HTML, qui elle sera statique et ne dépendra pas du contenu de la page. 
+On créer un fichier `home.html` qui correspond à notre page d'accueil et on l'ajoute dans le dossier `layouts > _default` afin que Hugo le trouve. Dans ce fichier, on défini un bloc que l'on appelle `main` dans lequel on ajoute le contenu de la page, `Content`. Ce contenu est récupéré automatiquement par Hugo dans le fichier `_index.md`*,* si celle-ci existe dans le dossier content. On a également ajouté une balise HTML, qui elle sera statique et ne dépendra pas du contenu de la page. 
 
-On a ensuite défini dans notre dossier *_defaut* le template de page pour toute nos pages, qui se nomme toujours *baseof.html*. C'est cette page qui est toujours utilisé par Hugo pour assembler nos pages (il est possible d'en définir plusieurs en cas de besoin, voir [gohugo.io/templates/lookup-order](https://gohugo.io/templates/lookup-order/)). Pour le moment, notre fichier *baseof.html* est très simple, mais on va venir l'améliorer un peu plus tard. 
+On a ensuite défini dans notre dossier `_defaut` le template de page pour toute nos pages, qui se nomme toujours `baseof.html`. C'est cette page qui est toujours utilisé par Hugo pour assembler nos pages (il est possible d'en définir plusieurs en cas de besoin, voir [gohugo.io/templates/lookup-order](https://gohugo.io/templates/lookup-order/)). Pour le moment, notre fichier `baseof.html` est très simple, mais on va venir l'améliorer un peu plus tard. 
 
-Enfin, on créer le fichier Markdown *_index.md*, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. 
+Enfin, on créer le fichier Markdown `_index.md`, c'est à dire le fichier de contenu, pour notre page. On le place bien dans le dossier *content*, pour que Hugo puisse le retrouver et l'injecter dans la page. 
 
 Avant d'aller plus loin, sauvegardons notre travail. 
 
@@ -216,29 +215,29 @@ Améliorons un peu notre site.
 
 ## Mettre en place des sections avec les Partials
 
-Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléments ou sections qui vont nous permettre de réutiliser les bout de code à plusieurs endroits de notre site. Dans notre template par défaut *baseof.html*, ajoutons le code suivant : 
+Comme on l'a dit plus haut, Hugo nous permet de mettre en place des sous éléments ou sections qui vont nous permettre de réutiliser les bout de code à plusieurs endroits de notre site. Dans notre template par défaut `baseof.html`, ajoutons le code suivant : 
 
 ![Ajout de partials dans le layout de base](/assets/img/uploads/partials-dans-baseof.png "Ajout de partials dans le layout de base")
 
-On a ajouté dans notre page de partials, head.html et footer.html. La syntaxe est toujours : 
+On a ajouté dans notre page de partials, `head.html` et `footer.html`. La syntaxe est toujours : 
 
 ```html
 {{ partials "chemin/du/partial.html" . }}
 ```
 
-> [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le "." que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block "main"), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement du partial. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
+> [](https://gohugo.io/getting-started/directory-structure/#directories)Concernant le `.` que l'on ajoute après le chemin (et que l'on remarque aussi dans l'appel du block `main`), il représente le contexte. Je ne rentre pas dans le détail ici, mais il est indispensable au bon fonctionnement du partial. Plus d'info sur la [documentation du contexte](https://gohugo.io/templates/introduction/#context) dans Hugo et des [partials](https://gohugo.io/templates/partial/). 
 
-Il faut maintenant créer les fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier *partials* dans le dossiers *layouts.* On peut créer nos deux partials ici et on se retrouve avec la structure suivante : 
+Il faut maintenant créer les fichiers pour que Hugo puisse les charger. Pour cela, on créer un dossier `partials` dans le dossiers `layouts`*.* On peut créer nos deux partials ici et on se retrouve avec la structure suivante : 
 
 ![Le dossier des partials](/assets/img/uploads/dossier-partials.png "Le dossier des partials")
 
-Dans nos partials, on construit notre élément avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un *footer* très simple avec le contenu suivant : 
+Dans nos partials, on construit notre élément avec uniquement ce qui est nécessaire à son fonctionnement. par exemple, créons un `footer` très simple avec le contenu suivant : 
 
 ```html
 <p>Le footer de mon site - 2025</p>
 ```
 
-Pour notre *head*, ajoutons un tout petit peu plus de contenu : 
+Pour notre `head`, ajoutons un tout petit peu plus de contenu : 
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -246,9 +245,9 @@ Pour notre *head*, ajoutons un tout petit peu plus de contenu :
 <link rel="stylesheet" href="/css/style.css">
 ```
 
-Dans la balise *title*, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole ".") de la page. La valeur de ce titre est récupéré dans le fichier Markdown correspondant. Il changera donc en fonction de la page dans lequel on se trouve. 
+Dans la balise `title`, on fait référence au titre de la page active, en faisant appel au contexte (avec le symbole `.`) de la page. La valeur de ce titre est récupéré dans le fichier Markdown correspondant. Il changera donc en fonction de la page dans lequel on se trouve. 
 
-On a également ajouté un lien vers un fichier CSS. Celui-ci doit être ajouté dans le dossier *static* de notre projet (dans cette exemple, on a donc *static > css > style.css*). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (j'ai perdu quelques cheveux à comprendre ça). 
+On a également ajouté un lien vers un fichier CSS. Celui-ci doit être ajouté dans le dossier `static` de notre projet (dans cette exemple, on a donc `static > css > style.css`). Le contenu de ce dossier est chargé tel quel lors de la construction du site, mais le dossier lui n'est pas ajouté ! Il ne faut donc pas l'ajouter dans le chemin (j'ai perdu quelques cheveux à comprendre ça). 
 
 Avec un peu de CSS basique et nos deux partials, notre site commence (presque) à ressembler à quelque chose.
 
@@ -256,13 +255,15 @@ Avec un peu de CSS basique et nos deux partials, notre site commence (presque) �
 
 On peut faire un nouveau commit pour sauvegarder notre travail. Pensez à le faire de temps à temps, une fois que vous avez ajouter des fichiers ou modifier du contenu de manière significative.
 
-## Ajouter des pages 
+## Ajouter des pages
 
-Pour ajouter des pages dans notre site, il faut que l'on créer deux dossiers intitulés *pages*. Le premier est inséré dans *layouts*, au même niveau que *_default* et *partials*. Le second est ajouté dans *content*, au même niveau que notre fichier *_index.md*. Notre structure ressemble à ceci : 
+Pour ajouter des pages dans notre site, il faut que l'on créer un dossier dans `content` avec le nom que l'on souhaite donner à la page. Si l'on veut créer une page Contact, on créer un dossier `contact`. Dans ce nouveau dossier, il faut également créer un fichier `index.md` (sans underscore). Notre structure ressemble à ceci : 
 
-![Ajout des dossiers pages](/assets/img/uploads/ajoutes-des-dossiers-pages.png "Ajout des dossiers pages")
+![Ajout des dossiers pages](/assets/img/uploads/page-contact-structure.png "Ajout des dossiers pages")
 
-Dans layout, on créer un fichier .html qui va correspondre à notre nouvelle page. Pour notre exemple, créons une page contact.html avec le code suivant : 
+De cette manière, notre page va avoir un contenu différent de notre page d'accueil, mais toujours se construire à partir de notre fichier `baseof.html`. Cependant, si l'on veut ajuster certain élément qui ne sont pas du contenu, comme ajouter un formulaire par exemple, il faut créer un nouveau modèle.
+
+On veut cela dit que ce modèle se base sur le template de base `baseof.html`. Pour cela, on le créer dans le dossier `layout > _default`, de la même manière que pour `home.html`. Dans `contact.html`, j'ajoute donc le code suivant :
 
 ```html
 {{ define "main" }}
@@ -275,9 +276,9 @@ Dans layout, on créer un fichier .html qui va correspondre à notre nouvelle pa
 {{ end }}
 ```
 
-À la suite de notre injection de contenu, on créer un petit formulaire de contact et un lien vers la page d'accueil. On remarque que le lien est fait en référencent la racine du site avec *"/"*. 
+À la suite de notre injection de contenu, on créer un petit formulaire de contact et un lien vers la page d'accueil. On remarque que le lien est fait en référencent la racine du site avec *`/`*. 
 
-On créer ensuite un fichier Markdown correspondant dans le dossiers *content > pages*, c'est à dire avec le même nom que notre page. Ici, on créer donc une page *contact.md* avec le contenu suivant : 
+Il faut enfin ajouter du contenu à notre page, en passant par le fichier Markdown correspondant dans le dossiers `content > contact`, c'est à dire avec le même nom que notre page. Voilà un exemple de contenu : 
 
 ```markdown
 ---
@@ -290,23 +291,23 @@ url: "/contact/"
 Je suis à votre écoute pour réaliser votre projet !
 ```
 
-C'est le bon moment pour introduire le fonctionnement des fichiers Markdown. Vous l'avez sans doute remarqué plus haut, on a ajouté du contenu entre des blocs "---" en haut de nos fichiers .md. C'est le contenu [Frontmatter](https://frontmatter.codes/docs) de notre page. Il nous permet de définir tout un collection d'information relative à la page, que l'on pourra ensuite piloter via notre CMS plus tard. On reviendra un peu plus en détail sur cette partie plus tard, quand on abordera la création des projets. 
+C'est le bon moment pour introduire le fonctionnement des fichiers Markdown. Vous l'avez sans doute remarqué plus haut, on a ajouté du contenu entre des blocs `---` en haut de nos fichiers .md. C'est le contenu [Frontmatter](https://frontmatter.codes/docs) de notre page. Il nous permet de définir tout un collection d'information relative à la page, que l'on pourra ensuite piloter via notre CMS plus tard. On reviendra un peu plus en détail sur cette partie plus tard, quand on abordera la création des projets. 
 
 Pour le moment, il faut noter que pour que notre page affiche bien le bon contenu, il faut lui préciser le layout que l'on veut qu'elle utilise, ainsi que son url. 
 
 `layout: "contact"`\
 `url: "/contact/`
 
-> Les émojis ne sont pas activés par défaut dans un site Hugo, il faut le définir dans le fichier de configuration *hugo.toml* ou *config.toml*. Plus d'infos ici : [gohugo.io/quick-reference/emojis/](https://gohugo.io/quick-reference/emojis/)
+> Les émojis ne sont pas activés par défaut dans un site Hugo, il faut le définir dans le fichier de configuration `hugo.toml` ou `config.toml`. Plus d'infos ici : [gohugo.io/quick-reference/emojis/](https://gohugo.io/quick-reference/emojis/)
 
 Pour finir, il faut que l'on ajoute un lien vers notre page contact sur notre page d'accueil afin de pouvoir l'atteindre. On a ici deux choix : 
 
-* on ajoute un lien dans le fichier *home.html* via une balise *a*, de la même manière que dans la page contact.html que l'on vient de créer.
-* On ajoute un lien dans le fichier *_index.md*, c'est à dire le contenu de notre page d'accueil. 
+* on ajoute un lien dans le fichier `home.html` via une balise `a`, de la même manière que dans la page `contact.html` que l'on vient de créer.
+* On ajoute un lien dans le fichier `_index.md`, c'est à dire le contenu de notre page d'accueil. 
 
 Ce choix va dépendre de notre usage et de notre situation, mais ici, il est plus logique que le lien soit directement dans le contenu de la page (et ça nous permet de voir comment ajouter un lien et une classe en Markdown). 
 
-Dans *_index.md* donc : 
+Dans `_index.md` donc : 
 
 ```
 ---
@@ -325,15 +326,15 @@ Ajouter un lien en Markdown est relativement simple comme vous pouvez le voir. L
 
 Dans cet exemple, j'ai indiqué le lien moi même, mais il est possible de laisser Hugo générer lui même le lien en utilisant une de ces nombreuses fonctions. On peut modifier le code de la manière suivante :
 
-`[Contactez moi]({{< ref "/pages/contact" >}} "Contactez moi")`
+`[Contactez moi]({{< ref "contact" >}} "Contactez moi")`
 
-Ici, *{{< ref "/pages/contact" >}}* appelle la fonction "ref" de Hugo, qui retourne le lien absolue de notre page. 
+Ici, `{{< ref "contact" >}}` appelle la fonction `ref` de Hugo, qui retourne le lien absolue de notre page. 
 \
-Pour ajouter une classe ou un ID à un élément, il suffit de le définir entre accoladent sous cet élément (à l'exception des titre Hn et des blocs de code, [plus de détail dans la documentation à ce sujet](https://gohugo.io/content-management/markdown-attributes/#usage)). Cependant, il n'est pas possible d'ajouter directement une classe sur un bouton. Dans notre cas, j'ajoute du morceau de code {.btn} créer une balise <p> englobant notre lien. Il faut donc le prendre en compte dans notre CSS. 
+Pour ajouter une classe ou un ID à un élément, il suffit de le définir entre accoladent sous cet élément (à l'exception des titre Hn et des blocs de code, [plus de détail dans la documentation à ce sujet](https://gohugo.io/content-management/markdown-attributes/#usage)). Cependant, il n'est pas possible d'ajouter directement une classe sur un bouton. Dans notre cas, j'ajoute du morceau de code `{.btn}` créer une balise `<p>` englobant notre lien. Il faut donc le prendre en compte dans notre CSS. 
 
 L'idéal est de définir un style par défaut pour les liens issus d'un bloc de contenu provenant d'un fichier markdown qui ne requiert pas d'ajout de classe, et j'ajouter les liens différents via des partials. 
 
-> L'ajout de classe dans les fichiers .md n'est pas activé par défaut dans Hugo, il faut ajouter dans le fichier *hugo.toml* ou *config.toml* le contenu suivant : 
+> L'ajout de classe dans les fichiers .md n'est pas activé par défaut dans Hugo, il faut ajouter dans le fichier `hugo.toml` ou `config.toml` le contenu suivant : 
 >
 > ```toml
 > [markup]
@@ -352,7 +353,31 @@ Il ne reste plus qu'a ajouter un peu de CSS, de relancer notre serveur et de nav
 
 On oublie pas de commit notre travail sur GitHub, et on continu. 
 
-## Créer un menu de navigation 
+## Créer un menu de navigation
+
+Maintenant que notre site possède une structure (certes basique), on va pouvoir générer notre menu. Pour cela, on va commencer par ce rendre dans notre fichier de configuration `hugo.toml`(ou `config.toml`). En effet, c'est dans ce fichier que l'on définit tout les paramètres communs à tout notre site. La syntaxe est très simple et ce présente comme suit : 
+
+```toml
+[menus]
+  [[menus.header]]
+    name = 'Accueil'
+    url = '/'
+    weight = 10
+  [[menus.header]]
+    name = 'Contact'
+    url = '/contact'
+    weight = 20
+```
+
+ Ici, j'ai défini deux éléments de menu, ajouté dans le menu appelé `header`. c'est un nom arbitraire que j'ai créé pour l'occasion, libre à vous de le nommer différemment (Les majuscules et caractères spéciaux ne fonctionnent pas !). Pour chaque onglet, on a défini :
+
+1. **Name** : qui correspond au texte qui s'affiche sur le site,
+2. **url** : qui correspond au lien de la page dans le site,
+3. **weight** : qui correspond au poids de la page dans le menu. Plus un élément a un poids léger, plus il est affiché tôt dans le menu.  
+
+Il existe d'autres [options de menu que vous pouvez consulter dans le documentation](https://gohugo.io/content-management/menus/). 
+
+Une fois notre menu créé, il faut que l'on ajoute un partials pour l'appeler et générer du code en conséquence. Pour cela, on se rend dans `layouts > partials` et on créer le fichier `nav.html`.
 
 
 
