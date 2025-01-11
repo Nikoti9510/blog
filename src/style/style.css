@@ -570,7 +570,7 @@ figcaption {
 .post em {
     font-weight: var(--font-weight-semi-bold);
 }
-p:has(> .code) {
+/* p:has(> .code) {
     --flow-space: var(--space-s);
 }
 .post code {
@@ -579,7 +579,7 @@ p:has(> .code) {
     width: 100%;
     display: block;
     border-radius: 4px;
-}
+} */
 /* tableau */
 .post table {
     overflow-x: auto;
