@@ -159,25 +159,26 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
    {{ end }}
    ```
 3. Toujours `layouts > _default`, créer un fichier `baseof.html` avec le contenu suivant :
-4. ```html
-   <html lang="{{ site.Language }}">
-   <body>
-     <main>
-       {{ block "main" . }}{{ end }}
-     </main>
-   </body>
-   </html>
-   ```
-5. enfin, dans le dossier *content*, ajouter un fichier `_index.md` avec le contenu suivant : 
 
-   ```markdown
-   ---
-   title: "Page d'accueil"
-   ---
-
-   # Bonjour internet
-   Voilà le contenu de la page d'accueil, qui vient de `content/_index.md`!
+   ```html
+     <html lang="{{ site.Language }}">
+     <body>
+       <main>
+         {{ block "main" . }}{{ end }}
+       </main>
+     </body>
+     </html>
    ```
+4. enfin, dans le dossier *content*, ajouter un fichier `_index.md` avec le contenu suivant : 
+
+```markdown
+---
+title: "Page d'accueil"
+---
+
+# Bonjour internet
+Voilà le contenu de la page d'accueil, qui vient de `content/_index.md`!
+```
 
 Voilà à quoi ressemble la structure après la création.
 
@@ -419,8 +420,6 @@ Il ne nous reste plus qu'a appeler notre partial dans le fichier `baseof.html` p
 Et voilà, notre menu apparait dans toutes nos pages ! 
 
 ![Notre menu de navigation foncitonne](/assets/img/uploads/menu-ok.png "Notre menu de navigation fonctionne")
-
-
 
 Reste à faire : 
 
