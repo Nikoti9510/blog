@@ -421,8 +421,16 @@ Et voilà, notre menu apparait dans toutes nos pages !
 
 ![Notre menu de navigation foncitonne](/assets/img/uploads/menu-ok.png "Notre menu de navigation fonctionne")
 
+Il est possible d'aller plus loin évidemment, je vous met [un lien vers ce post qui rentre beaucoup plus en détail](<>), notamment avec la mise en place de menu à plusieurs niveaux et de classes sur l'élément actif.
+
+Mais pour le moment, passons à la dernière étape de la création de notre site ! 
+
+## Créer un liste de projet
+
+
+
+
 Reste à faire : 
 
-* Créer les projets 
 * Mettre en ligne le site 
 * Mettre en place le CMS pour la backoffice
