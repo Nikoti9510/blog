@@ -581,6 +581,7 @@ p:has(> .code) {
 }
 .post pre > code {
     display: block;
+    padding: calc(var(--space-gutter-s) / 4) calc(var(--space-gutter-s) / 2);
 }
 /* tableau */
 .post table {
