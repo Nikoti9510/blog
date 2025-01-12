@@ -539,4 +539,40 @@ Et voilà, notre projet s'affiche bien :
 
 Avec tout ce qu'on a vu, vous avez une base solide pour créer un premier projet et prendre en main Hugo. Maintenant, passons à la mise en ligne.
 
-## Mettre notre site en ligne avec netlify
+## Mettre notre site en ligne avec Netlify
+
+Avant de continuer, assurer vous d'avoir push vos dernières modifications sur Github. Une fois cela fait créez vous un compte sur [Netlify](https://app.netlify.com/). Une fois le compte créé, rendez-vous dans la page `Sites` de notre espace personnel, puis cliquez sur `Add new site`. 
+
+![Ajouter un site à Netlify](/assets/img/uploads/ajouter-site-netlify.png "Ajouter un site à Netlify")
+
+Choisissez l'option `import an existing project`, puis choisisez GitHub. Connectez vous alors avec votre compte personnel GitHub, et une fois que c'est fait, choisissez le répertoire utilisé pour stocker votre projet.
+
+![Choix du répertoire à utiliser](/assets/img/uploads/choix-du-repo.png "Choix du répertoire à utiliser")
+
+> Si votre répertoire ne s'affiche pas, suivez les étapes de ce tutoriel proposé par Hugo à partir de l'étape 4.
+
+Une fois le répertoire choisit, il faut compléter quelques paramètres. 
+
+1. **Site name** : Il doit être unique, tester la disponibilité,
+2. **Branch to deploy** : Laisser sur `main` par défaut,
+3. **Build command** : Ajouter la commande suivante : `hugo --gc --minify`,
+4. **Publish directory** : Si ce n'est pas complété, ajouté `public`,
+5. Enfin, cliquer sur le bouton **Add environment variables**, puis dans **Key** ajouter `HUGO_VERSION`, et dans **Value** ajouter le numéro de [la dernière version de Hugo](https://github.com/gohugoio/hugo/releases/latest), à la création de cette article `0.140.2`.
+
+![Les paramètres dans Netlify ](/assets/img/uploads/parametre-netlify.png "Les paramètres dans Netlify")
+
+Cliquez ensuite sur `Deploy` en bas de la page. Netlify va alors prendre un peu de temps pour mettre en ligne le site. Il se peut que votre installation de fonctionne pas, dans ce cas, assurez vous que vous avez bien lancé l'installation depuis la racine de votre projet. Si votre racine n'est pas au même niveau que le répertoire GitHub, alors il faut ajouter le chemin dans la configuration Netlify, au niveau de **Base directory**. 
+
+![Ajout du bon dossier comme racine](/assets/img/uploads/base-directory.png "Ajout du bon dossier comme racine")
+
+![La racine du projet dans VScode](/assets/img/uploads/racine-vscode.png "La racine du projet dans VScode")
+
+Dans le screenshot précédent, on voit que dans VScode, j'ai mon répertoire GitHub avec le nom `TEMPLATE_PORTFOLIO`, et la racine de mon projet dans un dossier appelé `Template_Portfolio` (c'est une mauvaise idée, ne faite pas ça). Il faut donc que je définisse` Base directory = Template_Portfolio` dans la configuration de Netlify.
+
+Le site une fois construit, vous aurez ce message :
+
+![Le site est bien en ligne](/assets/img/uploads/le-site-est-publie.png "Le site est bien en ligne")
+
+Il ne reste plus qu'a consulter notre superbe site en ligne !
+
+## Installer le CMS
