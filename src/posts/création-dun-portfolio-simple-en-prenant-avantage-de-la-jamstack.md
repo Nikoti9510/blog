@@ -427,6 +427,73 @@ Mais pour le moment, passons à la dernière étape de la création de notre sit
 
 ## Créer un liste de projet
 
+Pour commencer, on va créer nos projets. Pour cela, on va aller dans le dossier content, et ajouter un dossier avec le nom de notre choix, ici `projets`. Ce nom sera celui utilisé par Hugo pour déterminer le `type` de ces projets. On ajoute dans ce dossier un fichier `_index.md` afin de pouvoir passer des informations générales. Pour le moment, il peut simplement comprendre le nom de la page :
+
+```markdown
+---
+title: "Mes projets"
+--- 
+```
+
+On ajoute ensuite au moins deux projets, sous le forme d'un fichier markdown, au même niveau que le fichier _index.md. Voilà un exemple simple de projet : 
+
+```markdown
+---
+title: "Mon premier projet"
+type: "projets"
+--- 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis risus ut magna fermentum, sed porttitor justo scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus vel varius libero. Suspendisse sed eros nunc. Mauris suscipit risus luctus nisi gravida, ac consequat ipsum efficitur. Nam feugiat lectus mauris, at pretium risus interdum nec. Nullam a ultricies diam. Duis tempor volutpat purus, quis condimentum mi elementum sit amet. Aenean et felis quis tellus tempus pellentesque nec et lacus. Etiam lobortis, quam in luctus congue, neque eros malesuada turpis, a egestas felis magna vitae lectus. In arcu orci, malesuada quis condimentum eu, posuere vel mi. Nullam dictum aliquam augue, nec dignissim diam porttitor quis. Fusce interdum sem dignissim augue tincidunt volutpat. Suspendisse potenti. Donec tempor accumsan augue vestibulum finibus.
+```
+
+On remarque que l'on a définit dans le `FrontMatter` le type de la page comme un `"projets"`, ce qui reprend le nom du dossier parent.
+
+La structure doit ressembler à ça : 
+
+![La structure de nos projets dans VScode](/assets/img/uploads/structure-projet.png "La structure de nos projets dans VScode")
+
+Pour mettre en place nos projets, il faut ensuite créer deux nouveaux fichier de template dans `layouts > _default`, `section.html` et `single.html`. Commençons par `section.html`, c'est lui qui va récupérer tout les projets et les présenter dans une liste complète. 
+
+```html
+{{ define "main" }}
+    {{ .Content }}
+    {{ range where .Site.RegularPages.ByLastmod.Reverse "Type" "projets" }}
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ end }}
+{{ end }}
+```
+
+On réutilise la fonction `range` que l'on a vu plus haut, et on va récupérer les pages stocké dans le variable globale `Site`, tant que celle-ci sont de types `"projets"`. On les tris également du plus anciennement modifié au plus récemment modifié (on pourrait également les trier par date de création par exemple).
+
+Pour voir le résultat, j'ajoute un onglet dans mon menu (via le fichier `Hugo.toml`) de la manière suivante : 
+
+```toml
+  [[menus.header]]
+    name = 'Mes projets'
+    url = '/projets'
+    weight = 30
+```
+
+Un nouvel onglet est créé, et la page `Mes projets` récupère bien tout les projets que l'on a ajouté sur le site, et nous propose un lien vers ces pages. 
+
+![Les projets affichés dans la page section](/assets/img/uploads/cest-notre-projet.png "Les projets affichés dans la page section")
+
+Pour le moment, le site n'a pas de template pour afficher les projets unique, il faut donc le créer. C'est single.html qui s'en charge. Voilà un exemple très sommaire :
+
+```html
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article> 
+{{ end }}
+```
+
+Maintenant, si on clique sur un des projets, le contenu est correctement affiché :
+
+![Le contenu d'un projet](/assets/img/uploads/contenu-projet.png "Le contenu d'un projet")
+
+Essayons maintenant de créer un partial pour afficher le dernier projet sur notre page d'accueil. 
 
 
 
