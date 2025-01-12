@@ -376,6 +376,8 @@ Maintenant que notre site possède une structure (certes basique), on va pouvoir
 2. **url** : qui correspond au lien de la page dans le site,
 3. **weight** : qui correspond au poids de la page dans le menu. Plus un élément a un poids léger, plus il est affiché tôt dans le menu.  
 
+   Mettre en place le CMS pour la backoffice
+
 Il existe d'autres [options de menu que vous pouvez consulter dans le documentation](https://gohugo.io/content-management/menus/). 
 
 Une fois notre menu créé, il faut que l'on ajoute un partials pour l'appeler et générer du code en conséquence. Pour cela, on se rend dans `layouts > partials` et on créer le fichier `nav.html`.
@@ -463,7 +465,7 @@ Pour mettre en place nos projets, il faut ensuite créer deux nouveaux fichier d
 {{ end }}
 ```
 
-On réutilise la fonction `range` que l'on a vu plus haut, et on va récupérer les pages stocké dans le variable globale `Site`, tant que celle-ci sont de types `"projets"`. On les tris également du plus anciennement modifié au plus récemment modifié (on pourrait également les trier par date de création par exemple).
+On réutilise la fonction `range` que l'on a vu plus haut, et on va récupérer les pages stocké dans le variable globale `Site`, tant que celle-ci sont de types `"projets"`. On les tris également du plus anciennement modifié au plus récemment modifié (mais il existe [plusieurs autres méthodes](https://gohugo.io/methods/pages/)).
 
 Pour voir le résultat, j'ajoute un onglet dans mon menu (via le fichier `Hugo.toml`) de la manière suivante : 
 
@@ -493,11 +495,48 @@ Maintenant, si on clique sur un des projets, le contenu est correctement affich�
 
 ![Le contenu d'un projet](/assets/img/uploads/contenu-projet.png "Le contenu d'un projet")
 
-Essayons maintenant de créer un partial pour afficher le dernier projet sur notre page d'accueil. 
+Essayons maintenant de créer un partial pour afficher le dernier projet sur notre page d'accueil. Dans `layouts > partials`, on créer un fichier `html` avec le contenu suivant : 
 
+```html
+<section class="preview">
+    {{ range where .Site.RegularPages "Type" "projets" | first 1 }}
+    <article>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
+        <p><a href="{{ .RelPermalink }}">lire la suite</a></p>
+    </article>
+    {{ end }}
+</section>
+```
 
+Très similaire à notre template `section.html`, sauf que l'on vient récupère seulement le premier projet de la liste avec la fonction `first`, le chiffre à la suite détermine le nombre à afficher. Si on avait noté 3, alors la fonctionne aurait affiché les 3 premières pages trouvées. 
 
-Reste à faire : 
+Pour que la description du projet que l'on appel ne soit pas vide, il faut lui ajouter dans le `FrontMatter` de la manière suivante (dans le fichier `projet-2.md`) : 
 
-* Mettre en ligne le site 
-* Mettre en place le CMS pour la backoffice
+```markdown
+---
+title: "Mon deuxième projet"
+type: "projets"
+description : "Une description courte de mon projet."
+--- 
+```
+
+Il ne reste plus qu'a ajouter notre partial dans le page d'accueil, en passant par home.html : 
+
+```html
+{{ define "main" }}
+    {{ .Content }}
+    {{ partial "previewProjet.html" . }}
+    <a href='/contact' class="btn">Contactez-moi</a>
+{{ end }}
+```
+
+(J'ai ajouté le lien vers la page d'accueil ici et je l'ai supprimé du fichier `_index.html` contenant le contenu de la page).
+
+Et voilà, notre projet s'affiche bien : 
+
+![Notre partial fonctionne ](/assets/img/uploads/dernier-projet-page-accueil.png "Notre partial fonctionne")
+
+Avec tout ce qu'on a vu, vous avez une base solide pour créer un premier projet et prendre en main Hugo. Maintenant, passons à la mise en ligne.
+
+## Mettre notre site en ligne avec netlify
