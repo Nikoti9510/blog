@@ -9,8 +9,6 @@ slug: tutoriel-portfolio
 image: /assets/img/uploads/photo1608697941321-16086979414821299367462-2464785606.jpg
 imageAlt: Un enfant devant un ordinateur levant le pousse en l'air
 ---
-\#WIP#WIP#WIP#WIP#WIP#WIP
-
 # Création d'un portfolio simple en prenant avantage de la JamStack.
 
 Avant de rentrer dans le vif du sujet, on présente rapidement le principe, les outils et la méthodologie. 
@@ -22,7 +20,7 @@ Dans ce tutoriel, on va créer un site en utilisant les outils suivants :
 * [Github Desktop](https://desktop.github.com/download/) nous permet de gérer facilement notre projet, de créer des sauvegardes et différentes versions de travailles, ainsi que de stocker notre projet en ligne. On utilise la version desktop pour nous simplifier le travail, et ne pas avoir à apprendre les commandes Gits. 
 * [Visual Studio Code](https://code.visualstudio.com/) pour notre éditeur de code. il nous permet de facilement faire le lien avec Github et Hugo. Il est tout à fait possible d'en utiliser un autre, mais c'est de loin de plus pratique.
 * [Hugo](https://gohugo.io/), un framework ultra rapide et open source, qui nous permet de simplifier la construction d'un site web optimisé, avec des options de templating nous permettant de facilité la maintenabilité et les modifications du site.
-* Sveltia, à présenter
+* [Sveltia](https://github.com/sveltia/sveltia-cms/?tab=readme-ov-file#getting-started), c'est un projet se basant sur DecapCMS (anciennement [NetlifyCMS](https://www.netlify.com/blog/netlify-cms-to-become-decap-cms/)) et l'améliorant, notamment avec l'ajout d'un interface beaucoup plus poussé et de fonctionnalité de traitement d'images plus avancé. C'est grâce à Sveltia que l'on va pouvoir mettre à jour et ajouter du contenu sur notre site sans passer par un éditeur de code.
 * [Netlify](https://www.netlify.com/), qui fait le lien avec notre répertoire Github où est stocké notre projet, pour le transformer en site internet disponible en ligne. 
 
 ## Mettre en place le projet
@@ -153,7 +151,7 @@ Pour que notre site puisse fonctionner, il y quelques étapes à suivre :
 1. Créer un dossier `_default` dans `layouts`.
 2. Dans `_default`, créer un fichier `home.html` avec le contenu suivant :
 
-   ```
+   ```html
    {{ define "main" }}
        {{ .Content }}
    {{ end }}
@@ -310,7 +308,7 @@ Ce choix va dépendre de notre usage et de notre situation, mais ici, il est plu
 
 Dans `_index.md` donc : 
 
-```
+```markdown
 ---
 title: "Page d'accueil"
 ---
@@ -567,7 +565,7 @@ Cliquez ensuite sur `Deploy` en bas de la page. Netlify va alors prendre un peu 
 
 ![La racine du projet dans VScode](/assets/img/uploads/racine-vscode.png "La racine du projet dans VScode")
 
-Dans le screenshot précédent, on voit que dans VScode, j'ai mon répertoire GitHub avec le nom `TEMPLATE_PORTFOLIO`, et la racine de mon projet dans un dossier appelé `Template_Portfolio` (c'est une mauvaise idée, ne faite pas ça). Il faut donc que je définisse` Base directory = Template_Portfolio` dans la configuration de Netlify.
+Dans le screenshot précédent, on voit que dans VScode, j'ai mon répertoire GitHub avec le nom `TEMPLATE_PORTFOLIO`, et la racine de mon projet dans un dossier appelé `Template_Portfolio` (c'est une mauvaise idée, ne faite pas ça). Il faut donc que je définisse`Base directory = Template_Portfolio` dans la configuration de Netlify.
 
 Le site une fois construit, vous aurez ce message :
 
