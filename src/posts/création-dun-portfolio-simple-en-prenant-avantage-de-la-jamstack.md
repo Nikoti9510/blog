@@ -599,14 +599,14 @@ On va commencer par ajouter dans notre projet la page d'administration du CMS. D
 ```toml
 backend:
   name: github
-  repo: COMPTE GITHUB/REPO #c'est le nom de votre répertoire github
+  repo: COMPTE GITHUB/REPO # C'est le nom de votre répertoire github
   branch: main # Branch to update (optional; defaults to master)
 media_folder: static/img
 public_folder: /img
 collections:
   - name: 'projets'
     label: 'Projets'
-    folder: 'projets' # il faut donner le même nom que le dossier de nos projets dans content
+    folder: '/content/projets' # Le chemin depuis la racine du site
     create: true
     slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
     editor:
