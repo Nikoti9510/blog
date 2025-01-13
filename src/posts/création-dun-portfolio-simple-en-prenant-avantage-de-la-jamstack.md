@@ -457,13 +457,13 @@ Pour mettre en place nos projets, il faut ensuite créer deux nouveaux fichier d
 ```html
 {{ define "main" }}
     {{ .Content }}
-    {{ range where .Site.RegularPages.ByLastmod.Reverse "Type" "projets" }}
+    {{ range where .Site.RegularPages "Type" "projets" }}
         <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ end }}
 {{ end }}
 ```
 
-On réutilise la fonction `range` que l'on a vu plus haut, et on va récupérer les pages stocké dans le variable globale `Site`, tant que celle-ci sont de types `"projets"`. On les tris également du plus anciennement modifié au plus récemment modifié (mais il existe [plusieurs autres méthodes](https://gohugo.io/methods/pages/)).
+On réutilise la fonction `range` que l'on a vu plus haut, et on va récupérer les pages stocké dans le variable globale `Site`, tant que celle-ci sont de types `"projets"`. On laisse ici le tri des pages par défaut, c'est mais il existe [plusieurs autres méthodes](https://gohugo.io/methods/pages/).
 
 Pour voir le résultat, j'ajoute un onglet dans mon menu (via le fichier `Hugo.toml`) de la manière suivante : 
 
