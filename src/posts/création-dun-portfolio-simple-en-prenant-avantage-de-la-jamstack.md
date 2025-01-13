@@ -646,4 +646,11 @@ Sélectionnez ensuite GitHub, et compléter les deux clés avec celles que l'on 
 
 ![Ajout des clées](/assets/img/uploads/install-provider-netlify-secret.png "Ajout des clées")
 
-Enfin, il ne reste plus qu'a cliquez sur `Install`, et le tour est joué ! Maintenant, il nous est possible d'accéder à notre backoffice en ajoutant `/admin` à la suite de l'url de votre site en ligne. Il vous faudra vous identifier avec votre compte GitHub. Vous êtes maintenant prêt pour ajouter du contenu à votre site à distance. À chaque mise à jour, le CMS va push les modifications sur le répertoire GitHub, et Netlify relancera la construction du site. Il n'y a rien à faire, quelques instants après avoir publié du contenu, il sera automatiquement en ligne.
+Enfin, il ne reste plus qu'a cliquez sur `Install`, et le tour est joué ! Maintenant, il nous est possible d'accéder à notre backoffice en ajoutant `/admin` à la suite de l'url de votre site en ligne. Il vous faudra vous identifier avec votre compte GitHub. Vous êtes maintenant prêt pour ajouter du contenu à votre site à distance. À chaque mise à jour, le CMS va push les modifications sur le répertoire GitHub, et Netlify relancera la construction du site. Il n'y a rien à faire, quelques instants après avoir publié du contenu, il sera automatiquement en ligne. 
+
+> Ressource utile pour cette section : 
+>
+> * <https://github.com/sveltia/sveltia-cms/?tab=readme-ov-file#getting-started>
+> * <https://decapcms.org/docs/hugo/>
+> * <https://decapcms.org/docs/github-backend/>
+> * <https://docs.netlify.com/security/secure-access-to-sites/oauth-provider-tokens/#using-an-authentication-provider>
