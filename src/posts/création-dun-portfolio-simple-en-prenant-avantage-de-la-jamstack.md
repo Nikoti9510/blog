@@ -565,7 +565,7 @@ Cliquez ensuite sur `Deploy` en bas de la page. Netlify va alors prendre un peu 
 
 ![La racine du projet dans VScode](/assets/img/uploads/racine-vscode.png "La racine du projet dans VScode")
 
-Dans le screenshot précédent, on voit que dans VScode, j'ai mon répertoire GitHub avec le nom `TEMPLATE_PORTFOLIO`, et la racine de mon projet dans un dossier appelé `Template_Portfolio` (c'est une mauvaise idée, ne faite pas ça). Il faut donc que je définisse`Base directory = Template_Portfolio` dans la configuration de Netlify.
+Dans le screenshot précédent, on voit que dans VScode, j'ai mon répertoire GitHub avec le nom `TEMPLATE_PORTFOLIO`, et la racine de mon projet dans un dossier appelé `Template_Portfolio` (c'est une mauvaise idée, ne faite pas ça). Il faut donc que je définisse `Base directory = Template_Portfolio` dans la configuration de Netlify.
 
 Le site une fois construit, vous aurez ce message :
 
@@ -574,3 +574,76 @@ Le site une fois construit, vous aurez ce message :
 Il ne reste plus qu'a consulter notre superbe site en ligne !
 
 ## Installer le CMS
+
+On va commencer par ajouter dans notre projet la page d'administration du CMS. Dans `static`, créez un dossier `admin` dans lequel on va insérer un fichier `index.html` et `config.yml`. 
+
+`index.html` : 
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+  </head>
+  <body>
+    <!-- Include the script that builds the page and powers Decap CMS and sveltia CMS-->
+    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+  </body>
+</html>
+```
+
+`config.yml` : 
+
+```toml
+backend:
+  name: github
+  repo: COMPTE GITHUB/REPO #c'est le nom de votre répertoire github
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: 'projets'
+    label: 'Projets'
+    folder: 'projets' # il faut donner le même nom que le dossier de nos projets dans content
+    create: true
+    slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+```
+
+Une fois cela fait, on peut push nos ajouts sur GitHub. Mais notre CMS n'est pas encore tous à fait accessible, il faut gérer les autorisations. En effet, pour éviter que d'autres personnes puisse accéder à notre panel d'administration, il est nécéssaire de faire le lien entre Netlify, notre CMS et GitHub. On va donc mettre en place une sécurité afin de pouvoir nous connecter via notre compte.
+
+Pour cela, il faut se rendre sur notre les [paramètres de notre compte GitHub](https://github.com/settings/profile), puis tout en bas dans `Developer Settings`. Cliquez ensuite sur `OAuth Apps` : 
+
+![Accès aux options de OAuth de GitHub](/assets/img/uploads/acces-oaut-setting.png "Accès aux options de OAuth de GitHub")
+
+Dans cette page, cliquez sur `Register a new application`, et la fenêtre suivante va s'ouvrir : 
+
+![Les options de OAuth de GitHub](/assets/img/uploads/oauth-github.png "Les options de OAuth de GitHub")
+
+Il faut compléter les informations comme suit : 
+
+1. **Application name** : Un nom de votre choix,
+2. **Homepage URL** : C'est l'url de votre site en ligne, que vous pouvez retrouver dans l'espace du site sur Netlify,
+3. **Authorization callback URL** : Il faut lui donner la valeur `https://api.netlify.com/auth/done`.
+
+Une fois fait, cliquez sur `Register application`. GitHub vous ouvre alors la page de votre application, où vous pouvez voir son `Client ID`. Copiez le dans un coin, car on va en avoir besoin pour la prochaine étape. Il faut également générer un clé client, pour cela, cliquez sur `Generate a new client secret`.
+
+![Générer une clé privée](/assets/img/uploads/generate-secret-id.png "Générer une clé privée")
+
+Copier bien la clé généré par GitHub dans un coin également, car il ne sera pas possible de la retrouver plus tard. Maintenant que c'est, il ne nous reste plus qu'a faire le lien entre GitHub et Netlify. Pour cela, rendez-vous dans le dashboard de votre site sur Netlify, puis naviguer dans `Site configuration > Access & security > OAuth`. Sous `Authentication providers`, cliquez sur `Install provider`. 
+
+![Installer un provider dans Netlify](/assets/img/uploads/install-provider-netliffy.png "Installer un provider dans Netlify")
+
+Sélectionnez ensuite GitHub, et compléter les deux clés avec celles que l'on a géré un peu plus tôt :
+
+![Ajout des clées](/assets/img/uploads/install-provider-netlify-secret.png "Ajout des clées")
+
+Enfin, il ne reste plus qu'a cliquez sur `Install`, et le tour est joué ! Maintenant, il nous est possible d'accéder à notre backoffice en ajoutant `/admin` à la suite de l'url de votre site en ligne. Il vous faudra vous identifier avec votre compte GitHub. Vous êtes maintenant prêt pour ajouter du contenu à votre site à distance. À chaque mise à jour, le CMS va push les modifications sur le répertoire GitHub, et Netlify relancera la construction du site. Il n'y a rien à faire, quelques instants après avoir publié du contenu, il sera automatiquement en ligne.
