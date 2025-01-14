@@ -435,22 +435,24 @@ title: "Mes projets"
 --- 
 ```
 
-On ajoute ensuite au moins deux projets, sous le forme d'un fichier markdown, au même niveau que le fichier _index.md. Voilà un exemple simple de projet : 
+On ajoute ensuite au moins deux projets, sous le forme d'un dossier avec le nom que l'on souhaite donner à notre projet (pas d'espaces ni de caractères spéciaux). Dans ce dossier on ajoute un fichier markdown `index.md` avec notre contenu. Voilà un exemple simple de projet : 
 
 ```markdown
 ---
-title: "Mon premier projet"
-type: "projets"
---- 
-
+title: Mon premier projet
+date: 
+description: Une description courte de mon projet.
+type: projets
+---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis risus ut magna fermentum, sed porttitor justo scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus vel varius libero. Suspendisse sed eros nunc. Mauris suscipit risus luctus nisi gravida, ac consequat ipsum efficitur. Nam feugiat lectus mauris, at pretium risus interdum nec. Nullam a ultricies diam. Duis tempor volutpat purus, quis condimentum mi elementum sit amet. Aenean et felis quis tellus tempus pellentesque nec et lacus. Etiam lobortis, quam in luctus congue, neque eros malesuada turpis, a egestas felis magna vitae lectus. In arcu orci, malesuada quis condimentum eu, posuere vel mi. Nullam dictum aliquam augue, nec dignissim diam porttitor quis. Fusce interdum sem dignissim augue tincidunt volutpat. Suspendisse potenti. Donec tempor accumsan augue vestibulum finibus.
+
 ```
 
-On remarque que l'on a définit dans le `FrontMatter` le type de la page comme un `"projets"`, ce qui reprend le nom du dossier parent.
+On remarque que l'on a définit dans le `FrontMatter` le type de la page comme un `"projets"`, ce qui reprend le nom du dossier parent. Le champ date est laissé vide, on le complétera via le CMS quand celui-ci sera installé.
 
 La structure doit ressembler à ça : 
 
-![La structure de nos projets dans VScode](/assets/img/uploads/structure-projet.png "La structure de nos projets dans VScode")
+![La structure de nos projets dans VScode](/assets/img/uploads/struct-projets-maj.png "La structure de nos projets dans VScode")
 
 Pour mettre en place nos projets, il faut ensuite créer deux nouveaux fichier de template dans `layouts > _default`, `section.html` et `single.html`. Commençons par `section.html`, c'est lui qui va récupérer tout les projets et les présenter dans une liste complète. 
 
@@ -601,21 +603,27 @@ backend:
   name: github
   repo: COMPTE GITHUB/REPO # C'est le nom de votre répertoire github
   branch: main # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
+media_folder: Template_Portfolio/static/media
+public_folder: /media
+
 collections:
-  - name: 'projets'
+  - name: 'Projets'
     label: 'Projets'
-    folder: '/content/projets' # Le chemin depuis la racine du site
-    create: true
+    label_singular: 'Projet'
+    folder: '/Template_Portfolio/content/projets' # Le chemin depuis la racine du site, à adapter selon votre projet
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
     slug: '{{day}}-{{month}}-{{year}}-{{slug}}'
+    create: true
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime', date_format: "DD.MM.YYYY", time_format: "HH:mm"}
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Type', name: "type", widget: 'string'}
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
 ```
 
 Une fois cela fait, on peut push nos ajouts sur GitHub. Mais notre CMS n'est pas encore tous à fait accessible, il faut gérer les autorisations. En effet, pour éviter que d'autres personnes puisse accéder à notre panel d'administration, il est nécéssaire de faire le lien entre Netlify, notre CMS et GitHub. On va donc mettre en place une sécurité afin de pouvoir nous connecter via notre compte.
@@ -646,7 +654,9 @@ Sélectionnez ensuite GitHub, et compléter les deux clés avec celles que l'on 
 
 ![Ajout des clées](/assets/img/uploads/install-provider-netlify-secret.png "Ajout des clées")
 
-Enfin, il ne reste plus qu'a cliquez sur `Install`, et le tour est joué ! Maintenant, il nous est possible d'accéder à notre backoffice en ajoutant `/admin` à la suite de l'url de votre site en ligne. Il vous faudra vous identifier avec votre compte GitHub. Vous êtes maintenant prêt pour ajouter du contenu à votre site à distance. À chaque mise à jour, le CMS va push les modifications sur le répertoire GitHub, et Netlify relancera la construction du site. Il n'y a rien à faire, quelques instants après avoir publié du contenu, il sera automatiquement en ligne. 
+Enfin, il ne reste plus qu'a cliquez sur `Install`, et le tour est joué ! Maintenant, il nous est possible d'accéder à notre backoffice en ajoutant `/admin` à la suite de l'url de votre site en ligne. Il vous faudra vous identifier avec votre compte GitHub. 
+
+Vous êtes maintenant prêt pour ajouter du contenu à votre site à distance. À chaque mise à jour, le CMS va push les modifications sur le répertoire GitHub, et Netlify relancera la construction du site. Il n'y a rien à faire, quelques instants après avoir publié du contenu, il sera automatiquement en ligne. 
 
 > Ressource utile pour cette section : 
 >
@@ -654,3 +664,5 @@ Enfin, il ne reste plus qu'a cliquez sur `Install`, et le tour est joué ! Maint
 > * <https://decapcms.org/docs/hugo/>
 > * <https://decapcms.org/docs/github-backend/>
 > * <https://docs.netlify.com/security/secure-access-to-sites/oauth-provider-tokens/#using-an-authentication-provider>
+
+Bon, bah il reste plus qu'a le faire de votre côté :mortar_board: . Promis si vous avez des soucis, je viendrai vous aider. Courage ! [](https://docs.netlify.com/security/secure-access-to-sites/oauth-provider-tokens/#using-an-authentication-provider)
